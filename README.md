@@ -1,6 +1,6 @@
 
 Portfolio optimized for researchers and those who strive for a minimal, file-based "content management" (**Datafolio**).
-The complete site's content is based on a json/xml file per section (e.g., ```contact.json```, ```projects.json```, ```publications.json```, ```talks.json```, and ```teaching.json```) as well as the pages ```_config.yml``` information. 
+The complete site's content is based on a json/xml file per section (e.g., ```contact.json```, ```publications.json```, and ```interests.json```) as well as the pages ```_config.yml``` information. 
 
 [![Build Status](https://travis-ci.org/cgcostume/cgcostume.github.io.svg?branch=master)](https://travis-ci.org/cgcostume/cgcostume.github.io)
 
@@ -19,7 +19,6 @@ The complete site's content is based on a json/xml file per section (e.g., ```co
 * section contents loaded from json data-files (_data)
 * unique, distinguishable layouts per section
 * dynamic integration of [Flickr photo sets](https://www.flickr.com/services/api/) (with basic caching)
-* php and javascript free contact form using [Formspree](http://formspree.io/)
 * optimized for [GitHub Pages](https://pages.github.com/) deployment (uses no unsupported plugins)
 * minimizes html and css (currently using compress layout method)
 * takes advantage of [jsDelivr](https://www.jsdelivr.com/) and [Google Fonts](https://www.google.com/fonts)
