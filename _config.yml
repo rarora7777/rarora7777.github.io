@@ -1,8 +1,8 @@
 # Site settings
 timezone: America/Toronto
 
-baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'http://www.dgp.toronto.edu/~arorar' # the base hostname & protocol for your site
+baseurl: '/~arorar/' # the subpath of your site, e.g. /blog/
+url: 'http://www.dgp.toronto.edu' # the base hostname & protocol for your site
 
 title: 'Rahul Arora'
 author: 'Rahul Arora'
@@ -33,16 +33,19 @@ exclude: [
   'README.md',
   'vendor']
 
-#defaults:
- # - scope:
-  #    path: ''
-   # values:
-    #  lang: en
-     # description: 'Rahul Arora's Things and Stuff'
-  #- scope:
-   #   path: 'en'
-    #values:
-     # lang: en
+defaults:
+-
+  scope:
+    path: ''
+  values:
+    lang: en
+    description: "Rahul Arora's Things and Stuff"
+-
+  scope:
+    path: 'en'
+  values:
+    lang: en
+
 # CSS Minification
 sass:
   style: compressed

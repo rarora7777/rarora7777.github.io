@@ -1,7 +1,6 @@
 {
   "heading" : {
-    "en" : "Publications",
-    "de" : "Publikationen" },
+    "en" : "Publications"},
 
   "publications" : [ 
 
@@ -45,7 +44,7 @@
 		By morphing sketches in this space, our approach produces plausible visualizations of shape and viewpoint variations despite the presence of sketch distortions that would prevent standard camera calibration and 3D reconstruction. In addition, our interpolated sketches can serve as inspiration for further drawings, which feed back into the design space as additional image inputs.
 		SketchSoup thus fills a significant gap in the early ideation stage of conceptual design by allowing designers to make better informed choices before proceeding to more expensive 3D modeling and prototyping. From a technical standpoint, we describe an end-to-end system that judiciously combines and adapts various image processing techniques to the drawing domain&mdash;where the images are dominated not by color, shading and texture, but by sketchy stroke contours.",
 
-      "thumbnail" : "cgf17_vr_sketching.png",
+      "thumbnail" : "cgf17_sketchsoup.png",
       "downloads" : [
         { "href"  : "http://dx.doi.org/10.1111/cgf.13081",
           "desc"  : "DOI"
