@@ -1,19 +1,13 @@
 { 
   "heading" : {
-  	"en" : "Hi, I'm Daniel Limberger,",
-  	"de" : "Hallo, ich bin Daniel Limberger," },
+  	"en" : "Hi, I'm Rahul Arora,"},
 
   "lead" : { 
-  	"en" : "a Berlin based Graphics Systems Engineer, Researcher, and Entrepreneur.",
-  	"de" : "Ingenieur, Forscher und Unternehmer für computergrafische Systeme." },
+  	"en" : "a PhD student in Computer Graphics and Interaction at <a href='http://www.dgp.toronto.edu'>DGP</a> lab at the University of Toronto. I am advised by <a href='http://www.dgp.toronto.edu/~karan' target='_blacnk'>Karan Singh</a>."},
 
   "about" : {
-  	"en" : "I'm designing, developing, implementing, and maintaining mostly interactive computer graphics techniques and systems.
-  	As a PhD student in the <a href='https://hpi.de/doellner/index.html'>Computer Graphics Systems group</a> at the <a href='https://hpi.de/'>Hasso Plattner Institute</a> I study, teach, supervise, and publish in the fields of massive, multivariate data visualization, human-computer interaction, as well as programming and computer graphics fundamentals.
-  	As a co-founder and manager of <a href='https://www.cginternals.com'>CG Internals</a>, I offer graphics engineering related products, services, and solutions to the industry.",
-  	"de" : "Ich entwerfe, entwickle, implementiere und warte vorrangig interaktive, computergrafische Verfahren und Systeme.
-  	Als Promotionsstudent am <a href='http://hpi.de/doellner/index.html'>Fachgebiet für Computergrafische Systeme</a> des <a href='https://hpi.de/'>Hasso-Plattner-Instituts</a> studiere, lehre, betreue, and veröffentliche ich in Bereichen der Visualisierung massiver, mehrdimensionaler Daten, Mensch-Computer-Interaktion, sowie Computergrafik.
-  	Als Gründer und Geschäftsführer der <a href='https://www.cginternals.com'>CG Internals GmbH</a> biete ich Produkte, Dienstleistungen und Lösungen für computergrafische Anwendungen." },
+  	"en" : "<p>I am broadly interested in sketch-based design and modelling. I am currently working on Virtual and Augmented Reality (VR/AR) based interfaces for design sketching, as part of a collaboration with <a href='https://www.autodeskresearch.com/groups/user-interface' target='_blank'>Autodesk Research</a>. I'm also interested in the full sketch-based/curve-based design pipeline, starting from acquisition, to processing, and finally to surfacing or fabrication.</p>
+	<p>Before my 14-hour economy class journey to University of Toronto, I did my masters and undergrad in Computer Science and Engineering at IIT Kanpur in India. For my masters thesis, I worked with <a href='http://www-sop.inria.fr/members/Adrien.Bousseau/' target='_blank'>Adrien Bousseau</a> and <a href='http://www.cse.iitk.ac.in/users/vinaypn/' target='_blank'>Vinay P. Namboodiri</a> on shape and view interpolation of design sketches.</p>"},
 
-  "picture" : "daniel-limberger-feb-2016.jpg"
+  "picture" : "rahul_arora_may_2015.jpg"
 }
