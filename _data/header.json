@@ -3,7 +3,7 @@
   	"en" : "Hi, I'm Rahul Arora,"},
 
   "lead" : { 
-  	"en" : "a PhD student in Computer Graphics and Interaction at <a href='http://www.dgp.toronto.edu'>DGP</a> lab at the University of Toronto. I am advised by <a href='http://www.dgp.toronto.edu/~karan' target='_blacnk'>Karan Singh</a>."},
+  	"en" : "a PhD student in Computer Graphics and Interaction at <a href='http://www.dgp.toronto.edu'>DGP</a> lab at the University of Toronto. I am advised by <a href='http://www.dgp.toronto.edu/~karan' target='_blank'>Karan Singh</a>."},
 
   "about" : {
   	"en" : "<p>I am broadly interested in sketch-based design and modelling. I am currently working on Virtual and Augmented Reality (VR/AR) based interfaces for design sketching, as part of a collaboration with <a href='https://www.autodeskresearch.com/groups/user-interface' target='_blank'>Autodesk Research</a>. I'm also interested in the full sketch-based/curve-based design pipeline, starting from acquisition, to processing, and finally to surfacing or fabrication.</p>
