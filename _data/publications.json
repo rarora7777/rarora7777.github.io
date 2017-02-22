@@ -24,10 +24,10 @@
         { "href"  : "http://dx.doi.org/10.1145/3025453.3025474",
           "desc"  : "DOI"
         },
-        { "href"  : "https://www.dropbox.com/s/w7l85hceft0hrxc/chi17_vr_sketching.pdf?dl=0",
+        { "href"  : "https://www.dropbox.com/s/w7l85hceft0hrxc/chi17_vr_sketching.pdf?raw=1",
           "desc"  : "Paper"
         },
-        { "href"  : "https://www.dropbox.com/s/pvnhccm0snw6vs2/chi17_vr_sketching.mp4?dl=0",
+        { "href"  : "https://www.dropbox.com/s/pvnhccm0snw6vs2/chi17_vr_sketching.mp4?raw=1",
           "desc"  : "Video",
         },
 		],
@@ -49,13 +49,13 @@
         { "href"  : "http://dx.doi.org/10.1111/cgf.13081",
           "desc"  : "DOI"
         },
-        { "href"  : "https://www.dropbox.com/s/ezayfshw2m3hk0i/cgf17_sketchsoup.pdf?dl=0",
+        { "href"  : "https://www.dropbox.com/s/ezayfshw2m3hk0i/cgf17_sketchsoup.pdf?raw=1",
           "desc"  : "Paper"
         },
-        { "href"  : "https://www.dropbox.com/s/l762e3zr92rwolr/cgf17_sketchsoup.mp4?dl=0",
+        { "href"  : "https://www.dropbox.com/s/l762e3zr92rwolr/cgf17_sketchsoup.mp4?raw=1",
           "desc"  : "Video",
         },
-		{ "href"  : "https://www.dropbox.com/s/qbbubimeeto10yd/cgf17_sketchsoup_comparison.mp4?dl=0",
+		{ "href"  : "https://www.dropbox.com/s/qbbubimeeto10yd/cgf17_sketchsoup_comparison.mp4?raw=1",
           "desc"  : "Comparisons Video",
         }],
     },
@@ -79,7 +79,7 @@
 		{ "href"  : "http://dx.doi.org/10.4230/LIPIcs.STACS.2016.10",
 		  "desc"  : "DOI"
 		},
-        { "href"  : "https://www.dropbox.com/s/o5yox4txt159pj3/stacs16_k33free.pdf?dl=0",
+        { "href"  : "https://www.dropbox.com/s/o5yox4txt159pj3/stacs16_k33free.pdf?raw=1",
           "desc"  : "Paper"
         },
 		{ "href"  : "https://eccc.weizmann.ac.il/report/2014/161/",
