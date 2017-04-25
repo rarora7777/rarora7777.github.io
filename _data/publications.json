@@ -57,7 +57,10 @@
         },
 		{ "href"  : "https://www.dropbox.com/s/qbbubimeeto10yd/cgf17_sketchsoup_comparison.mp4?dl=0",
           "desc"  : "Comparisons Video",
-        }],
+        },
+		{ "href"  : "https://www.dropbox.com/s/405hjgkpix37yla/SketchSoup_EG17.pptx?dl=0",
+		  "desc"  : "Slides",
+		}],
     },
 
     { "key"       : "stacs16_k33free",
