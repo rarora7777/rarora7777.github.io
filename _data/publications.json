@@ -9,7 +9,7 @@
       "title"     : "Experimental Evaluation of Sketching on Surfaces in VR",
       "date"      : "2017-05-09",
       "authors"   : [ "Rahul Arora", "Rubaiat Habib", "Fraser Anderson", "Tovi Grossman", "Karan Singh", "George Fitzmaurice" ],
-      "published" : "Proceedings of the ACM SIGCHI Comference on Human Factors in Computing Systems (to appear)",
+      "published" : "Proceedings of the ACM SIGCHI Comference on Human Factors in Computing Systems",
       
       "abstract"  : "Sketching in immersive 3D virtual reality (VR) environments has great potential for a variety of interactive 3D design applications. Precisely sketching the intended strokes in mid-air, however, can be a challenge.
 	  In this paper, we present a set of controlled studies to analyze the factors affecting human ability to sketch freely in a 3D VR environment.
@@ -44,7 +44,7 @@
       "title"     : "Sketchsoup: Exploratory Ideation using Design Sketching",
       "date"      : "2017-02-01",
       "authors"   : [ "Rahul Arora", "Ishan Darolia", "Vinay P. Namboodiri", "Karan Singh", "Adrien Bousseau"],
-      "published" : "Computer Graphics Forum (to appear)",
+      "published" : "Computer Graphics Forum",
       
       "abstract"  : "A hallmark of early stage design is a number of quick-and-dirty sketches capturing design inspirations, model variations, and 	alternate viewpoints of a visual concept. We present SketchSoup, a workflow that allows designers to explore the design space induced by such sketches. We take an unstructured collection of drawings as input, along with a small number of user-provided correspondences as input. We register them using a multi-image matching algorithm, and present them as a 2D interpolation space.
 		By morphing sketches in this space, our approach produces plausible visualizations of shape and viewpoint variations despite the presence of sketch distortions that would prevent standard camera calibration and 3D reconstruction. In addition, our interpolated sketches can serve as inspiration for further drawings, which feed back into the design space as additional image inputs.
