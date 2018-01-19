@@ -17,7 +17,7 @@
 		SymbiosisSketch users draw interchangeably on a 2D tablet or in 3D within an ergonomically comfortable canonical volume, mapped to arbitrary scale in AR.
 		Our evaluation study shows this hybrid technique to be easy to use in situ and effective in transcending the creative potential of either traditional sketching or drawing in air.",
 
-      "thumbnail" : "chi18_symbiosis_sketch.png",
+      "thumbnail" : "chi18_symbiosis_sketch.jpg",
       "downloads" : [
         { "href"  : "http://dx.doi.org/10.1145/3173574.3173759",
           "desc"  : "DOI"
