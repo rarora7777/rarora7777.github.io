@@ -4,6 +4,35 @@
 
   "publications" : [ 
 
+	"publications" : [ 
+
+    { "key"       : "chi18_symbiosis_sketch",
+      "bibtex"    : "chi18_symbiosis_sketch.bib",
+      "title"     : "SymbiosisSketch: Combining 2D and 3D Sketching for Designing Detailed 3D Objects in Situ",
+      "date"      : "2018-04-21",
+      "authors"   : [ "Rahul Arora", "Rubaiat Habib", "Tovi Grossman", "George Fitzmaurice", "Karan Singh"],
+      "published" : "Proceedings of the ACM SIGCHI Comference on Human Factors in Computing Systems",
+      
+      "abstract"  : "We present SymbiosisSketch, a hybrid sketching system that combines drawing in air (3D) and on a drawing surface (2D) to create detailed 3D designs of arbitrary scale in an augmented reality (AR) setting.
+		SymbiosisSketch leverages the complementary affordances of 3D (immersive, unconstrained, life-sized) and 2D (precise, constrained, ergonomic) interactions for in situ 3D conceptual design. A defining aspect of our system is the ongoing creation of surfaces from unorganized collections of 3D curves.
+		These surfaces serve a dual purpose: as 3D canvases to map strokes drawn on a 2D tablet, and as shape proxies to occlude the physical environment and hidden curves in a 3D sketch.
+		SymbiosisSketch users draw interchangeably on a 2D tablet or in 3D within an ergonomically comfortable canonical volume, mapped to arbitrary scale in AR.
+		Our evaluation study shows this hybrid technique to be easy to use in situ and effective in transcending the creative potential of either traditional sketching or drawing in air.",
+
+      "thumbnail" : "chi18_symbiosis_sketch.png",
+      "downloads" : [
+        { "href"  : "http://dx.doi.org/10.1145/3173574.3173759",
+          "desc"  : "DOI"
+        },
+        { "href"  : "https://www.dropbox.com/s/1an0a8hr9wo4iap/chi18_symbiosis_sketch.pdf?raw=1",
+          "desc"  : "Paper"
+        },
+        { "href"  : "https://www.dropbox.com/s/zfax8dw5ypt0p4f/chi18_symbiosis_sketch.mp4?raw=1",
+          "desc"  : "Video",
+        },
+		],
+    },
+	
     { "key"       : "chi17_vr_sketching",
       "bibtex"    : "chi17_vr_sketching.bib",
       "title"     : "Experimental Evaluation of Sketching on Surfaces in VR",
