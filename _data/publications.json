@@ -4,8 +4,6 @@
 
   "publications" : [ 
 
-	"publications" : [ 
-
     { "key"       : "chi18_symbiosis_sketch",
       "bibtex"    : "chi18_symbiosis_sketch.bib",
       "title"     : "SymbiosisSketch: Combining 2D and 3D Sketching for Designing Detailed 3D Objects in Situ",
