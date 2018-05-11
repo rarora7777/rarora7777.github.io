@@ -5,7 +5,7 @@
   "publications" : [ 
 	{ "key"       : "gi18_michell_truss",
       "bibtex"    : "gi18_michell_truss.bib",
-      "title"     : "Designing Volumetric Michell Trusses for Computational Fabrication",
+      "title"     : "Designing Volumetric Truss Structures for Computational Fabrication",
       "date"      : "2018-05-08",
       "authors"   : [ "Rahul Arora", "Alec Jacobson", "Timothy R. Langlois", "Karan Singh", "David I.W. Levin"],
       "published" : "In Graphics Interface 2018 (GI '18) Posters",
@@ -25,10 +25,10 @@
 
       "thumbnail" : "gi18_michell_truss.png",
       "downloads" : [
-        { "href"  : "https://www.dropbox.com/s/vq9h9ylyt66hwi8/gi_18_michell_truss_poster.pdf?raw=1",
+        { "href"  : "https://www.dropbox.com/s/qksv79bwpe6r7pp/gi18_michell_truss_poster.pdf?raw=1",
           "desc"  : "Poster"
         },
-        { "href"  : "https://www.dropbox.com/s/lx53sqhq7f1fr3n/gi_18_michell_truss_abstract.pdf?raw=1",
+        { "href"  : "https://www.dropbox.com/s/lx53sqhq7f1fr3n/gi18_michell_truss_abstract.pdf?raw=1",
           "desc"  : "Abstract",
         },
 		],
