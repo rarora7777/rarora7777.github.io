@@ -57,6 +57,9 @@
         { "href"  : "https://youtu.be/CaHnh_q2EIw",
           "desc"  : "Video",
         },
+		{ "href"  : "https://youtu.be/FufXQEbzoRQ",
+          "desc"  : "Talk at CHI",
+        },
 		],
     },
 	
