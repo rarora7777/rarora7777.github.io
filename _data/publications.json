@@ -12,7 +12,7 @@
       
       "abstract"  : "We present the first algorithm for designing volumetric Michell Trusses. Our method uses a parametrization approach to generate trusses made of structural elements aligned with the primary direction of an object's stress field. Such trusses exhibit high strength-to-weight ratios. We demonstrate the structural robustness of our designs via a posteriori physical simulation. We believe our algorithm serves as an important complement to existing structural optimization tools and as a novel standalone design tool itself.",
 
-      "thumbnail" : "gi18_michell_truss.png",
+      "thumbnail" : "arxiv18_michell_truss.png",
       "downloads" : [
         { "href"  : "https://arxiv.org/abs/1810.00706",
           "desc"  : "arXiv",
