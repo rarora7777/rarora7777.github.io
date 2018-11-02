@@ -3,7 +3,7 @@
     "en" : "Publications"},
 
   "publications" : [ 
-	"key"       : "arxiv18_michell_truss",
+	{"key"       : "arxiv18_michell_truss",
       "bibtex"    : "arxiv18_michell_truss.bib",
       "title"     : "Designing Volumetric Truss Structures",
       "date"      : "2018-10-08",
