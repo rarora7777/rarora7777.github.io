@@ -8,7 +8,7 @@
       "title"     : "(Coming Soon) Volumetric Michell Trusses for Parametric Design &amp; Fabrication",
       "date"      : "2019-06-16",
       "authors"   : [ "Rahul Arora", "Alec Jacobson", "Timothy R. Langlois", "Yijiang Huang", "Caitlin Mueller", "Wojciech Matusik", "Ariel Shamir", "Karan Singh", "David I.W. Levin"],
-      "published" : "Proceedings of the 3rd ACM Symposium on Computation Fabrication",
+      "published" : "Proceedings of the 3rd ACM Symposium on Computation Fabrication (SCF)",
       
       "abstract"  : "We present the first algorithm for designing volumetric Michell Trusses. Our method uses a parametrization-based approach to generate trusses made of structural elements aligned with the primary direction of an object’s stress field. Such trusses exhibit high strength-to-weight ratio while also being parametrically editable which can be easily integrated with parametric editing tools such as Autodesk Fusion. We show a number of examples that demonstrate that the output of our algorithm produces truss structures that are aligned with an object’s underlying stress tensor field, are structurally sound and that their global parametrization facilitates the creation of unique structures in a number of domains.",
 
@@ -24,7 +24,7 @@
       "title"     : "Designing Volumetric Truss Structures for Computational Fabrication",
       "date"      : "2018-05-08",
       "authors"   : [ "Rahul Arora", "Alec Jacobson", "Timothy R. Langlois", "Karan Singh", "David I.W. Levin"],
-      "published" : "In Graphics Interface 2018 (GI '18) Posters",
+      "published" : "In Graphics Interface (GI '18) Posters",
       
       "abstract"  : "We present the first algorithm for designing volumetric Michell
 			Trusses. Our method uses a parametrization approach to generate
@@ -54,7 +54,7 @@
       "title"     : "SymbiosisSketch: Combining 2D and 3D Sketching for Designing Detailed 3D Objects in Situ",
       "date"      : "2018-04-21",
       "authors"   : [ "Rahul Arora", "Rubaiat Habib", "Tovi Grossman", "George Fitzmaurice", "Karan Singh"],
-      "published" : "Proceedings of the ACM SIGCHI Comference on Human Factors in Computing Systems",
+      "published" : "Proceedings of the ACM SIGCHI Comference on Human Factors in Computing Systems (CHI)",
       
       "abstract"  : "We present SymbiosisSketch, a hybrid sketching system that combines drawing in air (3D) and on a drawing surface (2D) to create detailed 3D designs of arbitrary scale in an augmented reality (AR) setting.
 		SymbiosisSketch leverages the complementary affordances of 3D (immersive, unconstrained, life-sized) and 2D (precise, constrained, ergonomic) interactions for in situ 3D conceptual design. A defining aspect of our system is the ongoing creation of surfaces from unorganized collections of 3D curves.
@@ -84,7 +84,7 @@
       "title"     : "Experimental Evaluation of Sketching on Surfaces in VR",
       "date"      : "2017-05-09",
       "authors"   : [ "Rahul Arora", "Rubaiat Habib", "Fraser Anderson", "Tovi Grossman", "Karan Singh", "George Fitzmaurice" ],
-      "published" : "Proceedings of the ACM SIGCHI Comference on Human Factors in Computing Systems",
+      "published" : "Proceedings of the ACM SIGCHI Comference on Human Factors in Computing Systems (CHI)",
       
       "abstract"  : "Sketching in immersive 3D virtual reality (VR) environments has great potential for a variety of interactive 3D design applications. Precisely sketching the intended strokes in mid-air, however, can be a challenge.
 	  In this paper, we present a set of controlled studies to analyze the factors affecting human ability to sketch freely in a 3D VR environment.
@@ -119,7 +119,7 @@
       "title"     : "Sketchsoup: Exploratory Ideation using Design Sketching",
       "date"      : "2017-02-01",
       "authors"   : [ "Rahul Arora", "Ishan Darolia", "Vinay P. Namboodiri", "Karan Singh", "Adrien Bousseau"],
-      "published" : "Computer Graphics Forum",
+      "published" : "Computer Graphics Forum (CGF)",
       
       "abstract"  : "A hallmark of early stage design is a number of quick-and-dirty sketches capturing design inspirations, model variations, and 	alternate viewpoints of a visual concept. We present SketchSoup, a workflow that allows designers to explore the design space induced by such sketches. We take an unstructured collection of drawings as input, along with a small number of user-provided correspondences as input. We register them using a multi-image matching algorithm, and present them as a 2D interpolation space.
 		By morphing sketches in this space, our approach produces plausible visualizations of shape and viewpoint variations despite the presence of sketch distortions that would prevent standard camera calibration and 3D reconstruction. In addition, our interpolated sketches can serve as inspiration for further drawings, which feed back into the design space as additional image inputs.
