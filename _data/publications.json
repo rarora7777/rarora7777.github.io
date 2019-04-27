@@ -3,19 +3,19 @@
     "en" : "Publications"},
 
   "publications" : [ 
-	{"key"       : "arxiv18_michell_truss",
-      "bibtex"    : "arxiv18_michell_truss.bib",
-      "title"     : "Designing Volumetric Truss Structures",
-      "date"      : "2018-10-08",
+	{"key"       : "scf19_michell_truss",
+      "bibtex"    : "scf19_michell_truss.bib",
+      "title"     : "(Coming Soon) Volumetric Michell Trusses for Parametric Design &amp; Fabrication",
+      "date"      : "2019-06-16",
       "authors"   : [ "Rahul Arora", "Alec Jacobson", "Timothy R. Langlois", "Yijiang Huang", "Caitlin Mueller", "Wojciech Matusik", "Ariel Shamir", "Karan Singh", "David I.W. Levin"],
-      "published" : "arXiv preprint",
+      "published" : "Proceedings of the 3rd ACM Symposium on Computation Fabrication",
       
       "abstract"  : "We present the first algorithm for designing volumetric Michell Trusses. Our method uses a parametrization approach to generate trusses made of structural elements aligned with the primary direction of an object's stress field. Such trusses exhibit high strength-to-weight ratios. We demonstrate the structural robustness of our designs via a posteriori physical simulation. We believe our algorithm serves as an important complement to existing structural optimization tools and as a novel standalone design tool itself.",
 
-      "thumbnail" : "arxiv18_michell_truss.png",
+      "thumbnail" : "scf19_michell_truss.jpg",
       "downloads" : [
         { "href"  : "https://arxiv.org/abs/1810.00706",
-          "desc"  : "arXiv",
+          "desc"  : "arXiv (old)",
         },
 		],
     },
