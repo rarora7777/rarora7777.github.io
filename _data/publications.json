@@ -85,6 +85,12 @@
 		{ "href"  : "https://youtu.be/FufXQEbzoRQ",
           "desc"  : "Talk at CHI",
         },
+		{ "href"  : "https://www.utoronto.ca/news/u-t-and-autodesk-researchers-design-2d-3d-software-augmented-reality-drawing",
+		  "desc"  : "UofT News Article (EN)",
+		},
+		{ "href"  : "https://shiropen.com/seamless/symbiosissketch",
+		  "desc"  : "Seamless Article (JP)",
+		}
 		],
     },
 	
