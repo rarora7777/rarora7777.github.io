@@ -8,7 +8,7 @@
       "title"     : "MagicalHands: Mid-Air Hand Gestures for Animating in VR",
       "date"      : "2019-10-20",
       "authors"   : [ "Rahul Arora", "Rubaiat Habib Kazi", "Danny Kaufman", "Wilmot Li", "Karan Singh"],
-      "published" : "Conditionally accepted to the 32nd Annual ACM Symposium on User Interface and Software Technology (UIST '19)",
+      "published" : "Conditionally accepted to the 32nd Annual ACM Symposium on User Interface and Software Technology (UIST)",
       
       "abstract"  : "We explore the use of hand gestures for authoring animations in virtual reality (VR). We first perform a gesture elicitation study to understand user preferences for a spatiotemporal, bare-handed interaction system in VR. Specifically, we focus on creating and editing dynamic, physical phenomena (e.g., particle systems, deformations, coupling), where the mapping from gestures to animation is ambiguous and indirect. We present commonly observed mid-air gestures from the study that cover a wide range of interaction techniques, from direct manipulation to abstract demonstrations. To this end, we extend existing gesture taxonomies to the rich spatiotemporal interaction space of the target domain and distill our findings into a set of guidelines that inform the design of natural user interfaces for VR animation. Finally, based on our guidelines, we develop a proof-of-concept gesture-based VR animation system, MagicalHands.",
 
