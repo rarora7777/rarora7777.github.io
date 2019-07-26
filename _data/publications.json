@@ -8,15 +8,27 @@
       "title"     : "MagicalHands: Mid-Air Hand Gestures for Animating in VR",
       "date"      : "2019-10-20",
       "authors"   : [ "Rahul Arora", "Rubaiat Habib Kazi", "Danny Kaufman", "Wilmot Li", "Karan Singh"],
-      "published" : "Conditionally accepted to the 32nd Annual ACM Symposium on User Interface and Software Technology (UIST)",
+      "published" : "Proceedings of the 32nd Annual ACM Symposium on User Interface and Software Technology (UIST)",
       
       "abstract"  : "We explore the use of hand gestures for authoring animations in virtual reality (VR). We first perform a gesture elicitation study to understand user preferences for a spatiotemporal, bare-handed interaction system in VR. Specifically, we focus on creating and editing dynamic, physical phenomena (e.g., particle systems, deformations, coupling), where the mapping from gestures to animation is ambiguous and indirect. We present commonly observed mid-air gestures from the study that cover a wide range of interaction techniques, from direct manipulation to abstract demonstrations. To this end, we extend existing gesture taxonomies to the rich spatiotemporal interaction space of the target domain and distill our findings into a set of guidelines that inform the design of natural user interfaces for VR animation. Finally, based on our guidelines, we develop a proof-of-concept gesture-based VR animation system, MagicalHands.",
 
       "thumbnail" : "uist19_magical_hands.png",
       "downloads" : [
-	    { "href"  : "#",
-		  "desc"  : "Paper and Video (Coming Soon)",
-		},
+	    { "href"  : "http://dx.doi.org/10.1145/3332165.3347942",
+          "desc"  : "DOI"
+        },
+        { "href"  : "https://www.dropbox.com/s/3tjfk4hatjbcshh/uist19_magical_hands.pdf?raw=1",
+          "desc"  : "Paper"
+        },
+        { "href"  : "https://youtu.be/CaHnh_q2EIw",
+          "desc"  : "Video",
+        },
+		{ "href"  : "https://www.dropbox.com/s/k1zhhwtmwrewbr0/uist19_magical_hands_supplemental.pdf?raw=1",
+          "desc"  : "Supplemental",
+        },
+		{ "href"  : "https://github.com/rarora7777/MagicalHands",
+		  "desc"  : "Code (Coming Soon)",
+		}
 		],
     },
 	{ "key"       : "scf19_michell_truss",
