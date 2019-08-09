@@ -14,21 +14,15 @@
 
       "thumbnail" : "uist19_magical_hands.png",
       "downloads" : [
-	    { "href"  : "http://dx.doi.org/10.1145/3332165.3347942",
-          "desc"  : "DOI"
-        },
-        { "href"  : "https://www.dropbox.com/s/3tjfk4hatjbcshh/uist19_magical_hands.pdf?raw=1",
+	    { "href"  : "http://www.dgp.toronto.edu/projects/magical-hands/magical_hands_uist19_arora_et_al.pdf",
           "desc"  : "Paper"
         },
         { "href"  : "https://youtu.be/YOJVYCQeXFs",
           "desc"  : "Video",
         },
-		{ "href"  : "https://www.dropbox.com/s/k1zhhwtmwrewbr0/uist19_magical_hands_supplemental.pdf?raw=1",
-          "desc"  : "Supplemental",
-        },
-		{ "href"  : "https://github.com/rarora7777/MagicalHands",
-		  "desc"  : "Code (Coming Soon)",
-		}
+		{ "href"  : "https://www.dgp.toronto.edu/projects/magical-hands/",
+          "desc"  : "Project Page (code and more)",
+        }
 		],
     },
 	{ "key"       : "scf19_michell_truss",
