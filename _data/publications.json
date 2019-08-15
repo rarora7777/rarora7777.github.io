@@ -85,7 +85,7 @@
       "title"     : "SymbiosisSketch: Combining 2D and 3D Sketching for Designing Detailed 3D Objects in Situ",
       "date"      : "2018-04-21",
       "authors"   : [ "Rahul Arora", "Rubaiat Habib", "Tovi Grossman", "George Fitzmaurice", "Karan Singh"],
-      "published" : "Proceedings of the ACM SIGCHI Comference on Human Factors in Computing Systems (CHI)",
+      "published" : "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
       
       "abstract"  : "We present SymbiosisSketch, a hybrid sketching system that combines drawing in air (3D) and on a drawing surface (2D) to create detailed 3D designs of arbitrary scale in an augmented reality (AR) setting.
 		SymbiosisSketch leverages the complementary affordances of 3D (immersive, unconstrained, life-sized) and 2D (precise, constrained, ergonomic) interactions for in situ 3D conceptual design. A defining aspect of our system is the ongoing creation of surfaces from unorganized collections of 3D curves.
@@ -121,7 +121,7 @@
       "title"     : "Experimental Evaluation of Sketching on Surfaces in VR",
       "date"      : "2017-05-09",
       "authors"   : [ "Rahul Arora", "Rubaiat Habib", "Fraser Anderson", "Tovi Grossman", "Karan Singh", "George Fitzmaurice" ],
-      "published" : "Proceedings of the ACM SIGCHI Comference on Human Factors in Computing Systems (CHI)",
+      "published" : "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
       
       "abstract"  : "Sketching in immersive 3D virtual reality (VR) environments has great potential for a variety of interactive 3D design applications. Precisely sketching the intended strokes in mid-air, however, can be a challenge.
 	  In this paper, we present a set of controlled studies to analyze the factors affecting human ability to sketch freely in a 3D VR environment.
