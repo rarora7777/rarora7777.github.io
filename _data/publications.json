@@ -3,6 +3,26 @@
     "en" : "Publications"},
 
   "publications" : [ 
+	{ "key"       : "chi20_dc_immersive",
+      "bibtex"    : "chi20_dc_immersive.bib",
+      "title"     : "Creative Expression with Immersive 3D Interactions",
+      "date"      : "2020-04-20",
+      "authors"   : [ "Rahul Arora"],
+      "published" : "CHI 2020 Doctoral Consortium",
+      
+      "abstract"  : "Virtual and augmented realities (VR/AR) allow artists to create 3D content in a three-dimensional space---both display and inputs are 3D. Getting rid of 2D proxies such as screens and graphic tablets removes a significant barrier from 3D creation and allows artists to create more intuitively, and potentially more efficiently. However, creating in VR/AR introduces new control, precision, and ergonomic challenges. Designing interactive tools for 3D creation is therefore non-trivial. A deep understanding of human factors, user preferences, as well as biases stemming from users' experience with 2D tools is essential to develop effective creative tools for VR/AR. My research combines exploratory user studies and technical advancements to build novel tools for creating 3D content in immersive spaces.
+  I present two computer graphics applications which utilize 3D interactions to improve existing creative workflows and devise novel ones for visual creative expression in three-dimensions. The first studies concept sketching, while the second explores animation of dynamic physical phenomena. I then describe my ongoing work and planned future work on other creative applications.",
+
+      "thumbnail" : "chi20_doctoral.png",
+      "downloads" : [
+		{ "href"  : "https://doi.org/10.1145/3334480.3375028",
+		  "desc"  : "DOI"
+		},
+	    { "href"  : "https://www.dropbox.com/s/yti97pu1y0tjujl/chi20_doctoral.pdf?raw=1",
+          "desc"  : "Paper"
+        }
+		],
+    },
 	{ "key"       : "uist19_magical_hands",
       "bibtex"    : "uist19_magical_hands.bib",
       "title"     : "MagicalHands: Mid-Air Hand Gestures for Animating in VR",
