@@ -40,6 +40,9 @@
         { "href"  : "https://youtu.be/YOJVYCQeXFs",
           "desc"  : "Video",
         },
+		{ "href"  : "https://www.youtube.com/watch?v=fIHhm7Vrgwo",
+		  "desc"  : "Talk at UIST",
+		},
 		{ "href"  : "https://www.dgp.toronto.edu/projects/magical-hands/",
           "desc"  : "Project Page (code and more)",
         }
