@@ -15,7 +15,10 @@
 	},
 
   "refs" : [ 
-  	{ "name" : "GitHub", "href" : "https://github.com/rarora7777" }
+  	{ "name" : "GitHub", "href" : "https://github.com/rarora7777" },
+	  "name" : "Twitter", "href" : "https://twitter.com/rarora7" },
+	  "name" : "LinkedIn", "href" : "https://www.linkedin.com/in/rahul-arora-94782946/" },
+	  "name" : "ResearchGate", "href" : "https://www.researchgate.net/profile/Rahul_Arora14" }
   	],
 
   "refs_label" : {
