@@ -16,6 +16,9 @@
       "downloads" : [
 		{ "href"  : "https://arxiv.org/abs/2009.09029",
 		  "desc"  : "arxiv"
+		},
+		{ "href"  : "https://www.dropbox.com/s/w78e4q96tgso8wu/midair_vr.mp4?raw=1",
+		  "desc"  : "Video"
 		}
 		],
     },
