@@ -3,7 +3,7 @@
   	"en" : "Hi, I'm Rahul Arora,"},
 
   "lead" : { 
-  	"en" : "a PhD candidate in Computer Graphics and Interaction at <a href='http://www.dgp.toronto.edu'>DGP</a> lab at the University of Toronto, advised by <a href='http://www.dgp.toronto.edu/~karan' target='_blank'>Karan Singh</a>. I'm currently finishing up my PhD and am actively seeking research jobs in Computer Graphics, Human-Computer Interaction, or a mix of both. If you have a suitable position available, please feel free to <a href='mailto:arorar@dgp.toronto.edu'>contact me<a>!"},
+  	"en" : "a PhD candidate in Computer Graphics and Interaction at <a href='http://www.dgp.toronto.edu'>DGP</a> lab at the University of Toronto, advised by <a href='http://www.dgp.toronto.edu/~karan' target='_blank'>Karan Singh</a>. I'm currently finishing up my PhD and am <b>actively seeking research jobs in Computer Graphics, Human-Computer Interaction, or a mix of both</b>. If you have a suitable position available, please feel free to <a href='mailto:arorar@dgp.toronto.edu'>contact me<a>!"},
 
   "about" : {
   	"en" : "<p>In my thesis, I utilize 3D interactions in immersive realities (AR/VR) for 3D sketching, modelling, and animation. Broadly, I am interested in building user-centric tools for creative applications of computer graphics, including animation, fabrication, and stylization. I also like to dabble a bit in geometry processing and human perception.</p>
