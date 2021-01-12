@@ -8,17 +8,20 @@
       "title"     : "CASSIE: Curve and Surface Sketching in Immersive Environments",
       "date"      : "2021-05-08",
       "authors"   : [ "Emilie Yu", "Rahul Arora", "Tibor Stanko", "J. Andreas Bærentzen", "Karan Singh", "Adrien Bousseau" ],
-      "published" : "Conditionally Accepted to the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
+      "published" : "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
       
       "abstract"  : "We present CASSIE, a conceptual modeling system in VR that leverages freehand mid-air sketching, and a novel 3D optimization framework to create connected curve network armatures, predictively surfaced using patches with C0 continuity. Our system provides a judicious balance of interactivity and automation, providing a homogeneous 3D drawing interface for a mix of freehand curves, curve networks, and surface patches. Our system encourages and aids users in drawing consistent networks of curves, easing the transition from freehand ideation to concept modeling. A comprehensive user study with professional designers as well as amateurs (N=12), and a diverse gallery of 3D models, show our armature and patch functionality to offer a user experience and expressivity on par with freehand ideation, while creating sophisticated concept models for downstream applications.",
 
       "thumbnail" : "chi21_cassie.png",
       "downloads" : [
-		{ "href"  : ".",
-		  "desc"  : "Paper (Coming soon)"
+		{ "href"  : "https://doi.org/10.1145/3411764.3445158",
+		  "desc"  : "DOI"
 		},
-		{ "href"  : ".",
-		  "desc"  : "Video (Coming soon)"
+		{ "href"  : "https://www.dropbox.com/s/n9y2dga3uh2mqfi/chi21_cassie.pdf?raw=1",
+		  "desc"  : "Paper"
+		},
+		{ "href"  : "https://youtu.be/X26Q8oQ7j6M",
+		  "desc"  : "Video"
 		}
 		],
     },
