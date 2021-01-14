@@ -14,7 +14,7 @@
 
       "thumbnail" : "chi21_cassie.png",
       "downloads" : [
-		{ "href"  : "https://doi.org/10.1145/3411764.3445158",
+		{ "href"  : "https://www-sop.inria.fr/reves/Basilic/2021/YASBS21/CASSIE_author_version.pdf",
 		  "desc"  : "DOI"
 		},
 		{ "href"  : "https://www.dropbox.com/s/n9y2dga3uh2mqfi/chi21_cassie.pdf?raw=1",
@@ -22,6 +22,9 @@
 		},
 		{ "href"  : "https://youtu.be/X26Q8oQ7j6M",
 		  "desc"  : "Video"
+		},
+		{ "href"  : "https://www-sop.inria.fr/reves/Basilic/2021/YASBS21/",
+		  "desc"  : "Project Page (Code and more)"
 		}
 		],
     },
