@@ -27,6 +27,7 @@
 		  "desc"  : "Project Page (Code and more)"
 		}
 		],
+	  "award"     : "Best Paper Honorable Mention"
     },
 	{ "key"       : "arxiv20_midair",
       "bibtex"    : "arxiv20_midair.bib",
