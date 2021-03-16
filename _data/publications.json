@@ -15,16 +15,21 @@
       "thumbnail" : "chi21_cassie.png",
       "downloads" : [
 		{ "href"  : "https://doi.org/10.1145/3411764.3445158",
-		  "desc"  : "DOI"
+		  "desc"  : "DOI",
+		  "icon"  : "stamp"
 		},
 		{ "href"  : "https://www-sop.inria.fr/reves/Basilic/2021/YASBS21/CASSIE_author_version.pdf",
-		  "desc"  : "Paper"
+		  "desc"  : "Paper",
+		  "icon"  : "file-pdf"
 		},
 		{ "href"  : "https://youtu.be/X26Q8oQ7j6M",
-		  "desc"  : "Video"
+		  "desc"  : "Video",
+		  "icon"  : "youtube",
+		  "icon-class" : "fab"
 		},
 		{ "href"  : "https://www-sop.inria.fr/reves/Basilic/2021/YASBS21/",
-		  "desc"  : "Project Page (Code and more)"
+		  "desc"  : "Project Page (Code and more)",
+		  "icon"  : "external-link-alt"
 		}
 		],
 	  "award"     : "<i class='fas fa-award'></i> Best Paper Honorable Mention"
@@ -41,10 +46,12 @@
       "thumbnail" : "arxiv20_midair.png",
       "downloads" : [
 		{ "href"  : "https://arxiv.org/abs/2009.09029",
-		  "desc"  : "arxiv"
+		  "desc"  : "arxiv",
+		  "icon"  : "external-link-alt"
 		},
 		{ "href"  : "https://www.dropbox.com/s/w78e4q96tgso8wu/midair_vr.mp4?raw=1",
-		  "desc"  : "Video"
+		  "desc"  : "Video",
+		  "icon"  : "video"
 		}
 		],
     },
@@ -61,10 +68,12 @@
       "thumbnail" : "chi20_doctoral.png",
       "downloads" : [
 		{ "href"  : "https://doi.org/10.1145/3334480.3375028",
-		  "desc"  : "DOI"
+		  "desc"  : "DOI",
+		  "icon"  : "stamp"
 		},
 	    { "href"  : "https://www.dropbox.com/s/yti97pu1y0tjujl/chi20_doctoral.pdf?raw=1",
-          "desc"  : "Paper"
+          "desc"  : "Paper",
+		  "icon"  : "file-pdf"
         }
 		],
     },
@@ -80,16 +89,21 @@
       "thumbnail" : "uist19_magical_hands.png",
       "downloads" : [
 	    { "href"  : "http://www.dgp.toronto.edu/projects/magical-hands/magical_hands_uist19_arora_et_al.pdf",
-          "desc"  : "Paper"
+          "desc"  : "Paper",
+		  "icon"  : "file-pdf"
         },
         { "href"  : "https://youtu.be/YOJVYCQeXFs",
           "desc"  : "Video",
+		  "icon"  : "youtube",
+		  "icon-class" : "fab"
         },
 		{ "href"  : "https://www.youtube.com/watch?v=fIHhm7Vrgwo",
 		  "desc"  : "Talk at UIST",
+		  "icon"  : "tv"
 		},
 		{ "href"  : "https://www.dgp.toronto.edu/projects/magical-hands/",
           "desc"  : "Project Page (code and more)",
+		  "icon"  : "external-link-alt"
         }
 		],
     },
@@ -106,20 +120,27 @@
       "downloads" : [
 	    { "href"  : "https://www.dropbox.com/s/2jcr5ghloljifua/scf19_michell_truss.pdf?raw=1",
 		  "desc"  : "Paper",
+		  "icon"  : "file-pdf"
 		},
 		{ "href"  : "https://youtu.be/C2nm4PcXNK0",
 		  "desc"  : "Video",
+		  "icon"  : "youtube",
+		  "icon-class" : "fab"
 		},
 		{ "href"  : "https://www.dgp.toronto.edu/projects/michell/",
 		  "desc"  : "Project Page (code and more)",
+		  "icon"  : "external-link-alt"
 		},
 		{ "href"  : "https://photos.app.goo.gl/cVi2gCfoNfHjvr2V6",
 		  "desc"  : "Exhibit at UofT Robarts Library",
+		  "icon"  : "palette"
 		},
         { "href"  : "https://arxiv.org/abs/1810.00706",
           "desc"  : "arXiv (old)",
+		  "icon"  : "external-link-alt"
         },
 		],
+	  "award"     : "<i class='fas fa-star'></i> Winner of U of T Libraries Graduate Student Exhibition Competition"
     },
     { "key"       : "gi18_michell_truss",
       "bibtex"    : "gi18_michell_truss.bib",
@@ -144,10 +165,12 @@
       "thumbnail" : "gi18_michell_truss.png",
       "downloads" : [
         { "href"  : "https://www.dropbox.com/s/qksv79bwpe6r7pp/gi18_michell_truss_poster.pdf?raw=1",
-          "desc"  : "Poster"
+          "desc"  : "Poster",
+		  "icon"  : "file-pdf"
         },
         { "href"  : "https://www.dropbox.com/s/lx53sqhq7f1fr3n/gi18_michell_truss_abstract.pdf?raw=1",
-          "desc"  : "Abstract",
+          "desc"  : "Extended Abstract",
+		  "icon"  : "file-pdf"
         },
 		],
     },
@@ -167,22 +190,29 @@
       "thumbnail" : "chi18_symbiosis_sketch.jpg",
       "downloads" : [
         { "href"  : "http://dx.doi.org/10.1145/3173574.3173759",
-          "desc"  : "DOI"
+          "desc"  : "DOI",
+		  "icon"  : "stamp"
         },
         { "href"  : "https://www.dropbox.com/s/1an0a8hr9wo4iap/chi18_symbiosis_sketch.pdf?raw=1",
-          "desc"  : "Paper"
+          "desc"  : "Paper",
+		  "icon"  : "file-pdf"
         },
         { "href"  : "https://youtu.be/CaHnh_q2EIw",
           "desc"  : "Video",
+		  "icon"  : "youtube",
+		  "icon-class" : "fab"
         },
 		{ "href"  : "https://youtu.be/FufXQEbzoRQ",
           "desc"  : "Talk at CHI",
+		  "icon"  : "tv"
         },
 		{ "href"  : "https://www.utoronto.ca/news/u-t-and-autodesk-researchers-design-2d-3d-software-augmented-reality-drawing",
 		  "desc"  : "UofT News Article (EN)",
+		  "icon"  : "newspaper"
 		},
 		{ "href"  : "https://shiropen.com/seamless/symbiosissketch",
 		  "desc"  : "Seamless Article (JP)",
+		  "icon"  : "newspaper"
 		}
 		],
     },
@@ -205,19 +235,26 @@
       "thumbnail" : "chi17_vr_sketching.png",
       "downloads" : [
         { "href"  : "http://dx.doi.org/10.1145/3025453.3025474",
-          "desc"  : "DOI"
+          "desc"  : "DOI",
+		  "icon"  : "stamp"
         },
         { "href"  : "https://www.dropbox.com/s/w7l85hceft0hrxc/chi17_vr_sketching.pdf?raw=1",
-          "desc"  : "Paper"
+          "desc"  : "Paper",
+		  "icon"  : "file-pdf"
         },
         { "href"  : "https://youtu.be/CFa2zFC-yNI",
           "desc"  : "Video",
+		  "icon"  : "youtube",
+		  "icon-class" : "fab"
         },
 		{ "href"  : "https://github.com/rarora7777/VRSketchingStudyCHI17",
-		  "desc"  : "Data and code"
+		  "desc"  : "Data and code",
+		  "icon"  : "github",
+		  "icon-class" : "fab"
 		},
 		{ "href"  : "https://www.dropbox.com/s/9nicstv8r6bhwtm/VR_Sketching_CHI17.pptx?dl=0",
-		  "desc"  : "Slides"
+		  "desc"  : "Slides",
+		  "icon"  : "file-powerpoint"
 		},
 		],
     },
@@ -236,19 +273,24 @@
       "thumbnail" : "cgf17_sketchsoup.png",
       "downloads" : [
         { "href"  : "http://dx.doi.org/10.1111/cgf.13081",
-          "desc"  : "DOI"
+          "desc"  : "DOI",
+		  "icon"  : "stamp"
         },
         { "href"  : "https://www.dropbox.com/s/ezayfshw2m3hk0i/cgf17_sketchsoup.pdf?raw=1",
-          "desc"  : "Paper"
+          "desc"  : "Paper",
+		  "icon"  : "file-pdf"
         },
         { "href"  : "https://www.dropbox.com/s/l762e3zr92rwolr/cgf17_sketchsoup.mp4?raw=1",
           "desc"  : "Video",
+		  "icon"  : "video"
         },
 		{ "href"  : "https://www.dropbox.com/s/qbbubimeeto10yd/cgf17_sketchsoup_comparison.mp4?raw=1",
           "desc"  : "Comparisons Video",
+		  "icon"  : "video"
         },
 		{ "href"  : "https://www.dropbox.com/s/405hjgkpix37yla/SketchSoup_EG17.pptx?dl=0",
 		  "desc"  : "Slides",
+		  "icon"  : "file-powerpoint"
 		}],
     },
 
@@ -269,13 +311,16 @@
       "thumbnail" : "stacs16_k33free.png",
       "downloads" : [
 		{ "href"  : "http://dx.doi.org/10.4230/LIPIcs.STACS.2016.10",
-		  "desc"  : "DOI"
+		  "desc"  : "DOI",
+		  "icon"  : "stamp"
 		},
         { "href"  : "https://www.dropbox.com/s/o5yox4txt159pj3/stacs16_k33free.pdf?raw=1",
-          "desc"  : "Paper"
+          "desc"  : "Paper",
+		  "icon"  : "file-pdf"
         },
 		{ "href"  : "https://eccc.weizmann.ac.il/report/2014/161/",
-		  "desc"  : "Full version (ECCC)"
+		  "desc"  : "Full version (ECCC)",
+		  "icon"  : "external-link-alt"
 		}
 		],
     }

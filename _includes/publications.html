@@ -21,9 +21,9 @@
     <p>{% for author in p.authors %}{% if author == p.authors.last and p.authors.size > 1 %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}<br><span class="text-muted">{{ p.published }} {{ p.date | date: '%Y' }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}</span><br>{% if p.award %}<span class="text-primary font-weight-bold">{{ p.award }}</span>{% endif %}</p>
 
     <p>
-    {% if p.abstract %}<a data-toggle="collapse" href="#abstract-{{ p.key }}">Abstract</a>{% if p.bibtex or p.downloads %}, {% endif %}{% endif %}
-    {% if p.bibtex %}<a data-toggle="collapse" href="#bibtex-{{ p.key }}">BibTeX</a>{% if p.downloads %}, {% endif %}{% endif %}
-    {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{{ download.desc | escape }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}{% endif %}
+    {% if p.abstract %}<a data-toggle="collapse" href="#abstract-{{ p.key }}"><i class='fas fa-align-justify'></i> Abstract</a>{% if p.bibtex or p.downloads %}&nbsp;&nbsp;&nbsp;{% endif %}{% endif %}
+    {% if p.bibtex %}<a data-toggle="collapse" href="#bibtex-{{ p.key }}"><i class='fas fa-database'></i> BibTeX</a>{% if p.downloads %}&nbsp;&nbsp;&nbsp;{% endif %}{% endif %}
+    {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{% if download.icon %} <i class='{% if download.icon-class %} {{ download.icon-class}} {% else %}fas{% endif %} fa-{{download.icon}}'></i> {% endif %}{{ download.desc | escape }}</a>{% if download != p.downloads.last %}&nbsp;&nbsp;&nbsp;{% endif %}{% endfor %}{% endif %}
     </p>
 
     {% if p.abstract %}

@@ -5,13 +5,13 @@
   "email" : "arorar@dgp.toronto.edu", 
 
   "email_label" : {
-    "en" : "E-Mail"},
+    "en" : "<i class='fas fa-envelope'></i>"},
 
   "alternative_emails" : [ 
   	"arorar@cs.toronto.edu"],
 
   "alternative_label" : {
-    "en" : "Other"
+    "en" : ""
 	},
 
   "refs" : [ 
@@ -23,7 +23,7 @@
   	],
 
   "refs_label" : {
-    "en" : "More"},
+    "en" : "<i class='fas fa-user'></i>"},
 
   "formspree" : "arorar@dgp.toronto.edu",
 
