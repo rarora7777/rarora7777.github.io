@@ -18,7 +18,7 @@
 		  "desc"  : "DOI",
 		  "icon"  : "stamp"
 		},
-		{ "href"  : "https://www-sop.inria.fr/reves/Basilic/2021/YASBS21/CASSIE_author_version.pdf",
+		{ "href"  : "https://hal.inria.fr/hal-03149000/document",
 		  "desc"  : "Paper",
 		  "icon"  : "file-pdf"
 		},
@@ -27,7 +27,7 @@
 		  "icon"  : "youtube",
 		  "icon-class" : "fab"
 		},
-		{ "href"  : "https://www-sop.inria.fr/reves/Basilic/2021/YASBS21/",
+		{ "href"  : "https://em-yu.github.io/research/cassie/",
 		  "desc"  : "Project Page (Code and more)",
 		  "icon"  : "external-link-alt"
 		}
