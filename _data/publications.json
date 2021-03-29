@@ -3,6 +3,36 @@
     "en" : "Publications"},
 
   "publications" : [ 
+	{ "key"       : "tog21_midair",
+      "bibtex"    : "tog21_midair.bib",
+      "title"     : "Mid-Air Drawing of Curves on 3D Surfaces in Virtual Reality",
+      "date"      : "2021-03-29",
+      "authors"   : [ "Rahul Arora", "Karan Singh"],
+      "published" : "arXiv Preprint",
+      
+      "abstract"  : "Complex 3D curves can be created by directly drawing mid-air in immersive environments (AR/VR). Drawing mid-air strokes precisely on the surface of a 3D virtual object however, is difficult; necessitating a projection of the mid-air stroke onto the user “intended” surface curve. We present the first detailed investigation of the fundamental problem of 3D stroke projection in AR/VR. An assessment of the design requirements of real-time drawing of curves on 3D objects in AR/VR is followed by the definition and classification of multiple techniques for 3D stroke projection. We analyze the advantages and shortcomings of these approaches both theoretically and via practical pilot testing. We then formally evaluate the two most promising techniques spraycan and mimicry with 20 users in VR. The study shows a strong qualitative and quantitative user preference for our novel stroke mimicry projection algorithm. We further illustrate the effectiveness and utility of stroke mimicry, to draw complex 3D curves on surfaces for various artistic and functional design applications.",
+
+      "thumbnail" : "tog21_midair.png",
+      "downloads" : [
+		{ "href"  : "https://doi.org/10.1145/1122445.1122456",
+		  "desc"  : "DOI",
+		  "icon"  : "stamp"
+		},
+		{ "href"  : "https://www.dropbox.com/s/p1v3iq34biyg4wc/tog21_midair_drawing_surfaces.pdf?raw=1",
+		  "desc"  : "Paper",
+		  "icon"  : "file-pdf"
+		},
+		{ "href"  : "https://arxiv.org/abs/2009.09029",
+		  "desc"  : "arxiv",
+		  "icon"  : "external-link-alt"
+		},
+		{ "href"  : "https://youtu.be/ZtX49z-014I",
+		  "desc"  : "Video",
+		  "icon"  : "youtube",
+		  "icon-class" : "fab"
+		}
+		],
+    },
 	{ "key"       : "chi21_cassie",
       "bibtex"    : "chi21_cassie.bib",
       "title"     : "CASSIE: Curve and Surface Sketching in Immersive Environments",
@@ -33,27 +63,6 @@
 		}
 		],
 	  "award"     : "<i class='fas fa-award'></i> Best Paper Honorable Mention"
-    },
-	{ "key"       : "arxiv20_midair",
-      "bibtex"    : "arxiv20_midair.bib",
-      "title"     : "Mid-Air Drawing of Curves on 3D Surfaces in AR/VR",
-      "date"      : "2020-09-18",
-      "authors"   : [ "Rahul Arora", "Karan Singh"],
-      "published" : "arXiv Preprint",
-      
-      "abstract"  : "Complex 3D curves can be created by directly drawing mid-air in immersive environments (AR/VR). Drawing mid-air strokes precisely on the surface of a 3D virtual object however, is difficult; necessitating a projection of the mid-air stroke onto the user “intended” surface curve. We present the first detailed investigation of the fundamental problem of 3D stroke projection in AR/VR. An assessment of the design requirements of real-time drawing of curves on 3D objects in AR/VR is followed by the definition and classification of multiple techniques for 3D stroke projection. We analyze the advantages and shortcomings of these approaches both theoretically and via practical pilot testing. We then formally evaluate the two most promising techniques spraycan and mimicry with 20 users in VR. The study shows a strong qualitative and quantitative user preference for our novel stroke mimicry projection algorithm. We further illustrate the effectiveness and utility of stroke mimicry, to draw complex 3D curves on surfaces for various artistic and functional design applications.",
-
-      "thumbnail" : "arxiv20_midair.png",
-      "downloads" : [
-		{ "href"  : "https://arxiv.org/abs/2009.09029",
-		  "desc"  : "arxiv",
-		  "icon"  : "external-link-alt"
-		},
-		{ "href"  : "https://www.dropbox.com/s/w78e4q96tgso8wu/midair_vr.mp4?raw=1",
-		  "desc"  : "Video",
-		  "icon"  : "video"
-		}
-		],
     },
 	{ "key"       : "chi20_dc_immersive",
       "bibtex"    : "chi20_dc_immersive.bib",
