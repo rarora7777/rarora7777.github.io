@@ -6,9 +6,9 @@
 	{ "key"       : "tog21_midair",
       "bibtex"    : "tog21_midair.bib",
       "title"     : "Mid-Air Drawing of Curves on 3D Surfaces in Virtual Reality",
-      "date"      : "2021-03-29",
+      "date"      : "2021-06-01",
       "authors"   : [ "Rahul Arora", "Karan Singh"],
-      "published" : "ACM Transactions on Graphics (to appear)",
+      "published" : "ACM Transactions on Graphics (TOG), presented at SIGGRAPH",
       
       "abstract"  : "Complex 3D curves can be created by directly drawing mid-air in immersive environments (Augmented and Virtual Realities). Drawing mid-air strokes precisely on the surface of a 3D virtual object, however, is difficult; necessitating a projection of the mid-air stroke onto the user “intended” surface curve. We present the first detailed investigation of the fundamental problem of 3D stroke projection in VR. An assessment of the design requirements of real-time drawing of curves on 3D objects in VR is followed by the definition and classification of multiple techniques for 3D stroke projection. We analyze the advantages and shortcomings of these approaches both theoretically and via practical pilot testing. We then formally evaluate the two most promising techniques spraycan and mimicry with 20 users in VR. The study shows a strong qualitative and quantitative user preference for our novel stroke mimicry projection algorithm. We further illustrate the effectiveness and utility of stroke mimicry, to draw complex 3D curves on surfaces for various artistic and functional design applications.",
 
@@ -273,7 +273,7 @@
       "title"     : "Sketchsoup: Exploratory Ideation using Design Sketching",
       "date"      : "2017-02-01",
       "authors"   : [ "Rahul Arora", "Ishan Darolia", "Vinay P. Namboodiri", "Karan Singh", "Adrien Bousseau"],
-      "published" : "Computer Graphics Forum (CGF)",
+      "published" : "Computer Graphics Forum (CGF), presented at Eurographics",
       
       "abstract"  : "A hallmark of early stage design is a number of quick-and-dirty sketches capturing design inspirations, model variations, and 	alternate viewpoints of a visual concept. We present SketchSoup, a workflow that allows designers to explore the design space induced by such sketches. We take an unstructured collection of drawings as input, along with a small number of user-provided correspondences as input. We register them using a multi-image matching algorithm, and present them as a 2D interpolation space.
 		By morphing sketches in this space, our approach produces plausible visualizations of shape and viewpoint variations despite the presence of sketch distortions that would prevent standard camera calibration and 3D reconstruction. In addition, our interpolated sketches can serve as inspiration for further drawings, which feed back into the design space as additional image inputs.
