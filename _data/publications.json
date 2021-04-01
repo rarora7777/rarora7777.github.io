@@ -22,17 +22,17 @@
 		  "desc"  : "Paper",
 		  "icon"  : "file-pdf"
 		},
-		{ "href"  : "https://arxiv.org/abs/2009.09029",
-		  "desc"  : "arxiv",
-		  "icon"  : "external-link-alt"
-		},
 		{ "href"  : "https://youtu.be/ZtX49z-014I",
 		  "desc"  : "Video",
 		  "icon"  : "youtube",
 		  "icon-class" : "fab"
 		},
+		{ "href"  : "https://arxiv.org/abs/2009.09029",
+		  "desc"  : "arXiv",
+		  "icon"  : "external-link-alt"
+		},
 		{ "href"  : "",
-		  "desc"  : "Project Page (Code and more) Coming Soon",
+		  "desc"  : "Project page (code and more) coming soon",
 		  "icon"  : "external-link-alt"
 		}
 		],
@@ -62,7 +62,7 @@
 		  "icon-class" : "fab"
 		},
 		{ "href"  : "https://em-yu.github.io/research/cassie/",
-		  "desc"  : "Project Page (code and more)",
+		  "desc"  : "Project page (code and more)",
 		  "icon"  : "external-link-alt"
 		}
 		],
@@ -115,7 +115,7 @@
 		  "icon"  : "tv"
 		},
 		{ "href"  : "https://www.dgp.toronto.edu/projects/magical-hands/",
-          "desc"  : "Project Page (code and more)",
+          "desc"  : "Project page (code and more)",
 		  "icon"  : "external-link-alt"
         }
 		],
@@ -141,7 +141,7 @@
 		  "icon-class" : "fab"
 		},
 		{ "href"  : "https://www.dgp.toronto.edu/projects/michell/",
-		  "desc"  : "Project Page (code and more)",
+		  "desc"  : "Project page (code and more)",
 		  "icon"  : "external-link-alt"
 		},
 		{ "href"  : "https://photos.app.goo.gl/cVi2gCfoNfHjvr2V6",
