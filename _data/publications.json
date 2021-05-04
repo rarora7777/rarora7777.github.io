@@ -3,6 +3,39 @@
     "en" : "Publications"},
 
   "publications" : [ 
+    { "key"       : "arvix21_vrperception",
+      "bibtex"    : "arxiv21_vrperception.bib",
+      "title"     : "Thinking Outside the Lab: VR Size &amp; Depth Perception in the Wild",
+      "date"      : "2021-06-02",
+      "authors"   : [ "Rahul Arora", "Jiannan Li", "Gongyi Shi", "Karan Singh"],
+      "published" : "arXiv preprint",
+      
+      "abstract"  : "Size and distance perception in Virtual Reality (VR) have been widely studied, albeit in a controlled laboratory setting with a small number of participants. We describe a fully remote perceptual study with a gamified protocol to encourage participant engagement, which allowed us to quickly collect high-quality data from a large, diverse participant pool (N=60). Our study aims to understand medium-field size and egocentric distance perception in real-world usage of consumer VR devices. We utilized two perceptual matching tasks—distance bisection and size matching—at the same target distances of 1–9 metres. While the bisection protocol indicated a near-universal trend of nonlinear distance compression, the size matching estimates were more equivocal. Varying eye-height from the floor plane showed no significant effect on the judgements. We also discuss the pros and cons of a fully remote perceptual study in VR, the impact of hardware variation, and measures needed to ensure high-quality data.",
+
+      "thumbnail" : "arxiv21_vrperception.png",
+      "downloads" : [
+		{ "href"  : "https://www.dropbox.com/s/yxw9du079cjbd68/arxiv21_vrperception.pdf?raw=1",
+		  "desc"  : "Paper",
+		  "icon"  : "file-pdf"
+		},
+		{ "href"  : "https://youtu.be/PXiQDnwEoLg",
+		  "desc"  : "Video",
+		  "icon"  : "youtube",
+		  "icon-class" : "fab"
+		},
+		{ "href"  : "https://arxiv.org/abs/2105.00584",
+		  "desc"  : "arXiv",
+		  "icon"  : "external-link-alt"
+		},
+		{ "href"  : "https://www.dropbox.com/s/5e2ulxcapyv34qw/arxiv21_vrperception_supplemental.pdf?raw=1",
+		  "desc"  : "Supplemental",
+		  "icon"  : "file-pdf"
+		},
+		{ "href"  : "",
+		  "desc"  : "Project page (code and more) coming soon",
+		  "icon"  : "external-link-alt"}
+		],
+    },
 	{ "key"       : "tog21_midair",
       "bibtex"    : "tog21_midair.bib",
       "title"     : "Mid-Air Drawing of Curves on 3D Surfaces in Virtual Reality",
