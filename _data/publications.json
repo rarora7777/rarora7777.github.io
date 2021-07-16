@@ -47,7 +47,7 @@
 
       "thumbnail" : "tog21_midair.png",
       "downloads" : [
-		{ "href"  : "https://doi.org/10.1145/1122445.1122456",
+		{ "href"  : "https://doi.org/10.1145/3459090",
 		  "desc"  : "DOI",
 		  "icon"  : "stamp"
 		},
@@ -307,7 +307,7 @@
 
     { "key"       : "cgf17_sketchsoup",
       "bibtex"    : "cgf17_sketchsoup.bib",
-      "title"     : "Sketchsoup: Exploratory Ideation using Design Sketching",
+      "title"     : "SketchSoup: Exploratory Ideation using Design Sketching",
       "date"      : "2017-02-01",
       "authors"   : [ "Rahul Arora", "Ishan Darolia", "Vinay P. Namboodiri", "Karan Singh", "Adrien Bousseau"],
       "published" : "Computer Graphics Forum (CGF), presented at Eurographics",
