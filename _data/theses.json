@@ -31,7 +31,7 @@
       "abstract"  : "Designers start product design process by drawing various quick and imperfect sketches. In this process, they represent the target concept via multiple shapes and geometric perspectives. We present a sketch-based rendering method and a tool built on top of it to help designers explore the design space induced by sketches of a single concept. Our tool allows a designer to visualize novel sketches by mixing and matching between the geometric and visual properties of multiple sketches.<br/>
 	  The method relies on an iterative algorithm to match and warp between sketches using minimal user interaction. We modify known techniques for image matching, warping and morphing to adapt to the unique challenges posed by sketchy inputs, and combine them to allow quick navigation of the design space of sketches. Our tool tries to fill a gap in the initial stage of the product design pipeline, allowing designers and their patrons to make better informed choices before proceeding to the time-consuming and expensive parts of the pipeline involving CAD, 3D design and rendering and/or 3D printing.",
 
-      "thumbnail" : "iitk21_mt.png",
+      "thumbnail" : "iitk15_mt.png",
       "downloads" : [
 		{ "href"  : "https://www.dgp.toronto.edu/~arorar/mt_thesis.pdf",
 		  "desc"  : "Document",
