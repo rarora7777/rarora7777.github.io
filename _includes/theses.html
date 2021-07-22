@@ -1,0 +1,47 @@
+<div class="row text-xs-center">
+  <div class="col-xs">
+    <h1>{{ site.data.theses.heading.[page.lang] | escape }}</h1>
+  </div>
+</div>
+
+{% assign theses = site.data.theses.theses | sort:"date" %}
+{% for p in theses reversed %}
+<div class="row">
+  
+  <div class="col-lg-2 col-sm-3">
+    {% assign thumbnail_src = p.thumbnail %}
+    {% assign thumbnail_alt = p.title %}
+    {% assign thumbnail_flickr = p.flickr %}
+    {% include thumbnail.html %}
+  </div>
+  <div class="hidden-sm-up mb-1 col-xs"></div>
+  
+  <div class="col-lg-10 col-sm-9">
+    <h5>{{ p.title }}</h5>
+    <p><span class="text-muted">{{ p.institution }} {{ p.date | date: '%Y' }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}</span><br>{% if p.award %}<span class="text-primary font-weight-bold">{{ p.award }}</span>{% endif %}</p>
+
+    <p>
+    {% if p.abstract %}<a data-toggle="collapse" href="#abstract-{{ p.key }}"><i class='fas fa-align-justify'></i> Abstract</a>{% if p.bibtex or p.downloads %}&nbsp;&nbsp;&nbsp;{% endif %}{% endif %}
+    {% if p.bibtex %}<a data-toggle="collapse" href="#bibtex-{{ p.key }}"><i class='fas fa-database'></i> BibTeX</a>{% if p.downloads %}&nbsp;&nbsp;&nbsp;{% endif %}{% endif %}
+    {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{% if download.icon %} <i class='{% if download.icon-class %} {{ download.icon-class}} {% else %}fas{% endif %} fa-{{download.icon}}'></i> {% endif %}{{ download.desc | escape }}</a>{% if download != p.downloads.last %}&nbsp;&nbsp;&nbsp;{% endif %}{% endfor %}{% endif %}
+    </p>
+
+    {% if p.abstract %}
+    <div class="collapse abstract" id="abstract-{{ p.key }}">
+      <p>{{ p.abstract }}</p>
+    </div>
+    {% endif %}
+
+    {% if p.bibtex %}
+    <div class="collapse bibtex" id="bibtex-{{ p.key }}">
+      <div class="btn-clipboard-parent">
+        <button type="button" data-clipboard-target="#bibtex-data-{{ p.key }}" class="btn btn-sm btn-clipboard">Copy to Clipboard</button> 
+      </div>
+      <div class="card card-block">
+        <pre id="bibtex-data-{{ p.key }}">{% include /bib/{{ p.bibtex }} %}</pre>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
