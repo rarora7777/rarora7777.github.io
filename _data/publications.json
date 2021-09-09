@@ -64,8 +64,8 @@
 		  "desc"  : "arXiv",
 		  "icon"  : "external-link-alt"
 		},
-		{ "href"  : "",
-		  "desc"  : "Project page (code and more) coming soon",
+		{ "href"  : "https://www.dgp.toronto.edu/~arorar/mimicry/",
+		  "desc"  : "Project page (code and more)",
 		  "icon"  : "external-link-alt"
 		}
 		],
