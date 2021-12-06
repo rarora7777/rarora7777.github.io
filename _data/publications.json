@@ -14,7 +14,7 @@
 
       "thumbnail" : "arxiv21_vrperception.png",
       "downloads" : [
-		{ "href"  : "https://www.dropbox.com/s/yxw9du079cjbd68/arxiv21_vrperception.pdf?raw=1",
+		{ "href"  : "/papers/arxiv21_vrperception.pdf",
 		  "desc"  : "Paper",
 		  "icon"  : "file-pdf"
 		},
@@ -27,7 +27,7 @@
 		  "desc"  : "arXiv",
 		  "icon"  : "external-link-alt"
 		},
-		{ "href"  : "https://www.dropbox.com/s/5e2ulxcapyv34qw/arxiv21_vrperception_supplemental.pdf?raw=1",
+		{ "href"  : "/papers/arxiv21_vrperception_supplemental.pdf",
 		  "desc"  : "Supplemental",
 		  "icon"  : "file-pdf"
 		},
@@ -51,7 +51,7 @@
 		  "desc"  : "DOI",
 		  "icon"  : "stamp"
 		},
-		{ "href"  : "https://www.dropbox.com/s/p1v3iq34biyg4wc/tog21_midair_drawing_surfaces.pdf?raw=1",
+		{ "href"  : "/papers/tog21_midair_drawing_surfaces.pdf",
 		  "desc"  : "Paper",
 		  "icon"  : "file-pdf"
 		},
@@ -85,7 +85,7 @@
 		  "desc"  : "DOI",
 		  "icon"  : "stamp"
 		},
-		{ "href"  : "https://hal.inria.fr/hal-03149000/document",
+		{ "href"  : "/papers/chi21_cassie.pdf",
 		  "desc"  : "Paper",
 		  "icon"  : "file-pdf"
 		},
@@ -117,7 +117,7 @@
 		  "desc"  : "DOI",
 		  "icon"  : "stamp"
 		},
-	    { "href"  : "https://www.dropbox.com/s/yti97pu1y0tjujl/chi20_doctoral.pdf?raw=1",
+	    { "href"  : "/papers/chi20_doctoral.pdf",
           "desc"  : "Paper",
 		  "icon"  : "file-pdf"
         }
@@ -164,7 +164,7 @@
 
       "thumbnail" : "scf19_michell_truss.jpg",
       "downloads" : [
-	    { "href"  : "https://www.dropbox.com/s/2jcr5ghloljifua/scf19_michell_truss.pdf?raw=1",
+	    { "href"  : "/papers/scf19_michell_truss.pdf",
 		  "desc"  : "Paper",
 		  "icon"  : "file-pdf"
 		},
@@ -210,11 +210,11 @@
 
       "thumbnail" : "gi18_michell_truss.png",
       "downloads" : [
-        { "href"  : "https://www.dropbox.com/s/qksv79bwpe6r7pp/gi18_michell_truss_poster.pdf?raw=1",
+        { "href"  : "/papers/gi18_michell_truss_poster.pdf",
           "desc"  : "Poster",
 		  "icon"  : "file-pdf"
         },
-        { "href"  : "https://www.dropbox.com/s/lx53sqhq7f1fr3n/gi18_michell_truss_abstract.pdf?raw=1",
+        { "href"  : "/papers/gi18_michell_truss_abstract.pdf",
           "desc"  : "Extended Abstract",
 		  "icon"  : "file-pdf"
         },
@@ -239,7 +239,7 @@
           "desc"  : "DOI",
 		  "icon"  : "stamp"
         },
-        { "href"  : "https://www.dropbox.com/s/1an0a8hr9wo4iap/chi18_symbiosis_sketch.pdf?raw=1",
+        { "href"  : "/papers/chi18_symbiosis_sketch.pdf",
           "desc"  : "Paper",
 		  "icon"  : "file-pdf"
         },
@@ -284,7 +284,7 @@
           "desc"  : "DOI",
 		  "icon"  : "stamp"
         },
-        { "href"  : "https://www.dropbox.com/s/w7l85hceft0hrxc/chi17_vr_sketching.pdf?raw=1",
+        { "href"  : "/papers/chi17_vr_sketching.pdf",
           "desc"  : "Paper",
 		  "icon"  : "file-pdf"
         },
@@ -322,7 +322,7 @@
           "desc"  : "DOI",
 		  "icon"  : "stamp"
         },
-        { "href"  : "https://www.dropbox.com/s/ezayfshw2m3hk0i/cgf17_sketchsoup.pdf?raw=1",
+        { "href"  : "/papers/cgf17_sketchsoup.pdf",
           "desc"  : "Paper",
 		  "icon"  : "file-pdf"
         },
@@ -360,7 +360,7 @@
 		  "desc"  : "DOI",
 		  "icon"  : "stamp"
 		},
-        { "href"  : "https://www.dropbox.com/s/o5yox4txt159pj3/stacs16_k33free.pdf?raw=1",
+        { "href"  : "/papers/stacs16_k33free.pdf",
           "desc"  : "Paper",
 		  "icon"  : "file-pdf"
         },
