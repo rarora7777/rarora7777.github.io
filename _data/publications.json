@@ -64,7 +64,7 @@
 		  "desc"  : "arXiv",
 		  "icon"  : "external-link-alt"
 		},
-		{ "href"  : "https://rahularora.xyz/mimicry/",
+		{ "href"  : "/mimicry/",
 		  "desc"  : "Project page (code and more)",
 		  "icon"  : "external-link-alt"
 		}

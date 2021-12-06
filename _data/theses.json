@@ -13,11 +13,11 @@
 
       "thumbnail" : "uoft21_phd.png",
       "downloads" : [
-		{ "href"  : "https://rahularora.xyz/thesis/thesis.pdf",
+		{ "href"  : "/thesis/thesis.pdf",
 		  "desc"  : "Document",
 		  "icon"  : "file-pdf"
 		},
-		{ "href"  : "https://rahularora.xyz/thesis/",
+		{ "href"  : "/thesis/",
 		  "desc"  : "Project page",
 		  "icon"  : "external-link-alt"}
 		],
@@ -33,7 +33,7 @@
 
       "thumbnail" : "iitk15_mt.png",
       "downloads" : [
-		{ "href"  : "https://rahularora.xyz/mt_thesis.pdf",
+		{ "href"  : "/mt_thesis.pdf",
 		  "desc"  : "Document",
 		  "icon"  : "file-pdf"
 		}
