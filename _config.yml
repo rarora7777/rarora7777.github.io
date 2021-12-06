@@ -1,8 +1,8 @@
 # Site settings
 timezone: America/Toronto
 
-baseurl: '/~arorar/' # the subpath of your site, e.g. /blog/
-url: 'http://www.dgp.toronto.edu' # the base hostname & protocol for your site
+baseurl: '/' # the subpath of your site, e.g. /blog/
+url: 'https://rahularora.xyz' # the base hostname & protocol for your site
 
 title: 'Rahul Arora'
 author: 'Rahul Arora'
