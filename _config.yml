@@ -4,7 +4,7 @@ timezone: America/Toronto
 baseurl: '/' # the subpath of your site, e.g. /blog/
 url: 'https://rahularora.xyz' # the base hostname & protocol for your site
 
-title: 'Rahul Arora'
+title: "Rahul Arora's Things and Stuff"
 author: 'Rahul Arora'
 
 languages: [ 'en']
