@@ -1,7 +1,7 @@
 # Site settings
 timezone: America/Toronto
 
-baseurl: '/' # the subpath of your site, e.g. /blog/
+#baseurl: '/' # the subpath of your site, e.g. /blog/
 url: 'https://rahularora.xyz' # the base hostname & protocol for your site
 
 title: "Rahul Arora's Things and Stuff"
