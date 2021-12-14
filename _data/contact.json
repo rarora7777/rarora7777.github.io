@@ -2,13 +2,14 @@
   "heading" : {
     "en" : "Contact"},
 
-  "email" : "arorar@dgp.toronto.edu", 
+  "email" : "mail@rahularora.xyz", 
 
   "email_label" : {
     "en" : "<i class='fas fa-envelope'></i>"},
 
   "alternative_emails" : [ 
-  	"arorar@cs.toronto.edu"],
+  	"arorar@cs.toronto.edu", 
+	"arorar@dgp.toronto.edu"],
 
   "alternative_label" : {
     "en" : ""
