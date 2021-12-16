@@ -13,6 +13,10 @@
 
       "thumbnail" : "uoft21_phd.png",
       "downloads" : [
+		{ "href"  : "https://doi.org/1807/108952",
+		  "desc"  : "DOI",
+		  "icon"  : "stamp"
+		},
 		{ "href"  : "/thesis/thesis.pdf",
 		  "desc"  : "Document",
 		  "icon"  : "file-pdf"
