@@ -3,6 +3,36 @@
     "en" : "Publications"},
 
   "publications" : [ 
+	{ "key"       : "sig22_surfacing",
+      "bibtex"    : "sig22_surfacing.bib",
+      "title"     : "Piecewise-Smooth Surface Fitting onto Unstructured 3D Sketches",
+      "date"      : "2022-08-08",
+      "authors"   : [ "Emilie Yu", "Rahul Arora", "J. Andreas Bærentzen", "Karan Singh", "Adrien Bousseau" ],
+      "published" : "ACM Transactions on Graphics (proc. SIGGRAPH)",
+      
+      "abstract"  : "We propose a method to transform unstructured 3D sketches into piecewise smooth surfaces that preserve sketched geometric features. Immersive 3D drawing and sketch-based 3D modeling applications increasingly produce imperfect and unstructured collections of 3D strokes as design output. These 3D sketches are readily perceived as piecewise smooth surfaces by viewers, but are poorly handled by existing 3D surface techniques tailored to well- connected curve networks or sparse point sets. Our algorithm is aligned with human tendency to imagine the strokes as a small set of simple smooth surfaces joined along stroke boundaries. Starting with an initial proxy surface, we iteratively segment the surface into smooth patches joined sharply along some strokes, and optimize these patches to fit surrounding strokes. Our evaluation is fourfold: we demonstrate the impact of various algorithmic parameters, we evaluate our method on synthetic sketches with known ground truth surfaces, we compare to prior art, and we show compelling results on more than 50 designs from a diverse set of 3D sketch sources.",
+
+      "thumbnail" : "sig22_surfacing.png",
+      "downloads" : [
+		{ "href"  : "https://doi.org/10.1145/3528223.3530100",
+		  "desc"  : "DOI",
+		  "icon"  : "stamp"
+		},
+		{ "href"  : "/papers/sig22_surfacing.pdf",
+		  "desc"  : "Paper",
+		  "icon"  : "file-pdf"
+		},
+		{ "href"  : "",
+		  "desc"  : "Video (coming soon)",
+		  "icon"  : "youtube",
+		  "icon-class" : "fab"
+		},
+		{ "href"  : "https://em-yu.github.io/research/surfacing_3d_sketches/",
+		  "desc"  : "Project page (results and more)",
+		  "icon"  : "external-link-alt"
+		}
+		]
+    },
     { "key"       : "arvix21_vrperception",
       "bibtex"    : "arxiv21_vrperception.bib",
       "title"     : "Thinking Outside the Lab: VR Size &amp; Depth Perception in the Wild",
