@@ -22,8 +22,8 @@
 		  "desc"  : "Paper",
 		  "icon"  : "file-pdf"
 		},
-		{ "href"  : "",
-		  "desc"  : "Video (coming soon)",
+		{ "href"  : "https://www.youtube.com/watch?v=FAbqQsmQVhc",
+		  "desc"  : "Video",
 		  "icon"  : "youtube",
 		  "icon-class" : "fab"
 		},
