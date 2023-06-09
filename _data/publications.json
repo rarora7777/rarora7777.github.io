@@ -9,7 +9,6 @@
       "date"      : "2023-05-31",
       "authors"   : [ "Rahul Arora", "Mayra Donaji Barrera Machuca", "Philipp Wacker", "Daniel Keefe", "Johann Habakuk Israel" ],
       "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "abstract"  : "",
       "thumbnail" : "book_chapter_introduction.png",
       "downloads" : [
 		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-8",
@@ -28,7 +27,6 @@
       "date"      : "2023-05-31",
       "authors"   : [ "Johann Habakuk Israel", "Mayra Donaji Barrera Machuca", "Rahul Arora", "Philipp Wacker", "Daniel Keefe" ],
       "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "abstract"  : "",
       "thumbnail" : "book_chapter_geometric.png",
       "downloads" : [
 		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-9",
@@ -47,7 +45,6 @@
       "date"      : "2023-05-31",
       "authors"   : [ "Mayra Donaji Barrera Machuca", "Rahul Arora", "Philipp Wacker", "Daniel Keefe", "Johann Habakuk Israel" ],
       "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "abstract"  : "",
       "thumbnail" : "book_chapter_interaction.png",
       "downloads" : [
 		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-10",
@@ -66,7 +63,6 @@
       "date"      : "2023-05-31",
       "authors"   : [ "Philipp Wacker", "Mayra Donaji Barrera Machuca", "Rahul Arora", "Daniel Keefe", "Johann Habakuk Israel" ],
       "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "abstract"  : "",
       "thumbnail" : "book_chapter_applications.png",
       "downloads" : [
 		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-11",
