@@ -16,7 +16,7 @@
 		  "icon"  : "stamp"
 		},
 		{ "href"  : "/papers/book_chapter_introduction.pdf",
-		  "desc"  : "Paper",
+		  "desc"  : "PDF",
 		  "icon"  : "file-pdf"
 		}
 		]
@@ -34,7 +34,7 @@
 		  "icon"  : "stamp"
 		},
 		{ "href"  : "/papers/book_chapter_geometric.pdf",
-		  "desc"  : "Paper",
+		  "desc"  : "PDF",
 		  "icon"  : "file-pdf"
 		}
 		]
@@ -52,7 +52,7 @@
 		  "icon"  : "stamp"
 		},
 		{ "href"  : "/papers/book_chapter_interaction.pdf",
-		  "desc"  : "Paper",
+		  "desc"  : "PDF",
 		  "icon"  : "file-pdf"
 		}
 		]
@@ -70,7 +70,7 @@
 		  "icon"  : "stamp"
 		},
 		{ "href"  : "/papers/book_chapter_applications.pdf",
-		  "desc"  : "Paper",
+		  "desc"  : "PDF",
 		  "icon"  : "file-pdf"
 		}
 		]
