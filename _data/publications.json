@@ -3,37 +3,19 @@
     "en" : "Publications"
 	},
   "publications" : [
-	{ "key"       : "book_chapter_introduction",
-      "bibtex"    : "book_chapter_introduction.bib",
-      "title"     : "Introduction to 3D Sketching",
+	{ "key"       : "book_chapter_applications",
+      "bibtex"    : "book_chapter_applications.bib",
+      "title"     : "3D Sketching Application Scenarios",
       "date"      : "2023-05-31",
-      "authors"   : [ "Rahul Arora", "Mayra Donaji Barrera Machuca", "Philipp Wacker", "Daniel Keefe", "Johann Habakuk Israel" ],
+      "authors"   : [ "Philipp Wacker", "Mayra Donaji Barrera Machuca", "Rahul Arora", "Daniel Keefe", "Johann Habakuk Israel" ],
       "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "thumbnail" : "book_chapter_introduction.png",
+      "thumbnail" : "book_chapter_applications.png",
       "downloads" : [
-		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-8",
+		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-11",
 		  "desc"  : "DOI",
 		  "icon"  : "stamp"
 		},
-		{ "href"  : "/papers/book_chapter_introduction.pdf",
-		  "desc"  : "PDF",
-		  "icon"  : "file-pdf"
-		}
-		]
-    },
-	{ "key"       : "book_chapter_geometric",
-      "bibtex"    : "book_chapter_geometric.bib",
-      "title"     : "Input Processing and Geometric Representations for 3D Sketches",
-      "date"      : "2023-05-31",
-      "authors"   : [ "Johann Habakuk Israel", "Mayra Donaji Barrera Machuca", "Rahul Arora", "Philipp Wacker", "Daniel Keefe" ],
-      "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "thumbnail" : "book_chapter_geometric.png",
-      "downloads" : [
-		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-9",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-		{ "href"  : "/papers/book_chapter_geometric.pdf",
+		{ "href"  : "/papers/book_chapter_applications.pdf",
 		  "desc"  : "PDF",
 		  "icon"  : "file-pdf"
 		}
@@ -57,19 +39,37 @@
 		}
 		]
     },
-	{ "key"       : "book_chapter_applications",
-      "bibtex"    : "book_chapter_applications.bib",
-      "title"     : "3D Sketching Application Scenarios",
+	{ "key"       : "book_chapter_geometric",
+      "bibtex"    : "book_chapter_geometric.bib",
+      "title"     : "Input Processing and Geometric Representations for 3D Sketches",
       "date"      : "2023-05-31",
-      "authors"   : [ "Philipp Wacker", "Mayra Donaji Barrera Machuca", "Rahul Arora", "Daniel Keefe", "Johann Habakuk Israel" ],
+      "authors"   : [ "Johann Habakuk Israel", "Mayra Donaji Barrera Machuca", "Rahul Arora", "Philipp Wacker", "Daniel Keefe" ],
       "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "thumbnail" : "book_chapter_applications.png",
+      "thumbnail" : "book_chapter_geometric.png",
       "downloads" : [
-		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-11",
+		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-9",
 		  "desc"  : "DOI",
 		  "icon"  : "stamp"
 		},
-		{ "href"  : "/papers/book_chapter_applications.pdf",
+		{ "href"  : "/papers/book_chapter_geometric.pdf",
+		  "desc"  : "PDF",
+		  "icon"  : "file-pdf"
+		}
+		]
+    },
+	{ "key"       : "book_chapter_introduction",
+      "bibtex"    : "book_chapter_introduction.bib",
+      "title"     : "Introduction to 3D Sketching",
+      "date"      : "2023-05-31",
+      "authors"   : [ "Rahul Arora", "Mayra Donaji Barrera Machuca", "Philipp Wacker", "Daniel Keefe", "Johann Habakuk Israel" ],
+      "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
+      "thumbnail" : "book_chapter_introduction.png",
+      "downloads" : [
+		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-8",
+		  "desc"  : "DOI",
+		  "icon"  : "stamp"
+		},
+		{ "href"  : "/papers/book_chapter_introduction.pdf",
 		  "desc"  : "PDF",
 		  "icon"  : "file-pdf"
 		}
