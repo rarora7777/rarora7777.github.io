@@ -1,7 +1,7 @@
 {
   "heading" : {
-    "en" : "Publications"},
-
+    "en" : "Publications"
+	},
   "publications" : [
 	{ "key"       : "book_chapter_introduction",
       "bibtex"    : "book_chapter_introduction.bib",
