@@ -1,501 +1,625 @@
 {
-  "heading" : {
-    "en" : "Publications"
+	"heading": {
+		"en": "Publications"
 	},
-  "publications" : [
-	{ "key"       : "nature25_emg",
-      "bibtex"    : "nature25_emg.bib",
-      "title"     : "A Generic Non-Invasive Neuromotor Interface for Human-Computer Interaction",
-      "date"      : "2025-07-23",
-      "authors"   : [ "Patrick Kaifosh", "Thomas R. Reardon", "CTRL-Labs at Reality Labs (243 contributors including Rahul Arora)" ],
-      "published" : "Nature",
-      "thumbnail" : "nature25_emg.png",
-      "downloads" : [
-		{ "href"  : "https://doi.org/10.1038/s41586-025-09255-w",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
+	"publications": [
+		{
+			"key": "nature25_emg",
+			"bibtex": "nature25_emg.bib",
+			"title": "A Generic Non-Invasive Neuromotor Interface for Human-Computer Interaction",
+			"date": "2025-07-23",
+			"authors": [
+				"Patrick Kaifosh",
+				"Thomas R. Reardon",
+				"CTRL-Labs at Reality Labs (243 contributors including Rahul Arora)"
+			],
+			"published": "Nature",
+			"abstract": "Since the advent of computing, humans have sought computer input technologies that are expressive, intuitive and universal. While diverse modalities have been developed, including keyboards, mice and touchscreens, they require interaction with a device that can be limiting, especially in on-the-go scenarios. Gesture-based systems use cameras or inertial sensors to avoid an intermediary device, but tend to perform well only for unobscured movements. By contrast, brain-computer or neuromotor interfaces that directly interface with the body's electrical signalling have been imagined to solve the interface problem1, but high-bandwidth communication has been demonstrated only using invasive interfaces with bespoke decoders designed for single individuals. Here, we describe the development of a generic non-invasive neuromotor interface that enables computer input decoded from surface electromyography (sEMG). We developed a highly sensitive, easily donned sEMG wristband and a scalable infrastructure for collecting training data from thousands of consenting participants. Together, these data enabled us to develop generic sEMG decoding models that generalize across people. Test users demonstrate a closed-loop median performance of gesture decoding of 0.66 target acquisitions per second in a continuous navigation task, 0.88 gesture detections per second in a discrete-gesture task and handwriting at 20.9 words per minute. We demonstrate that the decoding performance of handwriting models can be further improved by 16% by personalizing sEMG decoding models. To our knowledge, this is the first high-bandwidth neuromotor interface with performant out-of-the-box generalization across people.",
+			"thumbnail": "nature25_emg.png",
+			"downloads": [
+				{
+					"href": "https://doi.org/10.1038/s41586-025-09255-w",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/nature25_emg.pdf",
+					"desc": "PDF",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://www.nytimes.com/2025/07/23/science/meta-computer-wristband-reardon.html",
+					"desc": "New York Times",
+					"icon": "newspaper"
+				},
+				{
+					"href": "https://www.meta.com/emerging-tech/emg-wearable-technology/",
+					"desc": "Meta Blog",
+					"icon": "blog"
+				}
+			]
 		},
-		{ "href"  : "/papers/nature25_emg.pdf",
-		  "desc"  : "PDF",
-		  "icon"  : "file-pdf"
+		{
+			"key": "book_chapter_applications",
+			"bibtex": "book_chapter_applications.bib",
+			"title": "3D Sketching Application Scenarios",
+			"date": "2023-05-31",
+			"authors": [
+				"Philipp Wacker",
+				"Mayra Donaji Barrera Machuca",
+				"Rahul Arora",
+				"Daniel Keefe",
+				"Johann Habakuk Israel"
+			],
+			"published": "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
+			"thumbnail": "book_chapter_applications.png",
+			"downloads": [
+				{
+					"href": "https://dx.doi.org/10.1201/9781003360650-11",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/book_chapter_applications.pdf",
+					"desc": "PDF",
+					"icon": "file-pdf"
+				}
+			]
 		},
-		{ "href"  : "https://www.nytimes.com/2025/07/23/science/meta-computer-wristband-reardon.html",
-		  "desc"  : "New York Times",
-		  "icon"  : "newspaper"
+		{
+			"key": "book_chapter_interaction",
+			"bibtex": "book_chapter_interaction.bib",
+			"title": "Interaction Devices and Techniques for 3D Sketching",
+			"date": "2023-05-31",
+			"authors": [
+				"Mayra Donaji Barrera Machuca",
+				"Rahul Arora",
+				"Philipp Wacker",
+				"Daniel Keefe",
+				"Johann Habakuk Israel"
+			],
+			"published": "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
+			"thumbnail": "book_chapter_interaction.jpg",
+			"downloads": [
+				{
+					"href": "https://dx.doi.org/10.1201/9781003360650-10",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/book_chapter_interaction.pdf",
+					"desc": "PDF",
+					"icon": "file-pdf"
+				}
+			]
 		},
-		{ "href"  : "https://www.meta.com/emerging-tech/emg-wearable-technology/",
-		  "desc"  : "Meta Blog",
-		  "icon"  : "blog"
+		{
+			"key": "book_chapter_geometric",
+			"bibtex": "book_chapter_geometric.bib",
+			"title": "Input Processing and Geometric Representations for 3D Sketches",
+			"date": "2023-05-31",
+			"authors": [
+				"Johann Habakuk Israel",
+				"Mayra Donaji Barrera Machuca",
+				"Rahul Arora",
+				"Philipp Wacker",
+				"Daniel Keefe"
+			],
+			"published": "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
+			"thumbnail": "book_chapter_geometric.png",
+			"downloads": [
+				{
+					"href": "https://dx.doi.org/10.1201/9781003360650-9",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/book_chapter_geometric.pdf",
+					"desc": "PDF",
+					"icon": "file-pdf"
+				}
+			]
+		},
+		{
+			"key": "book_chapter_introduction",
+			"bibtex": "book_chapter_introduction.bib",
+			"title": "Introduction to 3D Sketching",
+			"date": "2023-05-31",
+			"authors": [
+				"Rahul Arora",
+				"Mayra Donaji Barrera Machuca",
+				"Philipp Wacker",
+				"Daniel Keefe",
+				"Johann Habakuk Israel"
+			],
+			"published": "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
+			"thumbnail": "book_chapter_introduction.png",
+			"downloads": [
+				{
+					"href": "https://dx.doi.org/10.1201/9781003360650-8",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/book_chapter_introduction.pdf",
+					"desc": "PDF",
+					"icon": "file-pdf"
+				}
+			]
+		},
+		{
+			"key": "sig22_surfacing",
+			"bibtex": "sig22_surfacing.bib",
+			"title": "Piecewise-Smooth Surface Fitting onto Unstructured 3D Sketches",
+			"date": "2022-08-08",
+			"authors": [
+				"Emilie Yu",
+				"Rahul Arora",
+				"J. Andreas Bærentzen",
+				"Karan Singh",
+				"Adrien Bousseau"
+			],
+			"published": "ACM Transactions on Graphics (proc. SIGGRAPH)",
+			"abstract": "We propose a method to transform unstructured 3D sketches into piecewise smooth surfaces that preserve sketched geometric features. Immersive 3D drawing and sketch-based 3D modeling applications increasingly produce imperfect and unstructured collections of 3D strokes as design output. These 3D sketches are readily perceived as piecewise smooth surfaces by viewers, but are poorly handled by existing 3D surface techniques tailored to well- connected curve networks or sparse point sets. Our algorithm is aligned with human tendency to imagine the strokes as a small set of simple smooth surfaces joined along stroke boundaries. Starting with an initial proxy surface, we iteratively segment the surface into smooth patches joined sharply along some strokes, and optimize these patches to fit surrounding strokes. Our evaluation is fourfold: we demonstrate the impact of various algorithmic parameters, we evaluate our method on synthetic sketches with known ground truth surfaces, we compare to prior art, and we show compelling results on more than 50 designs from a diverse set of 3D sketch sources.",
+			"thumbnail": "sig22_surfacing.png",
+			"downloads": [
+				{
+					"href": "https://doi.org/10.1145/3528223.3530100",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/sig22_surfacing.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://www.youtube.com/watch?v=FAbqQsmQVhc",
+					"desc": "Video",
+					"icon": "youtube",
+					"icon-class": "fab"
+				},
+				{
+					"href": "https://em-yu.github.io/research/surfacing_3d_sketches/",
+					"desc": "Project page (results and more)",
+					"icon": "external-link-alt"
+				}
+			]
+		},
+		{
+			"key": "arvix21_vrperception",
+			"bibtex": "arxiv21_vrperception.bib",
+			"title": "Thinking Outside the Lab: VR Size &amp; Depth Perception in the Wild",
+			"date": "2021-06-02",
+			"authors": [
+				"Rahul Arora",
+				"Jiannan Li",
+				"Gongyi Shi",
+				"Karan Singh"
+			],
+			"published": "arXiv preprint",
+			"abstract": "Size and distance perception in Virtual Reality (VR) have been widely studied, albeit in a controlled laboratory setting with a small number of participants. We describe a fully remote perceptual study with a gamified protocol to encourage participant engagement, which allowed us to quickly collect high-quality data from a large, diverse participant pool (N=60). Our study aims to understand medium-field size and egocentric distance perception in real-world usage of consumer VR devices. We utilized two perceptual matching tasks—distance bisection and size matching—at the same target distances of 1–9 metres. While the bisection protocol indicated a near-universal trend of nonlinear distance compression, the size matching estimates were more equivocal. Varying eye-height from the floor plane showed no significant effect on the judgements. We also discuss the pros and cons of a fully remote perceptual study in VR, the impact of hardware variation, and measures needed to ensure high-quality data.",
+			"thumbnail": "arxiv21_vrperception.png",
+			"downloads": [
+				{
+					"href": "/papers/arxiv21_vrperception.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://youtu.be/PXiQDnwEoLg",
+					"desc": "Video",
+					"icon": "youtube",
+					"icon-class": "fab"
+				},
+				{
+					"href": "https://arxiv.org/abs/2105.00584",
+					"desc": "arXiv",
+					"icon": "external-link-alt"
+				},
+				{
+					"href": "/papers/arxiv21_vrperception_supplemental.pdf",
+					"desc": "Supplemental",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "",
+					"desc": "Project page (code and more) coming soon",
+					"icon": "external-link-alt"
+				}
+			]
+		},
+		{
+			"key": "tog21_midair",
+			"bibtex": "tog21_midair.bib",
+			"title": "Mid-Air Drawing of Curves on 3D Surfaces in Virtual Reality",
+			"date": "2021-06-01",
+			"authors": [
+				"Rahul Arora",
+				"Karan Singh"
+			],
+			"published": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH",
+			"abstract": "Complex 3D curves can be created by directly drawing mid-air in immersive environments (Augmented and Virtual Realities). Drawing mid-air strokes precisely on the surface of a 3D virtual object, however, is difficult; necessitating a projection of the mid-air stroke onto the user “intended” surface curve. We present the first detailed investigation of the fundamental problem of 3D stroke projection in VR. An assessment of the design requirements of real-time drawing of curves on 3D objects in VR is followed by the definition and classification of multiple techniques for 3D stroke projection. We analyze the advantages and shortcomings of these approaches both theoretically and via practical pilot testing. We then formally evaluate the two most promising techniques spraycan and mimicry with 20 users in VR. The study shows a strong qualitative and quantitative user preference for our novel stroke mimicry projection algorithm. We further illustrate the effectiveness and utility of stroke mimicry, to draw complex 3D curves on surfaces for various artistic and functional design applications.",
+			"thumbnail": "tog21_midair.png",
+			"downloads": [
+				{
+					"href": "https://doi.org/10.1145/3459090",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/tog21_midair_drawing_surfaces.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://youtu.be/ZtX49z-014I",
+					"desc": "Video",
+					"icon": "youtube",
+					"icon-class": "fab"
+				},
+				{
+					"href": "https://arxiv.org/abs/2009.09029",
+					"desc": "arXiv",
+					"icon": "external-link-alt"
+				},
+				{
+					"href": "/mimicry/",
+					"desc": "Project page (code and more)",
+					"icon": "external-link-alt"
+				}
+			]
+		},
+		{
+			"key": "chi21_cassie",
+			"bibtex": "chi21_cassie.bib",
+			"title": "CASSIE: Curve and Surface Sketching in Immersive Environments",
+			"date": "2021-05-08",
+			"authors": [
+				"Emilie Yu",
+				"Rahul Arora",
+				"Tibor Stanko",
+				"J. Andreas Bærentzen",
+				"Karan Singh",
+				"Adrien Bousseau"
+			],
+			"published": "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
+			"abstract": "We present CASSIE, a conceptual modeling system in VR that leverages freehand mid-air sketching, and a novel 3D optimization framework to create connected curve network armatures, predictively surfaced using patches with C0 continuity. Our system provides a judicious balance of interactivity and automation, providing a homogeneous 3D drawing interface for a mix of freehand curves, curve networks, and surface patches. Our system encourages and aids users in drawing consistent networks of curves, easing the transition from freehand ideation to concept modeling. A comprehensive user study with professional designers as well as amateurs (N=12), and a diverse gallery of 3D models, show our armature and patch functionality to offer a user experience and expressivity on par with freehand ideation, while creating sophisticated concept models for downstream applications.",
+			"thumbnail": "chi21_cassie.png",
+			"downloads": [
+				{
+					"href": "https://doi.org/10.1145/3411764.3445158",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/chi21_cassie.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://youtu.be/X26Q8oQ7j6M",
+					"desc": "Video",
+					"icon": "youtube",
+					"icon-class": "fab"
+				},
+				{
+					"href": "https://em-yu.github.io/research/cassie/",
+					"desc": "Project page (code and more)",
+					"icon": "external-link-alt"
+				}
+			],
+			"award": "<i class='fas fa-award'></i> Best Paper Honorable Mention"
+		},
+		{
+			"key": "chi20_dc_immersive",
+			"bibtex": "chi20_dc_immersive.bib",
+			"title": "Creative Expression with Immersive 3D Interactions",
+			"date": "2020-04-20",
+			"authors": [
+				"Rahul Arora"
+			],
+			"published": "CHI '20 Extended Abstracts (Doctoral Consortia)",
+			"abstract": "Virtual and augmented realities (VR/AR) allow artists to create 3D content in a three-dimensional space---both display and inputs are 3D. Getting rid of 2D proxies such as screens and graphic tablets removes a significant barrier from 3D creation and allows artists to create more intuitively, and potentially more efficiently. However, creating in VR/AR introduces new control, precision, and ergonomic challenges. Designing interactive tools for 3D creation is therefore non-trivial. A deep understanding of human factors, user preferences, as well as biases stemming from users' experience with 2D tools is essential to develop effective creative tools for VR/AR. My research combines exploratory user studies and technical advancements to build novel tools for creating 3D content in immersive spaces. I present two computer graphics applications which utilize 3D interactions to improve existing creative workflows and devise novel ones for visual creative expression in three-dimensions. The first studies concept sketching, while the second explores animation of dynamic physical phenomena. I then describe my ongoing work and planned future work on other creative applications.",
+			"thumbnail": "chi20_doctoral.png",
+			"downloads": [
+				{
+					"href": "https://doi.org/10.1145/3334480.3375028",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/chi20_doctoral.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				}
+			]
+		},
+		{
+			"key": "uist19_magical_hands",
+			"bibtex": "uist19_magical_hands.bib",
+			"title": "MagicalHands: Mid-Air Hand Gestures for Animating in VR",
+			"date": "2019-10-20",
+			"authors": [
+				"Rahul Arora",
+				"Rubaiat Habib Kazi",
+				"Danny Kaufman",
+				"Wilmot Li",
+				"Karan Singh"
+			],
+			"published": "Proceedings of the 32nd Annual ACM Symposium on User Interface and Software Technology (UIST)",
+			"abstract": "We explore the use of hand gestures for authoring animations in virtual reality (VR). We first perform a gesture elicitation study to understand user preferences for a spatiotemporal, bare-handed interaction system in VR. Specifically, we focus on creating and editing dynamic, physical phenomena (e.g., particle systems, deformations, coupling), where the mapping from gestures to animation is ambiguous and indirect. We present commonly observed mid-air gestures from the study that cover a wide range of interaction techniques, from direct manipulation to abstract demonstrations. To this end, we extend existing gesture taxonomies to the rich spatiotemporal interaction space of the target domain and distill our findings into a set of guidelines that inform the design of natural user interfaces for VR animation. Finally, based on our guidelines, we develop a proof-of-concept gesture-based VR animation system, MagicalHands.",
+			"thumbnail": "uist19_magical_hands.png",
+			"downloads": [
+				{
+					"href": "http://www.dgp.toronto.edu/projects/magical-hands/magical_hands_uist19_arora_et_al.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://youtu.be/YOJVYCQeXFs",
+					"desc": "Video",
+					"icon": "youtube",
+					"icon-class": "fab"
+				},
+				{
+					"href": "https://www.youtube.com/watch?v=fIHhm7Vrgwo",
+					"desc": "Talk at UIST",
+					"icon": "tv"
+				},
+				{
+					"href": "https://www.dgp.toronto.edu/projects/magical-hands/",
+					"desc": "Project page (code and more)",
+					"icon": "external-link-alt"
+				}
+			]
+		},
+		{
+			"key": "scf19_michell_truss",
+			"bibtex": "scf19_michell_truss.bib",
+			"title": "Volumetric Michell Trusses for Parametric Design &amp; Fabrication",
+			"date": "2019-06-16",
+			"authors": [
+				"Rahul Arora",
+				"Alec Jacobson",
+				"Timothy R. Langlois",
+				"Yijiang Huang",
+				"Caitlin Mueller",
+				"Wojciech Matusik",
+				"Ariel Shamir",
+				"Karan Singh",
+				"David I.W. Levin"
+			],
+			"published": "Proceedings of the 3rd ACM Symposium on Computation Fabrication (SCF)",
+			"abstract": "We present the first algorithm for designing volumetric Michell Trusses. Our method uses a parametrization-based approach to generate trusses made of structural elements aligned with the primary direction of an object’s stress field. Such trusses exhibit high strength-to-weight ratio while also being parametrically editable which can be easily integrated with parametric editing tools such as Autodesk Fusion. We show a number of examples that demonstrate that the output of our algorithm produces truss structures that are aligned with an object’s underlying stress tensor field, are structurally sound and that their global parametrization facilitates the creation of unique structures in a number of domains.",
+			"thumbnail": "scf19_michell_truss.jpg",
+			"downloads": [
+				{
+					"href": "/papers/scf19_michell_truss.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://youtu.be/C2nm4PcXNK0",
+					"desc": "Video",
+					"icon": "youtube",
+					"icon-class": "fab"
+				},
+				{
+					"href": "https://www.dgp.toronto.edu/projects/michell/",
+					"desc": "Project page (code and more)",
+					"icon": "external-link-alt"
+				},
+				{
+					"href": "https://photos.app.goo.gl/cVi2gCfoNfHjvr2V6",
+					"desc": "Exhibit at UofT Robarts Library",
+					"icon": "palette"
+				},
+				{
+					"href": "https://arxiv.org/abs/1810.00706",
+					"desc": "arXiv (old)",
+					"icon": "external-link-alt"
+				}
+			],
+			"award": "<i class='fas fa-star'></i> Winner of U of T Libraries Graduate Student Exhibition Competition"
+		},
+		{
+			"key": "gi18_michell_truss",
+			"bibtex": "gi18_michell_truss.bib",
+			"title": "Designing Volumetric Truss Structures for Computational Fabrication",
+			"date": "2018-05-08",
+			"authors": [
+				"Rahul Arora",
+				"Alec Jacobson",
+				"Timothy R. Langlois",
+				"Karan Singh",
+				"David I.W. Levin"
+			],
+			"published": "In Graphics Interface (GI '18) Posters",
+			"abstract": "We present the first algorithm for designing volumetric Michell Trusses. Our method uses a parametrization approach to generate trusses made of structural elements aligned with the primary direction of an objects stress field. Such trusses exhibit high strength-to-weight ratio while also being aesthetically pleasing.  Unlike traditional approaches to structural optimization, our method produces trusses that can be edited as a post process but retain structural optimality. We also demonstrate the structural robustness of our designs via mechanical testing. Our algorithm permits an exciting combination of control and structural soundness which we believe serves as an important compliment to existing structural optimization tools and as a novel standalone design tool itself.",
+			"thumbnail": "gi18_michell_truss.png",
+			"downloads": [
+				{
+					"href": "/papers/gi18_michell_truss_poster.pdf",
+					"desc": "Poster",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "/papers/gi18_michell_truss_abstract.pdf",
+					"desc": "Extended Abstract",
+					"icon": "file-pdf"
+				}
+			]
+		},
+		{
+			"key": "chi18_symbiosis_sketch",
+			"bibtex": "chi18_symbiosis_sketch.bib",
+			"title": "SymbiosisSketch: Combining 2D and 3D Sketching for Designing Detailed 3D Objects in Situ",
+			"date": "2018-04-21",
+			"authors": [
+				"Rahul Arora",
+				"Rubaiat Habib",
+				"Tovi Grossman",
+				"George Fitzmaurice",
+				"Karan Singh"
+			],
+			"published": "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
+			"abstract": "We present SymbiosisSketch, a hybrid sketching system that combines drawing in air (3D) and on a drawing surface (2D) to create detailed 3D designs of arbitrary scale in an augmented reality (AR) setting. SymbiosisSketch leverages the complementary affordances of 3D (immersive, unconstrained, life-sized) and 2D (precise, constrained, ergonomic) interactions for in situ 3D conceptual design. A defining aspect of our system is the ongoing creation of surfaces from unorganized collections of 3D curves. These surfaces serve a dual purpose: as 3D canvases to map strokes drawn on a 2D tablet, and as shape proxies to occlude the physical environment and hidden curves in a 3D sketch. SymbiosisSketch users draw interchangeably on a 2D tablet or in 3D within an ergonomically comfortable canonical volume, mapped to arbitrary scale in AR. Our evaluation study shows this hybrid technique to be easy to use in situ and effective in transcending the creative potential of either traditional sketching or drawing in air.",
+			"thumbnail": "chi18_symbiosis_sketch.jpg",
+			"downloads": [
+				{
+					"href": "http://dx.doi.org/10.1145/3173574.3173759",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/chi18_symbiosis_sketch.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://youtu.be/CaHnh_q2EIw",
+					"desc": "Video",
+					"icon": "youtube",
+					"icon-class": "fab"
+				},
+				{
+					"href": "https://youtu.be/FufXQEbzoRQ",
+					"desc": "Talk at CHI",
+					"icon": "tv"
+				},
+				{
+					"href": "https://www.utoronto.ca/news/u-t-and-autodesk-researchers-design-2d-3d-software-augmented-reality-drawing",
+					"desc": "UofT News Article (EN)",
+					"icon": "newspaper"
+				},
+				{
+					"href": "https://shiropen.com/seamless/symbiosissketch",
+					"desc": "Seamless Article (JP)",
+					"icon": "newspaper"
+				}
+			]
+		},
+		{
+			"key": "chi17_vr_sketching",
+			"bibtex": "chi17_vr_sketching.bib",
+			"title": "Experimental Evaluation of Sketching on Surfaces in VR",
+			"date": "2017-05-09",
+			"authors": [
+				"Rahul Arora",
+				"Rubaiat Habib",
+				"Fraser Anderson",
+				"Tovi Grossman",
+				"Karan Singh",
+				"George Fitzmaurice"
+			],
+			"published": "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
+			"abstract": "Sketching in immersive 3D virtual reality (VR) environments has great potential for a variety of interactive 3D design applications. Precisely sketching the intended strokes in mid-air, however, can be a challenge. In this paper, we present a set of controlled studies to analyze the factors affecting human ability to sketch freely in a 3D VR environment. In our first study, we directly compare traditional sketching on a physical surface to sketching in VR, with and without a physical surface to rest the stylus on. Our results indicate that the lack of a physical drawing surface is a major cause of inaccuracies in VR drawing, and that the effect is dependent on the orientation of the drawing surface. In a second experiment, we evaluate the extent to which visual guidance can compensate for the loss of sketching precision in VR. We found that while additional visual guidance improves positional accuracy, it can be detrimental to the aesthetic quality of strokes. We conclude by distilling our experimental findings into design guidelines for sketching tools in immersive 3D environments.",
+			"thumbnail": "chi17_vr_sketching.png",
+			"downloads": [
+				{
+					"href": "http://dx.doi.org/10.1145/3025453.3025474",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/chi17_vr_sketching.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://youtu.be/CFa2zFC-yNI",
+					"desc": "Video",
+					"icon": "youtube",
+					"icon-class": "fab"
+				},
+				{
+					"href": "https://github.com/rarora7777/VRSketchingStudyCHI17",
+					"desc": "Data and code",
+					"icon": "github",
+					"icon-class": "fab"
+				},
+				{
+					"href": "https://www.dropbox.com/s/9nicstv8r6bhwtm/VR_Sketching_CHI17.pptx?dl=0",
+					"desc": "Slides",
+					"icon": "file-powerpoint"
+				}
+			]
+		},
+		{
+			"key": "cgf17_sketchsoup",
+			"bibtex": "cgf17_sketchsoup.bib",
+			"title": "SketchSoup: Exploratory Ideation using Design Sketching",
+			"date": "2017-02-01",
+			"authors": [
+				"Rahul Arora",
+				"Ishan Darolia",
+				"Vinay P. Namboodiri",
+				"Karan Singh",
+				"Adrien Bousseau"
+			],
+			"published": "Computer Graphics Forum (CGF), presented at Eurographics",
+			"abstract": "A hallmark of early stage design is a number of quick-and-dirty sketches capturing design inspirations, model variations, and alternate viewpoints of a visual concept. We present SketchSoup, a workflow that allows designers to explore the design space induced by such sketches. We take an unstructured collection of drawings as input, along with a small number of user-provided correspondences as input. We register them using a multi-image matching algorithm, and present them as a 2D interpolation space. By morphing sketches in this space, our approach produces plausible visualizations of shape and viewpoint variations despite the presence of sketch distortions that would prevent standard camera calibration and 3D reconstruction. In addition, our interpolated sketches can serve as inspiration for further drawings, which feed back into the design space as additional image inputs. SketchSoup thus fills a significant gap in the early ideation stage of conceptual design by allowing designers to make better informed choices before proceeding to more expensive 3D modeling and prototyping. From a technical standpoint, we describe an end-to-end system that judiciously combines and adapts various image processing techniques to the drawing domain&mdash;where the images are dominated not by color, shading and texture, but by sketchy stroke contours.",
+			"thumbnail": "cgf17_sketchsoup.png",
+			"downloads": [
+				{
+					"href": "http://dx.doi.org/10.1111/cgf.13081",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/cgf17_sketchsoup.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://www.dropbox.com/s/l762e3zr92rwolr/cgf17_sketchsoup.mp4?raw=1",
+					"desc": "Video",
+					"icon": "video"
+				},
+				{
+					"href": "https://www.dropbox.com/s/qbbubimeeto10yd/cgf17_sketchsoup_comparison.mp4?raw=1",
+					"desc": "Comparisons Video",
+					"icon": "video"
+				},
+				{
+					"href": "https://www.dropbox.com/s/405hjgkpix37yla/SketchSoup_EG17.pptx?dl=0",
+					"desc": "Slides",
+					"icon": "file-powerpoint"
+				}
+			]
+		},
+		{
+			"key": "stacs16_k33free",
+			"bibtex": "stacs16_k33free.bib",
+			"title": "Derandomizing Isolation Lemma for K<sub>3,3</sub>-free and K<sub>5</sub>-free Bipartite Graphs",
+			"date": "2016-08-01",
+			"authors": [
+				"Rahul Arora",
+				"Ashu Gupta",
+				"Rohit Gurjar",
+				"Raghunath Tewari"
+			],
+			"published": "Symposium on Theoretical Aspects of Computer Science (STACS)",
+			"abstract": "The perfect matching problem has a randomized NC algorithm, using the celebrated Isolation Lemma of Mulmuley, Vazirani and Vazirani. The Isolation Lemma states that giving a random weight assignment to the edges of a graph ensures that it has a unique minimum weight perfect matching, with a good probability. We derandomize this lemma for K<sub>3,3</sub>-free and K<sub>5</sub>-free bipartite graphs. That is, we give a deterministic log-space construction of such a weight assignment for these graphs. Such a construction was known previously for planar bipartite graphs. Our result implies that the perfect matching problem for K<sub>3,3</sub>-free and K<sub>5</sub>-free bipartite graphs is in SPL. It also gives an alternate proof for an already known result&mdash;reachability for K<sub>3,3</sub>-free and K<sub>5</sub>-free graphs is in UL.",
+			"thumbnail": "stacs16_k33free.png",
+			"downloads": [
+				{
+					"href": "http://dx.doi.org/10.4230/LIPIcs.STACS.2016.10",
+					"desc": "DOI",
+					"icon": "stamp"
+				},
+				{
+					"href": "/papers/stacs16_k33free.pdf",
+					"desc": "Paper",
+					"icon": "file-pdf"
+				},
+				{
+					"href": "https://eccc.weizmann.ac.il/report/2014/161/",
+					"desc": "Full version (ECCC)",
+					"icon": "external-link-alt"
+				}
+			]
 		}
-		]
-    },
-	{ "key"       : "book_chapter_applications",
-      "bibtex"    : "book_chapter_applications.bib",
-      "title"     : "3D Sketching Application Scenarios",
-      "date"      : "2023-05-31",
-      "authors"   : [ "Philipp Wacker", "Mayra Donaji Barrera Machuca", "Rahul Arora", "Daniel Keefe", "Johann Habakuk Israel" ],
-      "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "thumbnail" : "book_chapter_applications.png",
-      "downloads" : [
-		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-11",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-		{ "href"  : "/papers/book_chapter_applications.pdf",
-		  "desc"  : "PDF",
-		  "icon"  : "file-pdf"
-		}
-		]
-    },
-	{ "key"       : "book_chapter_interaction",
-      "bibtex"    : "book_chapter_interaction.bib",
-      "title"     : "Interaction Devices and Techniques for 3D Sketching",
-      "date"      : "2023-05-31",
-      "authors"   : [ "Mayra Donaji Barrera Machuca", "Rahul Arora", "Philipp Wacker", "Daniel Keefe", "Johann Habakuk Israel" ],
-      "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "thumbnail" : "book_chapter_interaction.jpg",
-      "downloads" : [
-		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-10",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-		{ "href"  : "/papers/book_chapter_interaction.pdf",
-		  "desc"  : "PDF",
-		  "icon"  : "file-pdf"
-		}
-		]
-    },
-	{ "key"       : "book_chapter_geometric",
-      "bibtex"    : "book_chapter_geometric.bib",
-      "title"     : "Input Processing and Geometric Representations for 3D Sketches",
-      "date"      : "2023-05-31",
-      "authors"   : [ "Johann Habakuk Israel", "Mayra Donaji Barrera Machuca", "Rahul Arora", "Philipp Wacker", "Daniel Keefe" ],
-      "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "thumbnail" : "book_chapter_geometric.png",
-      "downloads" : [
-		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-9",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-		{ "href"  : "/papers/book_chapter_geometric.pdf",
-		  "desc"  : "PDF",
-		  "icon"  : "file-pdf"
-		}
-		]
-    },
-	{ "key"       : "book_chapter_introduction",
-      "bibtex"    : "book_chapter_introduction.bib",
-      "title"     : "Introduction to 3D Sketching",
-      "date"      : "2023-05-31",
-      "authors"   : [ "Rahul Arora", "Mayra Donaji Barrera Machuca", "Philipp Wacker", "Daniel Keefe", "Johann Habakuk Israel" ],
-      "published" : "Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter)",
-      "thumbnail" : "book_chapter_introduction.png",
-      "downloads" : [
-		{ "href"  : "https://dx.doi.org/10.1201/9781003360650-8",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-		{ "href"  : "/papers/book_chapter_introduction.pdf",
-		  "desc"  : "PDF",
-		  "icon"  : "file-pdf"
-		}
-		]
-    },
-	{ "key"       : "sig22_surfacing",
-      "bibtex"    : "sig22_surfacing.bib",
-      "title"     : "Piecewise-Smooth Surface Fitting onto Unstructured 3D Sketches",
-      "date"      : "2022-08-08",
-      "authors"   : [ "Emilie Yu", "Rahul Arora", "J. Andreas Bærentzen", "Karan Singh", "Adrien Bousseau" ],
-      "published" : "ACM Transactions on Graphics (proc. SIGGRAPH)",
-      
-      "abstract"  : "We propose a method to transform unstructured 3D sketches into piecewise smooth surfaces that preserve sketched geometric features. Immersive 3D drawing and sketch-based 3D modeling applications increasingly produce imperfect and unstructured collections of 3D strokes as design output. These 3D sketches are readily perceived as piecewise smooth surfaces by viewers, but are poorly handled by existing 3D surface techniques tailored to well- connected curve networks or sparse point sets. Our algorithm is aligned with human tendency to imagine the strokes as a small set of simple smooth surfaces joined along stroke boundaries. Starting with an initial proxy surface, we iteratively segment the surface into smooth patches joined sharply along some strokes, and optimize these patches to fit surrounding strokes. Our evaluation is fourfold: we demonstrate the impact of various algorithmic parameters, we evaluate our method on synthetic sketches with known ground truth surfaces, we compare to prior art, and we show compelling results on more than 50 designs from a diverse set of 3D sketch sources.",
-
-      "thumbnail" : "sig22_surfacing.png",
-      "downloads" : [
-		{ "href"  : "https://doi.org/10.1145/3528223.3530100",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-		{ "href"  : "/papers/sig22_surfacing.pdf",
-		  "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-		},
-		{ "href"  : "https://www.youtube.com/watch?v=FAbqQsmQVhc",
-		  "desc"  : "Video",
-		  "icon"  : "youtube",
-		  "icon-class" : "fab"
-		},
-		{ "href"  : "https://em-yu.github.io/research/surfacing_3d_sketches/",
-		  "desc"  : "Project page (results and more)",
-		  "icon"  : "external-link-alt"
-		}
-		]
-    },
-    { "key"       : "arvix21_vrperception",
-      "bibtex"    : "arxiv21_vrperception.bib",
-      "title"     : "Thinking Outside the Lab: VR Size &amp; Depth Perception in the Wild",
-      "date"      : "2021-06-02",
-      "authors"   : [ "Rahul Arora", "Jiannan Li", "Gongyi Shi", "Karan Singh"],
-      "published" : "arXiv preprint",
-      
-      "abstract"  : "Size and distance perception in Virtual Reality (VR) have been widely studied, albeit in a controlled laboratory setting with a small number of participants. We describe a fully remote perceptual study with a gamified protocol to encourage participant engagement, which allowed us to quickly collect high-quality data from a large, diverse participant pool (N=60). Our study aims to understand medium-field size and egocentric distance perception in real-world usage of consumer VR devices. We utilized two perceptual matching tasks—distance bisection and size matching—at the same target distances of 1–9 metres. While the bisection protocol indicated a near-universal trend of nonlinear distance compression, the size matching estimates were more equivocal. Varying eye-height from the floor plane showed no significant effect on the judgements. We also discuss the pros and cons of a fully remote perceptual study in VR, the impact of hardware variation, and measures needed to ensure high-quality data.",
-
-      "thumbnail" : "arxiv21_vrperception.png",
-      "downloads" : [
-		{ "href"  : "/papers/arxiv21_vrperception.pdf",
-		  "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-		},
-		{ "href"  : "https://youtu.be/PXiQDnwEoLg",
-		  "desc"  : "Video",
-		  "icon"  : "youtube",
-		  "icon-class" : "fab"
-		},
-		{ "href"  : "https://arxiv.org/abs/2105.00584",
-		  "desc"  : "arXiv",
-		  "icon"  : "external-link-alt"
-		},
-		{ "href"  : "/papers/arxiv21_vrperception_supplemental.pdf",
-		  "desc"  : "Supplemental",
-		  "icon"  : "file-pdf"
-		},
-		{ "href"  : "",
-		  "desc"  : "Project page (code and more) coming soon",
-		  "icon"  : "external-link-alt"
-		}
-	  ]
-    },
-	{ "key"       : "tog21_midair",
-      "bibtex"    : "tog21_midair.bib",
-      "title"     : "Mid-Air Drawing of Curves on 3D Surfaces in Virtual Reality",
-      "date"      : "2021-06-01",
-      "authors"   : [ "Rahul Arora", "Karan Singh"],
-      "published" : "ACM Transactions on Graphics (TOG), presented at SIGGRAPH",
-      
-      "abstract"  : "Complex 3D curves can be created by directly drawing mid-air in immersive environments (Augmented and Virtual Realities). Drawing mid-air strokes precisely on the surface of a 3D virtual object, however, is difficult; necessitating a projection of the mid-air stroke onto the user “intended” surface curve. We present the first detailed investigation of the fundamental problem of 3D stroke projection in VR. An assessment of the design requirements of real-time drawing of curves on 3D objects in VR is followed by the definition and classification of multiple techniques for 3D stroke projection. We analyze the advantages and shortcomings of these approaches both theoretically and via practical pilot testing. We then formally evaluate the two most promising techniques spraycan and mimicry with 20 users in VR. The study shows a strong qualitative and quantitative user preference for our novel stroke mimicry projection algorithm. We further illustrate the effectiveness and utility of stroke mimicry, to draw complex 3D curves on surfaces for various artistic and functional design applications.",
-
-      "thumbnail" : "tog21_midair.png",
-      "downloads" : [
-		{ "href"  : "https://doi.org/10.1145/3459090",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-		{ "href"  : "/papers/tog21_midair_drawing_surfaces.pdf",
-		  "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-		},
-		{ "href"  : "https://youtu.be/ZtX49z-014I",
-		  "desc"  : "Video",
-		  "icon"  : "youtube",
-		  "icon-class" : "fab"
-		},
-		{ "href"  : "https://arxiv.org/abs/2009.09029",
-		  "desc"  : "arXiv",
-		  "icon"  : "external-link-alt"
-		},
-		{ "href"  : "/mimicry/",
-		  "desc"  : "Project page (code and more)",
-		  "icon"  : "external-link-alt"
-		}
-		]
-    },
-	{ "key"       : "chi21_cassie",
-      "bibtex"    : "chi21_cassie.bib",
-      "title"     : "CASSIE: Curve and Surface Sketching in Immersive Environments",
-      "date"      : "2021-05-08",
-      "authors"   : [ "Emilie Yu", "Rahul Arora", "Tibor Stanko", "J. Andreas Bærentzen", "Karan Singh", "Adrien Bousseau" ],
-      "published" : "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
-      
-      "abstract"  : "We present CASSIE, a conceptual modeling system in VR that leverages freehand mid-air sketching, and a novel 3D optimization framework to create connected curve network armatures, predictively surfaced using patches with C0 continuity. Our system provides a judicious balance of interactivity and automation, providing a homogeneous 3D drawing interface for a mix of freehand curves, curve networks, and surface patches. Our system encourages and aids users in drawing consistent networks of curves, easing the transition from freehand ideation to concept modeling. A comprehensive user study with professional designers as well as amateurs (N=12), and a diverse gallery of 3D models, show our armature and patch functionality to offer a user experience and expressivity on par with freehand ideation, while creating sophisticated concept models for downstream applications.",
-
-      "thumbnail" : "chi21_cassie.png",
-      "downloads" : [
-		{ "href"  : "https://doi.org/10.1145/3411764.3445158",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-		{ "href"  : "/papers/chi21_cassie.pdf",
-		  "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-		},
-		{ "href"  : "https://youtu.be/X26Q8oQ7j6M",
-		  "desc"  : "Video",
-		  "icon"  : "youtube",
-		  "icon-class" : "fab"
-		},
-		{ "href"  : "https://em-yu.github.io/research/cassie/",
-		  "desc"  : "Project page (code and more)",
-		  "icon"  : "external-link-alt"
-		}
-		],
-	  "award"     : "<i class='fas fa-award'></i> Best Paper Honorable Mention"
-    },
-	{ "key"       : "chi20_dc_immersive",
-      "bibtex"    : "chi20_dc_immersive.bib",
-      "title"     : "Creative Expression with Immersive 3D Interactions",
-      "date"      : "2020-04-20",
-      "authors"   : [ "Rahul Arora"],
-      "published" : "CHI '20 Extended Abstracts (Doctoral Consortia)",
-      
-      "abstract"  : "Virtual and augmented realities (VR/AR) allow artists to create 3D content in a three-dimensional space---both display and inputs are 3D. Getting rid of 2D proxies such as screens and graphic tablets removes a significant barrier from 3D creation and allows artists to create more intuitively, and potentially more efficiently. However, creating in VR/AR introduces new control, precision, and ergonomic challenges. Designing interactive tools for 3D creation is therefore non-trivial. A deep understanding of human factors, user preferences, as well as biases stemming from users' experience with 2D tools is essential to develop effective creative tools for VR/AR. My research combines exploratory user studies and technical advancements to build novel tools for creating 3D content in immersive spaces.
-  I present two computer graphics applications which utilize 3D interactions to improve existing creative workflows and devise novel ones for visual creative expression in three-dimensions. The first studies concept sketching, while the second explores animation of dynamic physical phenomena. I then describe my ongoing work and planned future work on other creative applications.",
-
-      "thumbnail" : "chi20_doctoral.png",
-      "downloads" : [
-		{ "href"  : "https://doi.org/10.1145/3334480.3375028",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-	    { "href"  : "/papers/chi20_doctoral.pdf",
-          "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-        }
-		],
-    },
-	{ "key"       : "uist19_magical_hands",
-      "bibtex"    : "uist19_magical_hands.bib",
-      "title"     : "MagicalHands: Mid-Air Hand Gestures for Animating in VR",
-      "date"      : "2019-10-20",
-      "authors"   : [ "Rahul Arora", "Rubaiat Habib Kazi", "Danny Kaufman", "Wilmot Li", "Karan Singh"],
-      "published" : "Proceedings of the 32nd Annual ACM Symposium on User Interface and Software Technology (UIST)",
-      
-      "abstract"  : "We explore the use of hand gestures for authoring animations in virtual reality (VR). We first perform a gesture elicitation study to understand user preferences for a spatiotemporal, bare-handed interaction system in VR. Specifically, we focus on creating and editing dynamic, physical phenomena (e.g., particle systems, deformations, coupling), where the mapping from gestures to animation is ambiguous and indirect. We present commonly observed mid-air gestures from the study that cover a wide range of interaction techniques, from direct manipulation to abstract demonstrations. To this end, we extend existing gesture taxonomies to the rich spatiotemporal interaction space of the target domain and distill our findings into a set of guidelines that inform the design of natural user interfaces for VR animation. Finally, based on our guidelines, we develop a proof-of-concept gesture-based VR animation system, MagicalHands.",
-
-      "thumbnail" : "uist19_magical_hands.png",
-      "downloads" : [
-	    { "href"  : "http://www.dgp.toronto.edu/projects/magical-hands/magical_hands_uist19_arora_et_al.pdf",
-          "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-        },
-        { "href"  : "https://youtu.be/YOJVYCQeXFs",
-          "desc"  : "Video",
-		  "icon"  : "youtube",
-		  "icon-class" : "fab"
-        },
-		{ "href"  : "https://www.youtube.com/watch?v=fIHhm7Vrgwo",
-		  "desc"  : "Talk at UIST",
-		  "icon"  : "tv"
-		},
-		{ "href"  : "https://www.dgp.toronto.edu/projects/magical-hands/",
-          "desc"  : "Project page (code and more)",
-		  "icon"  : "external-link-alt"
-        }
-		]
-    },
-	{ "key"       : "scf19_michell_truss",
-      "bibtex"    : "scf19_michell_truss.bib",
-      "title"     : "Volumetric Michell Trusses for Parametric Design &amp; Fabrication",
-      "date"      : "2019-06-16",
-      "authors"   : [ "Rahul Arora", "Alec Jacobson", "Timothy R. Langlois", "Yijiang Huang", "Caitlin Mueller", "Wojciech Matusik", "Ariel Shamir", "Karan Singh", "David I.W. Levin"],
-      "published" : "Proceedings of the 3rd ACM Symposium on Computation Fabrication (SCF)",
-      
-      "abstract"  : "We present the first algorithm for designing volumetric Michell Trusses. Our method uses a parametrization-based approach to generate trusses made of structural elements aligned with the primary direction of an object’s stress field. Such trusses exhibit high strength-to-weight ratio while also being parametrically editable which can be easily integrated with parametric editing tools such as Autodesk Fusion. We show a number of examples that demonstrate that the output of our algorithm produces truss structures that are aligned with an object’s underlying stress tensor field, are structurally sound and that their global parametrization facilitates the creation of unique structures in a number of domains.",
-
-      "thumbnail" : "scf19_michell_truss.jpg",
-      "downloads" : [
-	    { "href"  : "/papers/scf19_michell_truss.pdf",
-		  "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-		},
-		{ "href"  : "https://youtu.be/C2nm4PcXNK0",
-		  "desc"  : "Video",
-		  "icon"  : "youtube",
-		  "icon-class" : "fab"
-		},
-		{ "href"  : "https://www.dgp.toronto.edu/projects/michell/",
-		  "desc"  : "Project page (code and more)",
-		  "icon"  : "external-link-alt"
-		},
-		{ "href"  : "https://photos.app.goo.gl/cVi2gCfoNfHjvr2V6",
-		  "desc"  : "Exhibit at UofT Robarts Library",
-		  "icon"  : "palette"
-		},
-        { "href"  : "https://arxiv.org/abs/1810.00706",
-          "desc"  : "arXiv (old)",
-		  "icon"  : "external-link-alt"
-        },
-		],
-	  "award"     : "<i class='fas fa-star'></i> Winner of U of T Libraries Graduate Student Exhibition Competition"
-    },
-    { "key"       : "gi18_michell_truss",
-      "bibtex"    : "gi18_michell_truss.bib",
-      "title"     : "Designing Volumetric Truss Structures for Computational Fabrication",
-      "date"      : "2018-05-08",
-      "authors"   : [ "Rahul Arora", "Alec Jacobson", "Timothy R. Langlois", "Karan Singh", "David I.W. Levin"],
-      "published" : "In Graphics Interface (GI '18) Posters",
-      
-      "abstract"  : "We present the first algorithm for designing volumetric Michell
-			Trusses. Our method uses a parametrization approach to generate
-			trusses made of structural elements aligned with the primary direc-
-			tion of an objects stress field. Such trusses exhibit high strength-to-
-			weight ratio while also being aesthetically pleasing.  Unlike tradi-
-			tional approaches to structural optimization, our method produces
-			trusses that can be edited as a post process but retain structural opti-
-			mality. We also demonstrate the structural robustness of our designs
-			via mechanical testing. Our algorithm permits an exciting combina-
-			tion of control and structural soundness which we believe serves as
-			an important compliment to existing structural optimization tools
-			and as a novel standalone design tool itself.",
-      "thumbnail" : "gi18_michell_truss.png",
-      "downloads" : [
-        { "href"  : "/papers/gi18_michell_truss_poster.pdf",
-          "desc"  : "Poster",
-		  "icon"  : "file-pdf"
-        },
-        { "href"  : "/papers/gi18_michell_truss_abstract.pdf",
-          "desc"  : "Extended Abstract",
-		  "icon"  : "file-pdf"
-        }
-		]
-    },
-    { "key"       : "chi18_symbiosis_sketch",
-      "bibtex"    : "chi18_symbiosis_sketch.bib",
-      "title"     : "SymbiosisSketch: Combining 2D and 3D Sketching for Designing Detailed 3D Objects in Situ",
-      "date"      : "2018-04-21",
-      "authors"   : [ "Rahul Arora", "Rubaiat Habib", "Tovi Grossman", "George Fitzmaurice", "Karan Singh"],
-      "published" : "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
-      
-      "abstract"  : "We present SymbiosisSketch, a hybrid sketching system that combines drawing in air (3D) and on a drawing surface (2D) to create detailed 3D designs of arbitrary scale in an augmented reality (AR) setting.
-		SymbiosisSketch leverages the complementary affordances of 3D (immersive, unconstrained, life-sized) and 2D (precise, constrained, ergonomic) interactions for in situ 3D conceptual design. A defining aspect of our system is the ongoing creation of surfaces from unorganized collections of 3D curves.
-		These surfaces serve a dual purpose: as 3D canvases to map strokes drawn on a 2D tablet, and as shape proxies to occlude the physical environment and hidden curves in a 3D sketch.
-		SymbiosisSketch users draw interchangeably on a 2D tablet or in 3D within an ergonomically comfortable canonical volume, mapped to arbitrary scale in AR.
-		Our evaluation study shows this hybrid technique to be easy to use in situ and effective in transcending the creative potential of either traditional sketching or drawing in air.",
-      "thumbnail" : "chi18_symbiosis_sketch.jpg",
-      "downloads" : [
-        { "href"  : "http://dx.doi.org/10.1145/3173574.3173759",
-          "desc"  : "DOI",
-		  "icon"  : "stamp"
-        },
-        { "href"  : "/papers/chi18_symbiosis_sketch.pdf",
-          "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-        },
-        { "href"  : "https://youtu.be/CaHnh_q2EIw",
-          "desc"  : "Video",
-		  "icon"  : "youtube",
-		  "icon-class" : "fab"
-        },
-		{ "href"  : "https://youtu.be/FufXQEbzoRQ",
-          "desc"  : "Talk at CHI",
-		  "icon"  : "tv"
-        },
-		{ "href"  : "https://www.utoronto.ca/news/u-t-and-autodesk-researchers-design-2d-3d-software-augmented-reality-drawing",
-		  "desc"  : "UofT News Article (EN)",
-		  "icon"  : "newspaper"
-		},
-		{ "href"  : "https://shiropen.com/seamless/symbiosissketch",
-		  "desc"  : "Seamless Article (JP)",
-		  "icon"  : "newspaper"
-		}
-		],
-    },
-	
-    { "key"       : "chi17_vr_sketching",
-      "bibtex"    : "chi17_vr_sketching.bib",
-      "title"     : "Experimental Evaluation of Sketching on Surfaces in VR",
-      "date"      : "2017-05-09",
-      "authors"   : [ "Rahul Arora", "Rubaiat Habib", "Fraser Anderson", "Tovi Grossman", "Karan Singh", "George Fitzmaurice" ],
-      "published" : "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
-      
-      "abstract"  : "Sketching in immersive 3D virtual reality (VR) environments has great potential for a variety of interactive 3D design applications. Precisely sketching the intended strokes in mid-air, however, can be a challenge.
-	  In this paper, we present a set of controlled studies to analyze the factors affecting human ability to sketch freely in a 3D VR environment.
-	  In our first study, we directly compare traditional sketching on a physical surface to sketching in VR, with and without a physical surface to rest the stylus on.
-	  Our results indicate that the lack of a physical drawing surface is a major cause of inaccuracies in VR drawing, and that the effect is dependent on the orientation of the drawing surface.
-	  In a second experiment, we evaluate the extent to which visual guidance can compensate for the loss of sketching precision in VR.
-	  We found that while additional visual guidance improves positional accuracy, it can be detrimental to the aesthetic quality of strokes.
-	  We conclude by distilling our experimental findings into design guidelines for sketching tools in immersive 3D environments.",
-
-      "thumbnail" : "chi17_vr_sketching.png",
-      "downloads" : [
-        { "href"  : "http://dx.doi.org/10.1145/3025453.3025474",
-          "desc"  : "DOI",
-		  "icon"  : "stamp"
-        },
-        { "href"  : "/papers/chi17_vr_sketching.pdf",
-          "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-        },
-        { "href"  : "https://youtu.be/CFa2zFC-yNI",
-          "desc"  : "Video",
-		  "icon"  : "youtube",
-		  "icon-class" : "fab"
-        },
-		{ "href"  : "https://github.com/rarora7777/VRSketchingStudyCHI17",
-		  "desc"  : "Data and code",
-		  "icon"  : "github",
-		  "icon-class" : "fab"
-		},
-		{ "href"  : "https://www.dropbox.com/s/9nicstv8r6bhwtm/VR_Sketching_CHI17.pptx?dl=0",
-		  "desc"  : "Slides",
-		  "icon"  : "file-powerpoint"
-		}
-		]
-    },
-
-    { "key"       : "cgf17_sketchsoup",
-      "bibtex"    : "cgf17_sketchsoup.bib",
-      "title"     : "SketchSoup: Exploratory Ideation using Design Sketching",
-      "date"      : "2017-02-01",
-      "authors"   : [ "Rahul Arora", "Ishan Darolia", "Vinay P. Namboodiri", "Karan Singh", "Adrien Bousseau"],
-      "published" : "Computer Graphics Forum (CGF), presented at Eurographics",
-      
-      "abstract"  : "A hallmark of early stage design is a number of quick-and-dirty sketches capturing design inspirations, model variations, and 	alternate viewpoints of a visual concept. We present SketchSoup, a workflow that allows designers to explore the design space induced by such sketches. We take an unstructured collection of drawings as input, along with a small number of user-provided correspondences as input. We register them using a multi-image matching algorithm, and present them as a 2D interpolation space.
-		By morphing sketches in this space, our approach produces plausible visualizations of shape and viewpoint variations despite the presence of sketch distortions that would prevent standard camera calibration and 3D reconstruction. In addition, our interpolated sketches can serve as inspiration for further drawings, which feed back into the design space as additional image inputs.
-		SketchSoup thus fills a significant gap in the early ideation stage of conceptual design by allowing designers to make better informed choices before proceeding to more expensive 3D modeling and prototyping. From a technical standpoint, we describe an end-to-end system that judiciously combines and adapts various image processing techniques to the drawing domain&mdash;where the images are dominated not by color, shading and texture, but by sketchy stroke contours.",
-      "thumbnail" : "cgf17_sketchsoup.png",
-      "downloads" : [
-        { "href"  : "http://dx.doi.org/10.1111/cgf.13081",
-          "desc"  : "DOI",
-		  "icon"  : "stamp"
-        },
-        { "href"  : "/papers/cgf17_sketchsoup.pdf",
-          "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-        },
-        { "href"  : "https://www.dropbox.com/s/l762e3zr92rwolr/cgf17_sketchsoup.mp4?raw=1",
-          "desc"  : "Video",
-		  "icon"  : "video"
-        },
-		{ "href"  : "https://www.dropbox.com/s/qbbubimeeto10yd/cgf17_sketchsoup_comparison.mp4?raw=1",
-          "desc"  : "Comparisons Video",
-		  "icon"  : "video"
-        },
-		{ "href"  : "https://www.dropbox.com/s/405hjgkpix37yla/SketchSoup_EG17.pptx?dl=0",
-		  "desc"  : "Slides",
-		  "icon"  : "file-powerpoint"
-		}
-	  ]
-    },
-
-    { "key"       : "stacs16_k33free",
-      "bibtex"    : "stacs16_k33free.bib",
-      "title"     : "Derandomizing Isolation Lemma for K<sub>3,3</sub>-free and K<sub>5</sub>-free Bipartite Graphs",
-      "date"      : "2016-08-01",
-      "authors"   : [ "Rahul Arora", "Ashu Gupta", "Rohit Gurjar", "Raghunath Tewari" ],
-      "published" : "Symposium on Theoretical Aspects of Computer Science (STACS)",
-      
-      "abstract"  : "The perfect matching problem has a randomized NC algorithm, using the celebrated Isolation Lemma of Mulmuley, Vazirani and Vazirani.
-		The Isolation Lemma states that giving a random weight assignment to the edges of a graph ensures that it has a unique minimum weight perfect matching, with a good probability. 
-		We derandomize this lemma for K<sub>3,3</sub>-free and K<sub>5</sub>-free bipartite graphs. That is, we give a deterministic log-space construction of such a weight assignment for these graphs. 
-		Such a construction was known previously for planar bipartite graphs. 
-		Our result implies that the perfect matching problem for K<sub>3,3</sub>-free and K<sub>5</sub>-free bipartite graphs is in SPL.
-		It also gives an alternate proof for an already known result&mdash;reachability for K<sub>3,3</sub>-free and K<sub>5</sub>-free graphs is in UL.",
-
-      "thumbnail" : "stacs16_k33free.png",
-      "downloads" : [
-		{ "href"  : "http://dx.doi.org/10.4230/LIPIcs.STACS.2016.10",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-        { "href"  : "/papers/stacs16_k33free.pdf",
-          "desc"  : "Paper",
-		  "icon"  : "file-pdf"
-        },
-		{ "href"  : "https://eccc.weizmann.ac.il/report/2014/161/",
-		  "desc"  : "Full version (ECCC)",
-		  "icon"  : "external-link-alt"
-		}
-	  ]
-    }
-  ]
+	]
 }
