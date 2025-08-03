@@ -1,47 +1,49 @@
 {
-  "heading" : {
-    "en" : "Theses"},
-
-  "theses" : [ 
-    { "key"       : "uoft21_phd",
-      "bibtex"    : "uoft21_phd.bib",
-      "title"     : "Creative Visual Expression in Immersive 3D Environments",
-      "date"      : "2021-07-20",
-      "institution" : "PhD Thesis, University of Toronto",
-      
-      "abstract"  : "Recent developments in immersive technologies of virtual and augmented realities (VR/AR) have opened up the immersive space for 3D creation. By removing the crutch of two-dimensional proxies for input and output, the immersive medium presents a significant advance in the design of intuitive interfaces for 3D creative expression. However, immersion also presents its own unique challenges in precision, control, ergonomics, and perception. This thesis advocates for a human-centred approach to the design of creative tools for immersive environments. Conducting interviews, observational studies, and formal quantitative experiments reveals insights into the needs and aspirations of future users of immersive tools. These user studies build fundamental knowledge about the limitations of human perception and our musculoskeletal system. These insights are then utilized to build concrete design guidelines for immersive creation tools. We present four immersive tools, targeted at sketching, modelling, and animation tasks in VR/AR. These tools harness 3D mid-air interactions to improve the user experience for existing design tasks, and to enable novel design aesthetics.",
-
-      "thumbnail" : "uoft21_phd.png",
-      "downloads" : [
-		{ "href"  : "https://doi.org/1807/108952",
-		  "desc"  : "DOI",
-		  "icon"  : "stamp"
-		},
-		{ "href"  : "/thesis/thesis.pdf",
-		  "desc"  : "Document",
-		  "icon"  : "file-pdf"
-		},
-		{ "href"  : "/thesis/",
-		  "desc"  : "Project page",
-		  "icon"  : "external-link-alt"}
-		],
+  "heading": {
+    "en": "Theses"
+  },
+  "theses": [
+    {
+      "key": "uoft21_phd",
+      "bibtex": "uoft21_phd.bib",
+      "title": "Creative Visual Expression in Immersive 3D Environments",
+      "date": "2021-07-20",
+      "institution": "PhD Thesis, University of Toronto",
+      "abstract": "Recent developments in immersive technologies of virtual and augmented realities (VR/AR) have opened up the immersive space for 3D creation. By removing the crutch of two-dimensional proxies for input and output, the immersive medium presents a significant advance in the design of intuitive interfaces for 3D creative expression. However, immersion also presents its own unique challenges in precision, control, ergonomics, and perception. This thesis advocates for a human-centred approach to the design of creative tools for immersive environments. Conducting interviews, observational studies, and formal quantitative experiments reveals insights into the needs and aspirations of future users of immersive tools. These user studies build fundamental knowledge about the limitations of human perception and our musculoskeletal system. These insights are then utilized to build concrete design guidelines for immersive creation tools. We present four immersive tools, targeted at sketching, modelling, and animation tasks in VR/AR. These tools harness 3D mid-air interactions to improve the user experience for existing design tasks, and to enable novel design aesthetics.",
+      "thumbnail": "uoft21_phd.png",
+      "downloads": [
+        {
+          "href": "https://doi.org/1807/108952",
+          "desc": "DOI",
+          "icon": "stamp"
+        },
+        {
+          "href": "/thesis/thesis.pdf",
+          "desc": "Document",
+          "icon": "file-pdf"
+        },
+        {
+          "href": "/thesis/",
+          "desc": "Project page",
+          "icon": "external-link-alt"
+        }
+      ]
     },
-	{ "key"       : "iitk15_mt",
-      "bibtex"    : "iitk15_mt.bib",
-      "title"     : "Exploring Design Space by Interpolating Between Multiple Sketches",
-      "date"      : "2015-07-20",
-      "institution" : "Masters Thesis, IIT Kanpur",
-      
-      "abstract"  : "Designers start product design process by drawing various quick and imperfect sketches. In this process, they represent the target concept via multiple shapes and geometric perspectives. We present a sketch-based rendering method and a tool built on top of it to help designers explore the design space induced by sketches of a single concept. Our tool allows a designer to visualize novel sketches by mixing and matching between the geometric and visual properties of multiple sketches.<br/>
-	  The method relies on an iterative algorithm to match and warp between sketches using minimal user interaction. We modify known techniques for image matching, warping and morphing to adapt to the unique challenges posed by sketchy inputs, and combine them to allow quick navigation of the design space of sketches. Our tool tries to fill a gap in the initial stage of the product design pipeline, allowing designers and their patrons to make better informed choices before proceeding to the time-consuming and expensive parts of the pipeline involving CAD, 3D design and rendering and/or 3D printing.",
-
-      "thumbnail" : "iitk15_mt.png",
-      "downloads" : [
-		{ "href"  : "/mt_thesis.pdf",
-		  "desc"  : "Document",
-		  "icon"  : "file-pdf"
-		}
-		]
+    {
+      "key": "iitk15_mt",
+      "bibtex": "iitk15_mt.bib",
+      "title": "Exploring Design Space by Interpolating Between Multiple Sketches",
+      "date": "2015-07-20",
+      "institution": "Masters Thesis, IIT Kanpur",
+      "abstract": "Designers start product design process by drawing various quick and imperfect sketches. In this process, they represent the target concept via multiple shapes and geometric perspectives. We present a sketch-based rendering method and a tool built on top of it to help designers explore the design space induced by sketches of a single concept. Our tool allows a designer to visualize novel sketches by mixing and matching between the geometric and visual properties of multiple sketches.<br/> The method relies on an iterative algorithm to match and warp between sketches using minimal user interaction. We modify known techniques for image matching, warping and morphing to adapt to the unique challenges posed by sketchy inputs, and combine them to allow quick navigation of the design space of sketches. Our tool tries to fill a gap in the initial stage of the product design pipeline, allowing designers and their patrons to make better informed choices before proceeding to the time-consuming and expensive parts of the pipeline involving CAD, 3D design and rendering and/or 3D printing.",
+      "thumbnail": "iitk15_mt.png",
+      "downloads": [
+        {
+          "href": "/mt_thesis.pdf",
+          "desc": "Document",
+          "icon": "file-pdf"
+        }
+      ]
     }
-	]
+  ]
 }

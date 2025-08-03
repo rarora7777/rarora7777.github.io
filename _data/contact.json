@@ -1,49 +1,59 @@
-{ 
-  "heading" : {
-    "en" : "Contact"},
-
-  "email" : "mail@rahularora.xyz", 
-
-  "email_label" : {
-    "en" : "<i class='fas fa-envelope'></i>"},
-
-  "alternative_emails" : [ 
-	"arorar@dgp.toronto.edu"],
-
-  "alternative_label" : {
-    "en" : ""
-	},
-
-  "refs" : [ 
-  	{ "name" : "<i class='fab fa-github-square'></i> GitHub", "href" : "https://github.com/rarora7777" },
-	{ "name" : "<i class='fas fa-graduation-cap'></i> Google Scholar", "href" : "https://scholar.google.ca/citations?user=8T5P-j4AAAAJ&hl=en" },
-	{ "name" : "<i class='fab fa-linkedin'></i> LinkedIn", "href" : "https://www.linkedin.com/in/rahul-arora-94782946/" },
-	{ "name" : "<i class='fab fa-researchgate'></i> ResearchGate", "href" : "https://www.researchgate.net/profile/Rahul_Arora14" },
-	{ "name" : "<i class='fab fa-twitter-square'></i> Twitter", "href" : "https://twitter.com/rarora7" },
-	{ "name" : "<i class='fab fa-goodreads'></i> Goodreads", "href" : "https://www.goodreads.com/user/show/28064389-rahul" },
-  	],
-
-  "refs_label" : {
-    "en" : "<i class='fas fa-user'></i>"},
-
-  "formspree" : "arorar@dgp.toronto.edu",
-
-  "form_legend" : {
-    "en" : "Drop Me a Line"},
-
-  "name_label" : {
-    "en" : "Name",
-    "de" : "Name" },
-
-  "message_label" : {
-    "en" : "Message",
-    "de" : "Nachricht" },
-
-  "submit_button" : {
-    "en" : "Submit",
-    "de" : "Absenden" },
-
-   "submit_info" : {
-   	"en" : "To arorar@dgp.toronto.edu via <a href='https://formspree.io/'>Formspree</a>."},
-
+{
+  "heading": {
+    "en": "Contact"
+  },
+  "email": "mail@rahularora.xyz",
+  "email_label": {
+    "en": "<i class='fas fa-envelope'></i>"
+  },
+  "alternative_emails": [
+    "arorar@dgp.toronto.edu"
+  ],
+  "alternative_label": {
+    "en": ""
+  },
+  "refs": [
+    {
+      "name": "<i class='fab fa-github-square'></i> GitHub",
+      "href": "https://github.com/rarora7777"
+    },
+    {
+      "name": "<i class='fas fa-graduation-cap'></i> Google Scholar",
+      "href": "https://scholar.google.ca/citations?user=8T5P-j4AAAAJ&hl=en"
+    },
+    {
+      "name": "<i class='fab fa-linkedin'></i> LinkedIn",
+      "href": "https://www.linkedin.com/in/rahul-arora-94782946/"
+    },
+    {
+      "name": "<i class='fab fa-researchgate'></i> ResearchGate",
+      "href": "https://www.researchgate.net/profile/Rahul_Arora14"
+    },
+    {
+      "name": "<i class='fab fa-goodreads'></i> Goodreads",
+      "href": "https://www.goodreads.com/user/show/28064389-rahul"
+    }
+  ],
+  "refs_label": {
+    "en": "<i class='fas fa-user'></i>"
+  },
+  "formspree": "mail@rahularora.xyz",
+  "form_legend": {
+    "en": "Drop Me a Line"
+  },
+  "name_label": {
+    "en": "Name",
+    "de": "Name"
+  },
+  "message_label": {
+    "en": "Message",
+    "de": "Nachricht"
+  },
+  "submit_button": {
+    "en": "Submit",
+    "de": "Absenden"
+  },
+  "submit_info": {
+    "en": "To mail@rahularora.xyz via <a href='https://formspree.io/'>Formspree</a>."
+  }
 }
