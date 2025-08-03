@@ -3,6 +3,32 @@
     "en" : "Publications"
 	},
   "publications" : [
+	{ "key"       : "nature25_emg",
+      "bibtex"    : "nature25_emg.bib",
+      "title"     : "A Generic Non-Invasive Neuromotor Interface for Human-Computer Interaction",
+      "date"      : "2025-07-23",
+      "authors"   : [ "Patrick Kaifosh", "Thomas R. Reardon", "CTRL-Labs at Reality Labs (243 contributors including Rahul Arora)" ],
+      "published" : "Nature",
+      "thumbnail" : "nature25_emg.png",
+      "downloads" : [
+		{ "href"  : "https://doi.org/10.1038/s41586-025-09255-w",
+		  "desc"  : "DOI",
+		  "icon"  : "stamp"
+		},
+		{ "href"  : "/papers/nature25_emg.pdf",
+		  "desc"  : "PDF",
+		  "icon"  : "file-pdf"
+		},
+		{ "href"  : "https://www.nytimes.com/2025/07/23/science/meta-computer-wristband-reardon.html",
+		  "desc"  : "New York Times",
+		  "icon"  : "newspaper"
+		},
+		{ "href"  : "https://www.meta.com/emerging-tech/emg-wearable-technology/",
+		  "desc"  : "Meta Blog",
+		  "icon"  : "blog"
+		}
+		]
+    },
 	{ "key"       : "book_chapter_applications",
       "bibtex"    : "book_chapter_applications.bib",
       "title"     : "3D Sketching Application Scenarios",
@@ -135,8 +161,9 @@
 		},
 		{ "href"  : "",
 		  "desc"  : "Project page (code and more) coming soon",
-		  "icon"  : "external-link-alt"}
-		],
+		  "icon"  : "external-link-alt"
+		}
+	  ]
     },
 	{ "key"       : "tog21_midair",
       "bibtex"    : "tog21_midair.bib",
@@ -170,7 +197,7 @@
 		  "desc"  : "Project page (code and more)",
 		  "icon"  : "external-link-alt"
 		}
-		],
+		]
     },
 	{ "key"       : "chi21_cassie",
       "bibtex"    : "chi21_cassie.bib",
@@ -253,7 +280,7 @@
           "desc"  : "Project page (code and more)",
 		  "icon"  : "external-link-alt"
         }
-		],
+		]
     },
 	{ "key"       : "scf19_michell_truss",
       "bibtex"    : "scf19_michell_truss.bib",
@@ -309,7 +336,6 @@
 			tion of control and structural soundness which we believe serves as
 			an important compliment to existing structural optimization tools
 			and as a novel standalone design tool itself.",
-
       "thumbnail" : "gi18_michell_truss.png",
       "downloads" : [
         { "href"  : "/papers/gi18_michell_truss_poster.pdf",
@@ -319,8 +345,8 @@
         { "href"  : "/papers/gi18_michell_truss_abstract.pdf",
           "desc"  : "Extended Abstract",
 		  "icon"  : "file-pdf"
-        },
-		],
+        }
+		]
     },
     { "key"       : "chi18_symbiosis_sketch",
       "bibtex"    : "chi18_symbiosis_sketch.bib",
@@ -334,7 +360,6 @@
 		These surfaces serve a dual purpose: as 3D canvases to map strokes drawn on a 2D tablet, and as shape proxies to occlude the physical environment and hidden curves in a 3D sketch.
 		SymbiosisSketch users draw interchangeably on a 2D tablet or in 3D within an ergonomically comfortable canonical volume, mapped to arbitrary scale in AR.
 		Our evaluation study shows this hybrid technique to be easy to use in situ and effective in transcending the creative potential of either traditional sketching or drawing in air.",
-
       "thumbnail" : "chi18_symbiosis_sketch.jpg",
       "downloads" : [
         { "href"  : "http://dx.doi.org/10.1145/3173574.3173759",
@@ -403,8 +428,8 @@
 		{ "href"  : "https://www.dropbox.com/s/9nicstv8r6bhwtm/VR_Sketching_CHI17.pptx?dl=0",
 		  "desc"  : "Slides",
 		  "icon"  : "file-powerpoint"
-		},
-		],
+		}
+		]
     },
 
     { "key"       : "cgf17_sketchsoup",
@@ -417,7 +442,6 @@
       "abstract"  : "A hallmark of early stage design is a number of quick-and-dirty sketches capturing design inspirations, model variations, and 	alternate viewpoints of a visual concept. We present SketchSoup, a workflow that allows designers to explore the design space induced by such sketches. We take an unstructured collection of drawings as input, along with a small number of user-provided correspondences as input. We register them using a multi-image matching algorithm, and present them as a 2D interpolation space.
 		By morphing sketches in this space, our approach produces plausible visualizations of shape and viewpoint variations despite the presence of sketch distortions that would prevent standard camera calibration and 3D reconstruction. In addition, our interpolated sketches can serve as inspiration for further drawings, which feed back into the design space as additional image inputs.
 		SketchSoup thus fills a significant gap in the early ideation stage of conceptual design by allowing designers to make better informed choices before proceeding to more expensive 3D modeling and prototyping. From a technical standpoint, we describe an end-to-end system that judiciously combines and adapts various image processing techniques to the drawing domain&mdash;where the images are dominated not by color, shading and texture, but by sketchy stroke contours.",
-
       "thumbnail" : "cgf17_sketchsoup.png",
       "downloads" : [
         { "href"  : "http://dx.doi.org/10.1111/cgf.13081",
@@ -439,7 +463,8 @@
 		{ "href"  : "https://www.dropbox.com/s/405hjgkpix37yla/SketchSoup_EG17.pptx?dl=0",
 		  "desc"  : "Slides",
 		  "icon"  : "file-powerpoint"
-		}],
+		}
+	  ]
     },
 
     { "key"       : "stacs16_k33free",
@@ -470,7 +495,7 @@
 		  "desc"  : "Full version (ECCC)",
 		  "icon"  : "external-link-alt"
 		}
-		],
+	  ]
     }
   ]
 }
