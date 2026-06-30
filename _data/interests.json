@@ -1,10 +1,57 @@
 {
-	"heading": {
-		"en": "Interests"
-	},
-	"text": [
-		"In my free time, I like to play squash and badminton and to perform culinary experiments. Thanks to <a href='http://mtao.graphics' target='_blank'>Michael Tao</a>, I also know some lifting.<br/>",
-		"I&#39;m perennially trying to be better at sketching. Some of my sketches can be found <a href='https://goo.gl/photos/svAQj3TkUw1bETGCA' target='_blank'>here</a>. Please note that a few depict naked figure drawings and may be considered <a href='https://en.wikipedia.org/wiki/Not_safe_for_work' target='_blank'>NSFW</a> in some cultures.<br/>",
-		"I'm fluent in Hindi and English, and am trying (not hard enough) to improve my French and Punjabi."
-	]
+  "heading": {
+    "en": "Beyond Work"
+  },
+  "intro": {
+    "en": "Outside research and product work, I spend time on sports, cooking, language learning, and sketch-based art."
+  },
+  "highlights": {
+    "en": [
+      "I play squash and badminton, and I am usually experimenting with something in the kitchen.",
+      "I am fluent in Hindi and English, and I keep trying to improve my French and Punjabi."
+    ]
+  },
+  "artwork": {
+    "heading": {
+      "en": "Artwork"
+    },
+    "teaser": {
+      "en": "Figure studies, sketchbook experiments, and personal drawing practice. Some pieces include nudity and may be NSFW depending on your context."
+    },
+    "service_note": {
+      "en": "For a dedicated external portfolio, I recommend Cargo as the primary home because it is portfolio-oriented and designer-friendly. Pixieset is the simpler fallback if the goal is a fast image-grid presentation."
+    },
+    "gallery_label": {
+      "en": "Open full gallery"
+    },
+    "gallery_href": "https://goo.gl/photos/svAQj3TkUw1bETGCA",
+    "service_links": [
+      {
+        "label": "Cargo",
+        "href": "https://cargo.site/"
+      },
+      {
+        "label": "Pixieset",
+        "href": "https://pixieset.com/website/"
+      }
+    ],
+    "previews": [
+      {
+        "thumbnail": "chi18_symbiosis_sketch.jpg",
+        "title": "Expressive line study"
+      },
+      {
+        "thumbnail": "cgf17_sketchsoup.png",
+        "title": "Concept sketch exploration"
+      },
+      {
+        "thumbnail": "uist19_magical_hands.png",
+        "title": "Gesture-driven drawing ideas"
+      },
+      {
+        "thumbnail": "scf19_michell_truss.jpg",
+        "title": "Fabrication-inspired form"
+      }
+    ]
+  }
 }

@@ -1,0 +1,47 @@
+<div class="section-heading">
+  <p class="section-eyebrow">Portfolio</p>
+  <h2>{{ site.data.projects.heading.[page.lang] | escape }}</h2>
+  <p class="section-intro">{{ site.data.projects.intro.[page.lang] }}</p>
+</div>
+
+{% for group in site.data.projects.groups %}
+<div class="project-group">
+  <div class="project-group-header">
+    <h3>{{ group.title.[page.lang] }}</h3>
+  </div>
+  <div class="row project-grid">
+    {% for p in group.items %}
+    <div class="col-lg-4 col-md-6 project-card-wrap">
+      <article class="project-card">
+        <div class="project-card-image">
+          {% assign thumbnail_src = p.thumbnail %}
+          {% assign thumbnail_alt = p.title %}
+          {% assign thumbnail_flickr = p.flickr %}
+          {% include thumbnail.html %}
+        </div>
+        <div class="project-card-body">
+          <p class="project-period">{{ p.period }}</p>
+          <h4>{{ p.title }}</h4>
+          <p class="project-summary">{{ p.summary }}</p>
+          <p class="project-context">{{ p.context }}</p>
+          {% if p.tags %}
+          <div class="project-tags">
+            {% for tag in p.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+          {% if p.links %}
+          <p class="project-links">
+            {% for link in p.links %}
+            <a href="{% if link.href contains '://' or link.href contains '#' %}{{ link.href }}{% else %}{{ site.baseurl }}{{ link.href }}{% endif %}">{{ link.label }}</a>{% if link != p.links.last %}<span class="link-sep">·</span>{% endif %}
+            {% endfor %}
+          </p>
+          {% endif %}
+        </div>
+      </article>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

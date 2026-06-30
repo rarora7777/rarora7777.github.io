@@ -1,0 +1,193 @@
+{
+  "heading": {
+    "en": "Projects"
+  },
+  "intro": {
+    "en": "Selected work organized for recruiters and collaborators who want a quick read on scope, outcomes, and the kinds of teams I work well with."
+  },
+  "groups": [
+    {
+      "key": "meta",
+      "title": {
+        "en": "Meta"
+      },
+      "items": [
+        {
+          "group": "meta",
+          "title": "Neuromotor Interface for EMG Wearables",
+          "period": "2021-Present",
+          "summary": "Contributed to the interaction and evaluation effort behind a generic non-invasive EMG interface for human-computer interaction, including sensing-driven interaction concepts and large-scale study workflows.",
+          "context": "Research Scientist, Meta Reality Labs",
+          "tags": [
+            "Wearables",
+            "EMG",
+            "Human-Computer Interaction",
+            "User Studies"
+          ],
+          "thumbnail": "nature25_emg.png",
+          "links": [
+            {
+              "href": "https://doi.org/10.1038/s41586-025-09255-w",
+              "label": "Nature paper"
+            },
+            {
+              "href": "https://www.meta.com/emerging-tech/emg-wearable-technology/",
+              "label": "Meta overview"
+            }
+          ]
+        },
+        {
+          "group": "meta",
+          "title": "Interaction Concepts for AR Glasses",
+          "period": "2021-Present",
+          "summary": "Developing multimodal interaction techniques and prototype experiences for next-generation AR glasses, with an emphasis on how sensing, gesture design, and product storytelling fit together.",
+          "context": "Research Scientist, Meta Reality Labs",
+          "tags": [
+            "AR Glasses",
+            "Prototyping",
+            "Interaction Design",
+            "Sensor Fusion"
+          ],
+          "thumbnail": "nature25_emg.png",
+          "links": [
+            {
+              "href": "https://www.meta.com/emerging-tech/orion/",
+              "label": "Orion overview"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "phd",
+      "title": {
+        "en": "PhD"
+      },
+      "items": [
+        {
+          "group": "phd",
+          "title": "Mid-Air Drawing on 3D Surfaces in VR",
+          "period": "2020-2021",
+          "summary": "Defined and evaluated projection techniques that let people draw usable curves directly onto 3D geometry in VR, balancing precision, comfort, and expressivity.",
+          "context": "PhD research, University of Toronto",
+          "tags": [
+            "Virtual Reality",
+            "3D Drawing",
+            "Interaction Techniques",
+            "Evaluation"
+          ],
+          "thumbnail": "tog21_midair.png",
+          "links": [
+            {
+              "href": "/papers/tog21_midair_drawing_surfaces.pdf",
+              "label": "Paper"
+            },
+            {
+              "href": "/mimicry/",
+              "label": "Project page"
+            }
+          ]
+        },
+        {
+          "group": "phd",
+          "title": "SymbiosisSketch for In-Situ 3D Design",
+          "period": "2017-2018",
+          "summary": "Built a hybrid AR workflow combining tablet sketching with immersive 3D input so designers could move between rough ideation and detailed spatial edits more fluidly.",
+          "context": "PhD research with Autodesk collaboration",
+          "tags": [
+            "Augmented Reality",
+            "Design Tools",
+            "Cross-Device Input",
+            "CHI"
+          ],
+          "thumbnail": "chi18_symbiosis_sketch.jpg",
+          "links": [
+            {
+              "href": "/papers/chi18_symbiosis_sketch.pdf",
+              "label": "Paper"
+            },
+            {
+              "href": "https://www.utoronto.ca/news/u-t-and-autodesk-researchers-design-2d-3d-software-augmented-reality-drawing",
+              "label": "News coverage"
+            }
+          ]
+        },
+        {
+          "group": "phd",
+          "title": "MagicalHands Gesture Authoring in VR",
+          "period": "2018-2019",
+          "summary": "Ran gesture elicitation research and built a proof-of-concept system for authoring animation in VR using mid-air hand input instead of conventional controllers.",
+          "context": "PhD research with Adobe collaboration",
+          "tags": [
+            "Gestures",
+            "Animation Tools",
+            "Virtual Reality",
+            "UIST"
+          ],
+          "thumbnail": "uist19_magical_hands.png",
+          "links": [
+            {
+              "href": "https://www.dgp.toronto.edu/projects/magical-hands/",
+              "label": "Project page"
+            },
+            {
+              "href": "http://www.dgp.toronto.edu/projects/magical-hands/magical_hands_uist19_arora_et_al.pdf",
+              "label": "Paper"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "earlier-work",
+      "title": {
+        "en": "Earlier Work"
+      },
+      "items": [
+        {
+          "group": "earlier-work",
+          "title": "Volumetric Michell Trusses",
+          "period": "2018-2020",
+          "summary": "Co-developed a computational fabrication pipeline for editable truss structures aligned with stress fields, bridging geometry processing, structural reasoning, and real-world exhibition work.",
+          "context": "Research collaboration spanning graphics and fabrication",
+          "tags": [
+            "Computational Fabrication",
+            "Geometry Processing",
+            "Parametric Design",
+            "Exhibition"
+          ],
+          "thumbnail": "scf19_michell_truss.jpg",
+          "links": [
+            {
+              "href": "/papers/scf19_michell_truss.pdf",
+              "label": "Paper"
+            },
+            {
+              "href": "https://www.dgp.toronto.edu/projects/michell/",
+              "label": "Project page"
+            }
+          ]
+        },
+        {
+          "group": "earlier-work",
+          "title": "SketchSoup Design Exploration",
+          "period": "2015-2017",
+          "summary": "Built an exploratory sketch interpolation workflow that helped designers navigate alternative concepts before committing to full 3D modeling or fabrication.",
+          "context": "Masters-to-PhD transition research",
+          "tags": [
+            "Sketch-Based Interfaces",
+            "Design Exploration",
+            "Computer Graphics"
+          ],
+          "thumbnail": "cgf17_sketchsoup.png",
+          "links": [
+            {
+              "href": "/papers/cgf17_sketchsoup.pdf",
+              "label": "Paper"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

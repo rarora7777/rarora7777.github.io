@@ -1,0 +1,52 @@
+{% assign p = include.item %}
+<article class="publication-row">
+  <div class="row publication-row-inner">
+    <div class="col-lg-2 col-sm-3 publication-thumb">
+      {% assign thumbnail_src = p.thumbnail %}
+      {% assign thumbnail_alt = p.title %}
+      {% assign thumbnail_flickr = p.flickr %}
+      {% include thumbnail.html %}
+    </div>
+    <div class="hidden-sm-up mb-1 col-xs"></div>
+    <div class="col-lg-10 col-sm-9 publication-body">
+      <h4>{{ p.title }}</h4>
+      {% if include.item_type == "publication" %}
+      <p class="publication-meta">
+        {% for author in p.authors %}{% if author == p.authors.last and p.authors.size > 1 %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}
+        <br><span class="text-muted">{{ p.published }} {{ p.date | date: '%Y' }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}</span>
+        {% if p.award %}<br><span class="text-primary font-weight-bold">{{ p.award }}</span>{% endif %}
+      </p>
+      {% else %}
+      <p class="publication-meta">
+        <span class="text-muted">{{ p.institution }} {{ p.date | date: '%Y' }}{% if p.lead_note %}, {{ p.lead_note }}{% endif %}</span>
+        {% if p.award %}<br><span class="text-primary font-weight-bold">{{ p.award }}</span>{% endif %}
+      </p>
+      {% endif %}
+
+      <p class="publication-summary">{{ p.summary }}</p>
+
+      <p class="publication-links">
+        {% if p.abstract %}<a data-toggle="collapse" href="#abstract-{{ p.key }}"><i class='fas fa-align-justify'></i> Abstract</a>{% if p.bibtex or p.downloads %}<span class="link-sep">·</span>{% endif %}{% endif %}
+        {% if p.bibtex %}<a data-toggle="collapse" href="#bibtex-{{ p.key }}"><i class='fas fa-database'></i> BibTeX</a>{% if p.downloads %}<span class="link-sep">·</span>{% endif %}{% endif %}
+        {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}">{% if download.icon %}<i class='{% if download.icon-class %}{{ download.icon-class}}{% else %}fas{% endif %} fa-{{download.icon}}'></i>{% endif %} {{ download.desc | escape }}</a>{% if download != p.downloads.last %}<span class="link-sep">·</span>{% endif %}{% endfor %}{% endif %}
+      </p>
+
+      {% if p.abstract %}
+      <div class="collapse abstract" id="abstract-{{ p.key }}">
+        <p>{{ p.abstract }}</p>
+      </div>
+      {% endif %}
+
+      {% if p.bibtex %}
+      <div class="collapse bibtex" id="bibtex-{{ p.key }}">
+        <div class="btn-clipboard-parent">
+          <button type="button" data-clipboard-target="#bibtex-data-{{ p.key }}" class="btn btn-sm btn-clipboard">Copy to Clipboard</button>
+        </div>
+        <div class="card card-block">
+          <pre id="bibtex-data-{{ p.key }}">{% include /bib/{{ p.bibtex }} %}</pre>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</article>

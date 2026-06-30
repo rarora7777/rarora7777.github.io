@@ -40,7 +40,7 @@ For the development and testing of the website jekyll (https://jekyllrb.com/) is
 ```
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 ```
-* Now close the command prompt and open a new one (not necessarily with administrative priviliges) to install jekyll (which requires ruby) by running:
+* Now close the command prompt and open a new one (not necessarily with administrative privileges) to install jekyll (which requires ruby) by running:
 ```
 choco install ruby -y
 gem install jekyll

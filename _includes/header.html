@@ -1,13 +1,28 @@
 {% assign header = site.data.header %}
-<header>
-  <div class="row flex-items-xs-center text-xs-center">
-    <div class="col-md-6 col-sm-8">
-      <img class="rounded img-fluid" {{ site.default_header_img_dimensions }} src="{{site.baseurl}}/img/{{ header.picture }}" alt="portrait">
+<header class="hero">
+  <div class="row flex-items-xs-center hero-row">
+    <div class="col-lg-7 col-md-7 hero-copy">
+      <p class="hero-kicker">Research Scientist · Spatial Computing · Multimodal Interaction</p>
+      <h1>{{ header.headline.[page.lang] }}</h1>
+      <p class="hero-subheadline">{{ header.subheadline.[page.lang] }}</p>
+      <p class="hero-summary">{{ header.summary.[page.lang] }}</p>
+      {% if header.highlights.[page.lang] %}
+      <ul class="hero-highlights">
+        {% for item in header.highlights.[page.lang] %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if header.cta_links %}
+      <div class="hero-actions">
+        {% for link in header.cta_links %}
+        <a class="btn {% if link.style == 'primary' %}btn-primary{% else %}btn-outline-primary{% endif %}" href="{% if link.href contains '://' or link.href contains '#' %}{{ link.href }}{% else %}{{ site.baseurl }}{{ link.href }}{% endif %}">{{ link.label.[page.lang] }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
-    <div class="col-md-10">
-      <h1>{{ header.heading.[page.lang] | escape }}</h1>
-      <p class="lead">{{ header.lead.[page.lang] }}</p>
-      <p class="text-xs-left">{{ header.about.[page.lang]|join(" ") }}</p>
+    <div class="col-lg-5 col-md-5 col-sm-8 hero-portrait">
+      <img class="rounded img-fluid" {{ site.default_header_img_dimensions }} src="{{site.baseurl}}/img/{{ header.picture }}" alt="Portrait of Rahul Arora">
     </div>
   </div>
 </header>

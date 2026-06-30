@@ -1,10 +1,46 @@
-<div class="row text-xs-center">
-  <div class="col-xs">
-    <h1>{{ site.data.interests.heading.[page.lang] | escape }}</h1>
-  </div>
+<div class="section-heading">
+  <p class="section-eyebrow">Personal</p>
+  <h2>{{ site.data.interests.heading.[page.lang] | escape }}</h2>
+  <p class="section-intro">{{ site.data.interests.intro.[page.lang] }}</p>
 </div>
-  <div class="row flex-items-xs-center text-xs-center">
-    <div class="col-md-10">
-      <p class="text-xs-left">{{ site.data.interests.text|join(" ") }}</p>
+
+<div class="row">
+  <div class="col-lg-8">
+    <div class="personal-copy">
+      {% for item in site.data.interests.highlights.[page.lang] %}
+      <p>{{ item }}</p>
+      {% endfor %}
     </div>
   </div>
+</div>
+
+<div class="artwork-block">
+  <div class="artwork-toggle">
+    <a data-toggle="collapse" href="#artwork-preview" aria-expanded="false" aria-controls="artwork-preview">
+      <span class="artwork-label">{{ site.data.interests.artwork.heading.[page.lang] }}</span>
+      <span class="artwork-teaser">{{ site.data.interests.artwork.teaser.[page.lang] }}</span>
+    </a>
+  </div>
+
+  <div class="collapse" id="artwork-preview">
+    <div class="artwork-panel">
+      <div class="row artwork-grid">
+        {% for piece in site.data.interests.artwork.previews %}
+        <div class="col-md-3 col-sm-6 artwork-card-wrap">
+          <div class="artwork-card">
+            <img class="rounded img-fluid" src="{{site.baseurl}}/img/{{ piece.thumbnail }}" alt="{{ piece.title }}">
+            <p>{{ piece.title }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <p class="artwork-note">{{ site.data.interests.artwork.service_note.[page.lang] }}</p>
+      <p class="artwork-links">
+        <a class="btn btn-primary" target="_blank" rel="noopener" href="{{ site.data.interests.artwork.gallery_href }}">{{ site.data.interests.artwork.gallery_label.[page.lang] }}</a>
+        {% for service in site.data.interests.artwork.service_links %}
+        <a href="{{ service.href }}" target="_blank" rel="noopener">{{ service.label }}</a>{% if service != site.data.interests.artwork.service_links.last %}<span class="link-sep">·</span>{% endif %}
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+</div>
