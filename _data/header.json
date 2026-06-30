@@ -1,42 +1,17 @@
 {
   "headline": {
-    "en": "Rahul Arora builds future-facing interfaces for spatial computing."
+    "en": "Rahul Arora"
   },
   "subheadline": {
-    "en": "Research Scientist at Meta Reality Labs focused on multimodal interaction, sensing, and wearable computing."
-  },
-  "summary": {
-    "en": "I turn emerging interaction concepts into tested product directions by combining interface prototyping, sensing systems, and human-subject evaluation."
+    "en": "Research Scientist working on wearable computing and creative tools"
   },
   "highlights": {
     "en": [
-      "Leading interaction design and evaluation work for AR glasses and EMG wearables at Meta.",
-      "PhD in Computer Science from the University of Toronto on creative tools for immersive 3D interaction.",
-      "Research portfolio spanning product prototyping, user studies, graphics systems, and computational design."
+      "Leading interaction design and evaluation work for EMG Wearables and AI glasses at Meta",
+      "Experienced in real-time motion tracking and gesture recognition for wearables",
+      "PhD in Computer Science from the University of Toronto on 3D interactions for creative tools in AR/VR",
+      "Research portfolio spanning product prototyping, multimodal interfaces, user studies, graphics systems, and computational design"
     ]
   },
-  "cta_links": [
-    {
-      "label": {
-        "en": "View Projects"
-      },
-      "href": "#projects",
-      "style": "primary"
-    },
-    {
-      "label": {
-        "en": "Read Publications"
-      },
-      "href": "#publications",
-      "style": "secondary"
-    },
-    {
-      "label": {
-        "en": "Download CV"
-      },
-      "href": "/cv.pdf",
-      "style": "secondary"
-    }
-  ],
   "picture": "rahul_arora_aug_2021.jpg"
 }

@@ -2,9 +2,6 @@
   "heading": {
     "en": "Projects"
   },
-  "intro": {
-    "en": "Selected work organized for recruiters and collaborators who want a quick read on scope, outcomes, and the kinds of teams I work well with."
-  },
   "groups": [
     {
       "key": "meta",
@@ -14,45 +11,59 @@
       "items": [
         {
           "group": "meta",
-          "title": "Neuromotor Interface for EMG Wearables",
-          "period": "2021-Present",
-          "summary": "Contributed to the interaction and evaluation effort behind a generic non-invasive EMG interface for human-computer interaction, including sensing-driven interaction concepts and large-scale study workflows.",
-          "context": "Research Scientist, Meta Reality Labs",
+          "title": "Continuous Control for Meta Ray-Ban Displays",
+          "period": "2023-2025",
+          "summary": "I led the algorithm development, evaluation, and product integration of two continuous control interactions for MRBD. Wrist turn is a core gesture enabling always-available volume control and contextual zoom control. Wrist move  is an advanced gesture for scrolling and cursor control. Both gestures combine EMG and IMU sensing on the Meta Neural Band.",
           "tags": [
             "Wearables",
-            "EMG",
-            "Human-Computer Interaction",
+            "Sensing",
             "User Studies"
           ],
-          "thumbnail": "nature25_emg.png",
+          "thumbnail": "wrist_turn.gif",
           "links": [
             {
-              "href": "https://doi.org/10.1038/s41586-025-09255-w",
-              "label": "Nature paper"
+              "href": "https://www.meta.com/help/ai-glasses/764536076119235/",
+              "label": "Meta Neural Band for MRBD"
             },
             {
-              "href": "https://www.meta.com/emerging-tech/emg-wearable-technology/",
-              "label": "Meta overview"
+              "href": "https://www.meta.com/ai-glasses/meta-ray-ban-display/",
+              "label": "MRBD Overview"
             }
           ]
         },
         {
           "group": "meta",
-          "title": "Interaction Concepts for AR Glasses",
-          "period": "2021-Present",
-          "summary": "Developing multimodal interaction techniques and prototype experiences for next-generation AR glasses, with an emphasis on how sensing, gesture design, and product storytelling fit together.",
-          "context": "Research Scientist, Meta Reality Labs",
+          "title": "Multimodal Interactions for AR and VR",
+          "period": "2022-Present",
+          "summary": "I led multiple projects to improve multimodal interactions across Meta Reality Labs's device portfolio. This research answered several questions about how to effectively combine eye tracking and hand gestures, EMG handwriting with released and in-development microgestures, head tracking with touchpad gestures, and more. The resulting insights and prototypes have both influenced released products and are shaping future product directions.",
           "tags": [
-            "AR Glasses",
+            "Wearables",
+            "Sensing",
             "Prototyping",
-            "Interaction Design",
-            "Sensor Fusion"
+            "User Studies"
           ],
-          "thumbnail": "nature25_emg.png",
+          "thumbnail": "orion_user.png",
           "links": [
             {
               "href": "https://www.meta.com/emerging-tech/orion/",
               "label": "Orion overview"
+            }
+          ]
+        },
+        {
+          "group": "meta",
+          "title": "Next-generation EMG Continuous Control",
+          "period": "2024-Present",
+          "summary": "I work closely with EMG sensing teams at Meta to explore, influence, and evaluate next-generation continuous control schemes for AI and AR glasses. Stay tuned for future product announcements!",
+          "tags": [
+            "Wearables",
+            "Prototyping"
+          ],
+          "thumbnail": "meta_neural_band.png",
+          "links": [
+            {
+              "href": "https://www.meta.com/emerging-tech/emg-wearable-technology/",
+              "label": "About EMG Technology"
             }
           ]
         }
@@ -61,7 +72,7 @@
     {
       "key": "phd",
       "title": {
-        "en": "PhD"
+        "en": "University of Toronto"
       },
       "items": [
         {
@@ -141,7 +152,7 @@
     {
       "key": "earlier-work",
       "title": {
-        "en": "Earlier Work"
+        "en": "IIT-Kanpur and Inria Sophia-Antipolis"
       },
       "items": [
         {

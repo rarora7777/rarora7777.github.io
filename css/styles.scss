@@ -17,10 +17,11 @@ $code-color: $brand-color-2;
 $enable-flex: true;
 $enable-rounded: true;
 
+$font-family-serif: 'Playfair Display', Georgia, Times, serif;
 $font-family-sans-serif: 'Source Sans Pro', Verdana, Helvetica, sans-serif;
 $font-family-monospace: 'Source Code Pro', Verdana, Helvetica, monospace;
 
-$headings-font-weight: 400;
+$headings-font-weight: 500;
 
 $brand-dark: $brand-color-1;
 $brand-light: $brand-color-4;
@@ -47,6 +48,8 @@ p {
 
 h1 {
   padding-top: 2rem;
+  font-family: $font-family-serif;
+  font-size: 3.5rem;
 }
 
 h2,
@@ -194,7 +197,7 @@ footer div {
 
 .hero-subheadline {
   color: #23343d;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 1.45;
   margin-bottom: 1rem;
 }
@@ -226,6 +229,7 @@ footer div {
 
 .hero-portrait {
   text-align: center;
+  margin-top: 5rem;
 
   img {
     box-shadow: 0 1.25rem 3rem rgba(0, 40, 60, 0.12);
