@@ -279,6 +279,12 @@ footer div {
   .thumbnail {
     margin-bottom: 0;
   }
+
+  img {
+    height: 13rem;
+    object-fit: cover;
+    width: 100%;
+  }
 }
 
 .project-card-body {
