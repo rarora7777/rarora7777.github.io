@@ -13,11 +13,11 @@
           "group": "meta",
           "title": "Continuous Control for Meta Ray-Ban Displays",
           "period": "2023-2025",
-          "summary": "I led the algorithm development, evaluation, and product integration of two continuous control interactions for MRBD. Wrist turn is a core gesture enabling always-available volume control and contextual zoom control. Wrist move  is an advanced gesture for scrolling and cursor control. Both gestures combine EMG and IMU sensing on the Meta Neural Band.",
+          "summary": "I led algorithm development, evaluation, and product integration of two continuous control interactions for MRBD. Wrist turn is a core gesture enabling always-available volume control and contextual zoom control. Wrist move  is an advanced gesture for scrolling and cursor control. Both gestures combine EMG and IMU sensing on the Meta Neural Band.",
           "tags": [
             "Wearables",
             "Sensing",
-            "User Studies"
+            "Gestures"
           ],
           "thumbnail": "wrist_turn.gif",
           "links": [
@@ -38,9 +38,8 @@
           "summary": "I led multiple projects to improve multimodal interactions across Meta Reality Labs's device portfolio. This research answered several questions about how to effectively combine eye tracking and hand gestures, EMG handwriting with released and in-development microgestures, head tracking with touchpad gestures, and more. The resulting insights and prototypes have both influenced released products and are shaping future product directions.",
           "tags": [
             "Wearables",
-            "Sensing",
-            "Prototyping",
-            "User Studies"
+            "AR/VR",
+            "Sensing"
           ],
           "thumbnail": "orion_user.png",
           "links": [
@@ -57,7 +56,7 @@
           "summary": "I work closely with EMG sensing teams at Meta to explore, influence, and evaluate next-generation continuous control schemes for AI and AR glasses. Stay tuned for future product announcements!",
           "tags": [
             "Wearables",
-            "Prototyping"
+            "Gestures"
           ],
           "thumbnail": "meta_neural_band.png",
           "links": [
@@ -77,73 +76,84 @@
       "items": [
         {
           "group": "phd",
-          "title": "Mid-Air Drawing on 3D Surfaces in VR",
-          "period": "2020-2021",
-          "summary": "Defined and evaluated projection techniques that let people draw usable curves directly onto 3D geometry in VR, balancing precision, comfort, and expressivity.",
-          "context": "PhD research, University of Toronto",
+          "title": "Understanding and Improving 3D Sketching",
+          "period": "2016-2020",
+          "summary": "This multi-year project forms the core of my PhD research. It started with a set of studies characterizing mid-air 3D sketching. We then developed SymbiosisSketch, a hybrid tablet+AR tool for expressive 3D sketching. Finally, we built Mimicry, a novel algorithm for sketching curves on surfaces in VR. The first two papers have inspired many follow-up works in the HCI and graphics communities, and Mimicry or a similar algorithm is used in the surface sketching tool in <a href='https://gravitysketch.com/'>Gravity Sketch</a>.",
           "tags": [
-            "Virtual Reality",
-            "3D Drawing",
-            "Interaction Techniques",
-            "Evaluation"
+            "3D Sketching",
+            "AR/VR",
+            "Creative Tools"
           ],
           "thumbnail": "tog21_midair.png",
           "links": [
             {
-              "href": "/papers/tog21_midair_drawing_surfaces.pdf",
-              "label": "Paper"
+              "href": "/papers/chi17_vr_sketching.pdf",
+              "label": "CHI 2017 Paper"
+            },
+            {
+              "href": "/papers/chi18_symbiosis_sketch.pdf",
+              "label": "CHI 2018 Paper"
             },
             {
               "href": "/mimicry/",
-              "label": "Project page"
+              "label": "TOG (SIGGRAPH 2021) Paper"
             }
           ]
         },
         {
           "group": "phd",
-          "title": "SymbiosisSketch for In-Situ 3D Design",
-          "period": "2017-2018",
-          "summary": "Built a hybrid AR workflow combining tablet sketching with immersive 3D input so designers could move between rough ideation and detailed spatial edits more fluidly.",
-          "context": "PhD research with Autodesk collaboration",
+          "title": "Surfacing 3D Sketches",
+          "period": "2020-2021",
+          "summary": "This project, led by <a href='https://em-yu.github.io/'>Emilie Yu</a>, produced two creative tools for creating 3D sketches and surfacing them. The first is an interactive tool called CASSIE for creating and surfacing 3D sketches from scratch in VR. The second is an offline algorithm for fitting high-quality piecewise-smooth surfaces to 3D sketches creating using CASSIE, other VR tools, or desktop tools for 3D sketching.",
           "tags": [
-            "Augmented Reality",
-            "Design Tools",
-            "Cross-Device Input",
-            "CHI"
+            "Creative Tools",
+            "AR/VR"
           ],
-          "thumbnail": "chi18_symbiosis_sketch.jpg",
+          "thumbnail": "chi21_cassie.png",
           "links": [
             {
-              "href": "/papers/chi18_symbiosis_sketch.pdf",
-              "label": "Paper"
+              "href": "https://em-yu.github.io/research/cassie/",
+              "label": "CHI 2021 Paper"
             },
             {
-              "href": "https://www.utoronto.ca/news/u-t-and-autodesk-researchers-design-2d-3d-software-augmented-reality-drawing",
-              "label": "News coverage"
+              "href": "https://em-yu.github.io/research/surfacing_3d_sketches/",
+              "label": "SIGGRAPH 2022 Paper"
             }
           ]
         },
         {
           "group": "phd",
-          "title": "MagicalHands Gesture Authoring in VR",
+          "title": "3D Hand Gestures for Animation Authoring",
           "period": "2018-2019",
-          "summary": "Ran gesture elicitation research and built a proof-of-concept system for authoring animation in VR using mid-air hand input instead of conventional controllers.",
-          "context": "PhD research with Adobe collaboration",
+          "summary": "In collaboration with Adobe Research, I elicited hand gestures for VR animation authoring and then built a gesture recognition system for gesture-based animation authoring. The system supports performance-based and keyframed animation of rigid objects and demonstration of dynamic phenomena using particle systems.",
           "tags": [
+            "Creative Tools",
             "Gestures",
-            "Animation Tools",
-            "Virtual Reality",
-            "UIST"
+            "AR/VR"
           ],
           "thumbnail": "uist19_magical_hands.png",
           "links": [
             {
               "href": "https://www.dgp.toronto.edu/projects/magical-hands/",
-              "label": "Project page"
-            },
+              "label": "UIST 2019 Paper"
+            }
+          ]
+        },
+        {
+          "group": "phd",
+          "title": "Volumetric Michell Trusses",
+          "period": "2018-2019",
+          "summary": "In this project, I collaborated with researchers at Adobe, MIT, and Reichman University to develop a new algorithm for generating volumetric Michell trusses. These trusses result in a lightweight structure for a given load and boundary conditions, and can be parametrically edited using industry-standard tools such as Autodesk Fusion. In addition to a technical paper and a poster presentation, this work was also exhibited at University of Toronto's Robarts Library.",
+          "tags": [
+            "Computational Fabrication",
+            "Geometry Processing",
+            "Creative Tools"
+          ],
+          "thumbnail": "scf19_michell_truss.jpg",
+          "links": [
             {
-              "href": "http://www.dgp.toronto.edu/projects/magical-hands/magical_hands_uist19_arora_et_al.pdf",
-              "label": "Paper"
+              "href": "https://www.dgp.toronto.edu/projects/michell/",
+              "label": "Project details"
             }
           ]
         }
@@ -152,49 +162,22 @@
     {
       "key": "earlier-work",
       "title": {
-        "en": "IIT-Kanpur and Inria Sophia-Antipolis"
+        "en": "IIT-Kanpur and Inria"
       },
       "items": [
         {
           "group": "earlier-work",
-          "title": "Volumetric Michell Trusses",
-          "period": "2018-2020",
-          "summary": "Co-developed a computational fabrication pipeline for editable truss structures aligned with stress fields, bridging geometry processing, structural reasoning, and real-world exhibition work.",
-          "context": "Research collaboration spanning graphics and fabrication",
+          "title": "Design Exploration from Concept Sketches",
+          "period": "2014-2016",
+          "summary": "As part of my Master's thesis at IIT-Kanpur and Inria, I developed a system for exploring design variations by interpolating between multiple concept sketches. Concept sketches are early-stage design sketches that are rough and incomplete, which makes the interpolation task challenging.",
           "tags": [
-            "Computational Fabrication",
-            "Geometry Processing",
-            "Parametric Design",
-            "Exhibition"
-          ],
-          "thumbnail": "scf19_michell_truss.jpg",
-          "links": [
-            {
-              "href": "/papers/scf19_michell_truss.pdf",
-              "label": "Paper"
-            },
-            {
-              "href": "https://www.dgp.toronto.edu/projects/michell/",
-              "label": "Project page"
-            }
-          ]
-        },
-        {
-          "group": "earlier-work",
-          "title": "SketchSoup Design Exploration",
-          "period": "2015-2017",
-          "summary": "Built an exploratory sketch interpolation workflow that helped designers navigate alternative concepts before committing to full 3D modeling or fabrication.",
-          "context": "Masters-to-PhD transition research",
-          "tags": [
-            "Sketch-Based Interfaces",
-            "Design Exploration",
-            "Computer Graphics"
+            "Creative Tools"
           ],
           "thumbnail": "cgf17_sketchsoup.png",
           "links": [
             {
               "href": "/papers/cgf17_sketchsoup.pdf",
-              "label": "Paper"
+              "label": "Eurographics 2017 Paper"
             }
           ]
         }

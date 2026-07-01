@@ -7,7 +7,7 @@
       "en": "Peer-Reviewed Technical Papers"
     },
     "preprint_book": {
-      "en": "Preprints and Book Chapters"
+      "en": "Other Publications (Posters, Preprints, Book Chapters, etc.)"
     },
     "theses": {
       "en": "Theses"
@@ -56,9 +56,9 @@
       "key": "book_chapter_applications",
       "bibtex": "book_chapter_applications.bib",
       "title": "3D Sketching Application Scenarios",
-      "date": "2023-05-31",
+      "date": "2023-05-28",
       "category": "book_chapter",
-      "summary": "Survey chapter outlining where 3D sketching workflows create value across concept design, ideation, and spatial authoring scenarios.",
+      "summary": "Survey chapter outlining where 3D sketching workflows create value across design, creativity, and scientific visualization.",
       "authors": [
         "Philipp Wacker",
         "Mayra Donaji Barrera Machuca",
@@ -85,9 +85,9 @@
       "key": "book_chapter_interaction",
       "bibtex": "book_chapter_interaction.bib",
       "title": "Interaction Devices and Techniques for 3D Sketching",
-      "date": "2023-05-31",
+      "date": "2023-05-29",
       "category": "book_chapter",
-      "summary": "Survey chapter covering the device and technique tradeoffs involved in making 3D sketching systems practical and expressive.",
+      "summary": "A thorough survey of devices and interaction techniques for 3D sketching, including recent developments.",
       "authors": [
         "Mayra Donaji Barrera Machuca",
         "Rahul Arora",
@@ -114,9 +114,9 @@
       "key": "book_chapter_geometric",
       "bibtex": "book_chapter_geometric.bib",
       "title": "Input Processing and Geometric Representations for 3D Sketches",
-      "date": "2023-05-31",
+      "date": "2023-05-30",
       "category": "book_chapter",
-      "summary": "Survey chapter on the representations and geometry-processing techniques that make rough 3D sketches editable downstream.",
+      "summary": "Chapter describing how user inputs are converted to appropriate geometric representations for rendering and downstream modelling tasks.",
       "authors": [
         "Johann Habakuk Israel",
         "Mayra Donaji Barrera Machuca",
@@ -145,7 +145,7 @@
       "title": "Introduction to 3D Sketching",
       "date": "2023-05-31",
       "category": "book_chapter",
-      "summary": "Introductory chapter positioning 3D sketching as a distinct creative medium with its own workflow patterns and technical challenges.",
+      "summary": "Introductory chapter tracing the history of 3D sketching and the unique opportunities and challenges it presents.",
       "authors": [
         "Rahul Arora",
         "Mayra Donaji Barrera Machuca",
@@ -215,7 +215,7 @@
       "title": "Thinking Outside the Lab: VR Size &amp; Depth Perception in the Wild",
       "date": "2021-06-02",
       "category": "preprint",
-      "summary": "Remote VR perception study showing how to run higher-scale participant research outside the lab while still collecting usable depth and size perception data.",
+      "summary": "Remote VR perception study on size and depth perception that shows how to run perceptual experiments with a larger, more diverse participant sample than is possible in a lab.",
       "authors": [
         "Rahul Arora",
         "Jiannan Li",
@@ -260,7 +260,7 @@
       "title": "Mid-Air Drawing of Curves on 3D Surfaces in Virtual Reality",
       "date": "2021-06-01",
       "category": "peer_reviewed",
-      "summary": "Detailed design and evaluation of techniques that let people place expressive strokes onto 3D surfaces directly in VR.",
+      "summary": "Design and evaluation of techniques that let people comfortably draw complex strokes onto 3D surfaces directly in VR.",
       "authors": [
         "Rahul Arora",
         "Karan Singh"
@@ -303,7 +303,7 @@
       "title": "CASSIE: Curve and Surface Sketching in Immersive Environments",
       "date": "2021-05-08",
       "category": "peer_reviewed",
-      "summary": "VR conceptual modeling system that combines freehand sketching, curve-network armatures, and predictive surfacing into a single creative workflow.",
+      "summary": "VR conceptual modelling system that creates connected and surfaced curve-networks in real time from mid-air 3D strokes.",
       "authors": [
         "Emilie Yu",
         "Rahul Arora",
@@ -345,7 +345,7 @@
       "bibtex": "chi20_dc_immersive.bib",
       "title": "Creative Expression with Immersive 3D Interactions",
       "date": "2020-04-20",
-      "category": "peer_reviewed",
+      "category": "poster",
       "summary": "Doctoral consortium paper framing immersive creative tools as a research program grounded in both user studies and technical systems work.",
       "authors": [
         "Rahul Arora"
@@ -372,7 +372,7 @@
       "title": "MagicalHands: Mid-Air Hand Gestures for Animating in VR",
       "date": "2019-10-20",
       "category": "peer_reviewed",
-      "summary": "Gesture elicitation and prototype system for authoring animation effects in VR using bare-hand input.",
+      "summary": "Gesture elicitation and prototype system for authoring animation effects in VR using bare-handed input.",
       "authors": [
         "Rahul Arora",
         "Rubaiat Habib Kazi",
@@ -413,7 +413,7 @@
       "title": "Volumetric Michell Trusses for Parametric Design &amp; Fabrication",
       "date": "2019-06-16",
       "category": "peer_reviewed",
-      "summary": "Computational fabrication system for structurally aware truss generation that stays editable for design iteration and real-world fabrication.",
+      "summary": "An algorithm for designing structurally sound, parametrically editable volumetric truss structures for fabrication workflows.",
       "authors": [
         "Rahul Arora",
         "Alec Jacobson",
@@ -463,8 +463,8 @@
       "bibtex": "gi18_michell_truss.bib",
       "title": "Designing Volumetric Truss Structures for Computational Fabrication",
       "date": "2018-05-08",
-      "category": "peer_reviewed",
-      "summary": "Poster version of the Michell truss work focused on editable, structurally informed truss generation for fabrication workflows.",
+      "category": "poster",
+      "summary": "Poster describing the initial version of the Michell truss work.",
       "authors": [
         "Rahul Arora",
         "Alec Jacobson",
@@ -494,7 +494,7 @@
       "title": "SymbiosisSketch: Combining 2D and 3D Sketching for Designing Detailed 3D Objects in Situ",
       "date": "2018-04-21",
       "category": "peer_reviewed",
-      "summary": "Hybrid AR design system combining immersive 3D sketching with precise 2D tablet input for detailed in-situ object creation.",
+      "summary": "A design system combining immersive 3D sketching with precise 2D tablet input for creating detailed virtual objects in-situ in a physical environment.",
       "authors": [
         "Rahul Arora",
         "Rubaiat Habib",
@@ -593,7 +593,7 @@
       "title": "SketchSoup: Exploratory Ideation using Design Sketching",
       "date": "2017-02-01",
       "category": "peer_reviewed",
-      "summary": "Design-sketch interpolation workflow for exploring shape and viewpoint alternatives before investing in heavier modeling steps.",
+      "summary": "An interpolation workflow for early-stage design exploration, enabling the investigation of shape and viewpoint alternatives before committing to more resource-intensive modeling steps.",
       "authors": [
         "Rahul Arora",
         "Ishan Darolia",
@@ -638,7 +638,7 @@
       "title": "Derandomizing Isolation Lemma for K<sub>3,3</sub>-free and K<sub>5</sub>-free Bipartite Graphs",
       "date": "2016-08-01",
       "category": "peer_reviewed",
-      "summary": "Complexity-theory work on deterministic isolation for graph classes, extending log-space results for the perfect matching problem.",
+      "summary": "Complexity-theory work on the perfect matching problem for certain classes of non-planar graphs.",
       "authors": [
         "Rahul Arora",
         "Ashu Gupta",

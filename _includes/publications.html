@@ -17,7 +17,7 @@
 <div class="publication-section">
   <h3 class="publication-subheading">{{ site.data.publications.subsections["preprint_book"][page.lang] }}</h3>
   {% for p in publications %}
-    {% if p.category == "preprint" or p.category == "book_chapter" %}
+    {% if p.category == "preprint" or p.category == "book_chapter" or p.category == "poster" %}
       {% include publication_row.html item=p item_type="publication" %}
     {% endif %}
   {% endfor %}
