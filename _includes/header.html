@@ -20,6 +20,13 @@
         {% endfor %}
       </div>
       {% endif %}
+      <p class="hero-contact-links">
+        <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
+        <span class="link-sep">·</span>
+        {% for ref in site.data.contact.refs %}
+        <a href="{{ ref.href }}">{{ ref.name }}</a>{% if ref != site.data.contact.refs.last %}<span class="link-sep">·</span>{% endif %}
+        {% endfor %}
+      </p>
     </div>
     <div class="col-lg-5 col-md-5 col-sm-8 hero-portrait">
       <img class="rounded img-fluid" {{ site.default_header_img_dimensions }} src="{{site.baseurl}}/img/{{ header.picture }}" alt="Portrait of Rahul Arora">

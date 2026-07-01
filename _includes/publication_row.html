@@ -1,5 +1,5 @@
 {% assign p = include.item %}
-<article class="publication-row">
+<article class="publication-row{% if include.item_type == "thesis" %} publication-row-thesis{% endif %}">
   <div class="row publication-row-inner">
     <div class="col-lg-2 col-sm-3 publication-thumb">
       {% assign thumbnail_src = p.thumbnail %}

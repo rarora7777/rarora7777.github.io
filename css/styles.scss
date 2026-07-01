@@ -227,6 +227,10 @@ footer div {
   gap: 0.75rem;
 }
 
+.hero-contact-links {
+  margin-top: 1rem;
+}
+
 .hero-portrait {
   text-align: center;
   margin-top: 5rem;
@@ -370,6 +374,16 @@ footer div {
   margin-bottom: 0.6rem;
 }
 
+.publication-row-thesis .publication-thumb img {
+  max-height: 6rem;
+  object-fit: contain;
+  width: auto;
+}
+
+.publication-row-thesis .publication-thumb {
+  text-align: center;
+}
+
 .artwork-block {
   margin-top: 2.5rem;
 }
@@ -505,6 +519,15 @@ form #formspree-nobot {
     display: block;
     margin-bottom: 0.75rem;
     width: 100%;
+  }
+
+  .hero-contact-links .link-sep {
+    display: none;
+  }
+
+  .hero-contact-links a {
+    display: block;
+    margin-bottom: 0.45rem;
   }
 
   .publication-row {
