@@ -1,0 +1,627 @@
+{
+  "heading": {
+    "en": "Artwork"
+  },
+  "intro": {
+    "en": "Six sections of personal artwork."
+  },
+  "sections": [
+    {
+      "slug": "watercolours",
+      "number": "01",
+      "title": {
+        "en": "Watercolours"
+      },
+      "description": {
+        "en": "I started learning watercolour painting in 2026. Most paintings created during classes or at my home in Regina but I've been trying to use more watercolours while travelling too."
+      },
+      "items": [
+        {
+          "src": "/img/artwork/watercolours/01-watercolour-regina-2026-04-26.png",
+          "alt": "Watercolours 1",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/02-pxl-20260307-224610378-mp-2.jpg",
+          "alt": "Watercolours 2",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/03-pxl-20260619-142144256-mp.jpg",
+          "alt": "Watercolours 3",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/04-pxl-20260525-031639269-mp.jpg",
+          "alt": "Watercolours 4",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/05-20260616-212330-collage.jpg",
+          "alt": "Watercolours 5",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/06-pxl-20260506-014500497.jpg",
+          "alt": "Watercolours 6",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/07-pxl-20260213-030151055-mp-2.jpg",
+          "alt": "Watercolours 7",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/08-pxl-20260314-235239448-2.jpg",
+          "alt": "Watercolours 8",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/09-pxl-20260412-034322171.jpg",
+          "alt": "Watercolours 9",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/10-pxl-20260307-044506575-mp-2.jpg",
+          "alt": "Watercolours 10",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/12-pxl-20260522-025554013.jpg",
+          "alt": "Watercolours 11",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/13-pxl-20260209-025648042-2.jpg",
+          "alt": "Watercolours 12",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/14-pxl-20260131-041723751-2.jpg",
+          "alt": "Watercolours 13",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/15-pxl-20240624-003553033-2.jpg",
+          "alt": "Watercolours 14",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "slug": "pens-markers",
+      "number": "02",
+      "title": {
+        "en": "Pens and Markers"
+      },
+      "description": {
+        "en": "Sketches created with Stabilo pens, Pigma microns, and Tombow water-based and alcohol-based markers. Some of the sketches here are on-location urban sketches."
+      },
+      "items": [
+        {
+          "src": "/img/artwork/pens-markers/00-20260626-164002-collage.jpg",
+          "alt": "Pens and Markers 1",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/01-pxl-20260413-044215391-mp.jpg",
+          "alt": "Pens and Markers 2",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/02-pxl-20260522-020323176.jpg",
+          "alt": "Pens and Markers 3",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/03-20260419-162742-collage.jpg",
+          "alt": "Pens and Markers 4",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/03-pxl-20260406-214031185-exported-1775512771185.jpg",
+          "alt": "Pens and Markers 5",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/05-img-20170820-121853504-hdr.jpg",
+          "alt": "Pens and Markers 6",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/06-pxl-20220409-020922031-2.jpg",
+          "alt": "Pens and Markers 7",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/07-pxl-20220412-034707395-2.jpg",
+          "alt": "Pens and Markers 8",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/08-pxl-20260403-181445616.jpg",
+          "alt": "Pens and Markers 9",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/09-pxl-20260405-003916718.jpg",
+          "alt": "Pens and Markers 10",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/10-20260417-143841-collage.jpg",
+          "alt": "Pens and Markers 11",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/12-pxl-20260424-024849758-mp-2.jpg",
+          "alt": "Pens and Markers 12",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/13-pxl-20260528-153118905-edit.jpg",
+          "alt": "Pens and Markers 13",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/14-pxl-20260530-014636519.jpg",
+          "alt": "Pens and Markers 14",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/15-pxl-20260605-182947534.jpg",
+          "alt": "Pens and Markers 15",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/16-pxl-20260615-015042499-mp.jpg",
+          "alt": "Pens and Markers 16",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "slug": "life-drawing",
+      "number": "03",
+      "title": {
+        "en": "Life Drawing"
+      },
+      "description": {
+        "en": "Drawn from life using chalk pastels on newsprint or ProCreate on iPad."
+      },
+      "items": [
+        {
+          "src": "/img/artwork/life-drawing/00-img-0060.png",
+          "alt": "Life Drawing 1",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/01-img-0072.png",
+          "alt": "Life Drawing 2",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/02-img-0077.jpg",
+          "alt": "Life Drawing 3",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/03-img-0056.png",
+          "alt": "Life Drawing 4",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/04-img-0058.png",
+          "alt": "Life Drawing 5",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/04-pxl-20250501-033552163.jpg",
+          "alt": "Life Drawing 6",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/05-img-0059.png",
+          "alt": "Life Drawing 7",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/07-img-0055.png",
+          "alt": "Life Drawing 8",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/07-img-0063.jpg",
+          "alt": "Life Drawing 9",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/08-img-0064.jpg",
+          "alt": "Life Drawing 10",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/09-img-0065.jpg",
+          "alt": "Life Drawing 11",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/10-img-0067.jpg",
+          "alt": "Life Drawing 12",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/11-img-0052.png",
+          "alt": "Life Drawing 13",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/11-img-0068.jpg",
+          "alt": "Life Drawing 14",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/12-img-0069.jpg",
+          "alt": "Life Drawing 15",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/13-img-0070.jpg",
+          "alt": "Life Drawing 16",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/14-img-0071.jpg",
+          "alt": "Life Drawing 17",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/16-img-0075.png",
+          "alt": "Life Drawing 18",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/17-img-0076.png",
+          "alt": "Life Drawing 19",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/19-img-0078.png",
+          "alt": "Life Drawing 20",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/20-img-0079.png",
+          "alt": "Life Drawing 21",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/21-img-0081.jpg",
+          "alt": "Life Drawing 22",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/22-img-0082.png",
+          "alt": "Life Drawing 23",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/23-img-0083.jpg",
+          "alt": "Life Drawing 24",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/24-img-0084.jpg",
+          "alt": "Life Drawing 25",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/25-img-0085.png",
+          "alt": "Life Drawing 26",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/26-img-0086.jpg",
+          "alt": "Life Drawing 27",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/27-img-0087.jpg",
+          "alt": "Life Drawing 28",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/28-img-0088.jpg",
+          "alt": "Life Drawing 29",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/29-img-20160607-224907670-hdr.jpg",
+          "alt": "Life Drawing 30",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/30-img-20160712-213128737-hdr.jpg",
+          "alt": "Life Drawing 31",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/31-img-20161203-241805596-hdr.jpg",
+          "alt": "Life Drawing 32",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/32-img-20161203-241855323-hdr.jpg",
+          "alt": "Life Drawing 33",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/33-img-20161203-241920990-hdr.jpg",
+          "alt": "Life Drawing 34",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/34-img-20161219-222218269-hdr.jpg",
+          "alt": "Life Drawing 35",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/35-img-20160717-wa0009.jpeg",
+          "alt": "Life Drawing 36",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/36-pxl-20250501-033535797-mp-2.jpg",
+          "alt": "Life Drawing 37",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/38-pxl-20250501-033602569.jpg",
+          "alt": "Life Drawing 38",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/39-pxl-20250823-225238433-2.jpg",
+          "alt": "Life Drawing 39",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/40-pxl-20250823-225321315-2.jpg",
+          "alt": "Life Drawing 40",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/41-pxl-20250823-225350798-2.jpg",
+          "alt": "Life Drawing 41",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/42-pxl-20250823-225407963-2.jpg",
+          "alt": "Life Drawing 42",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/life-drawing/43-pxl-20260521-025739168.jpg",
+          "alt": "Life Drawing 43",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "slug": "digital",
+      "number": "04",
+      "title": {
+        "en": "Digital"
+      },
+      "description": {
+        "en": "Digital paintings, sketches, pixel art, and animations created using Procreate, Fresco, Sketchbook, Pixel Studio, Rough Animator, Tilt Brush, and maybe more that I can't recall right now."
+      },
+      "items": [
+        {
+          "src": "/img/artwork/digital/01-353012484-6886406348055685-8999585083616227917-n.jpg",
+          "alt": "Digital 1",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/02-cafe-cool.png",
+          "alt": "Digital 2",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/03-img-0015.png",
+          "alt": "Digital 3",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/04-img-0043.png",
+          "alt": "Digital 4",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/05-img-0049.png",
+          "alt": "Digital 5",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/06-img-0062.gif",
+          "alt": "Digital 6",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/07-img-0071.png",
+          "alt": "Digital 7",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/08-img-0082.mov",
+          "alt": "Digital 8",
+          "type": "video"
+        },
+        {
+          "src": "/img/artwork/digital/09-img-0093.png",
+          "alt": "Digital 9",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/10-img-0094.png",
+          "alt": "Digital 10",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/11-img-0102.png",
+          "alt": "Digital 11",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/12-img-0124.png",
+          "alt": "Digital 12",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/13-img-0126.png",
+          "alt": "Digital 13",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/14-img-0129.png",
+          "alt": "Digital 14",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/15-img-0171.png",
+          "alt": "Digital 15",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/16-received-1394597011106652.gif",
+          "alt": "Digital 16",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/17-rocket.png",
+          "alt": "Digital 17",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/18-untitled-4-00.gif",
+          "alt": "Digital 18",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/19-vase.png",
+          "alt": "Digital 19",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "slug": "pencil-charcoal",
+      "number": "05",
+      "title": {
+        "en": "Pencil and Charcoal"
+      },
+      "description": {
+        "en": "At rare occasions, I sketch with graphite or charcoal."
+      },
+      "items": [
+        {
+          "src": "/img/artwork/pencil-charcoal/00-pxl-20260507-025640264-ts-000.jpg",
+          "alt": "Pencil and Charcoal 1",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pencil-charcoal/01-pxl-20260507-040429348-2.jpg",
+          "alt": "Pencil and Charcoal 2",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pencil-charcoal/02-img-20190925-181704.jpg",
+          "alt": "Pencil and Charcoal 3",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pencil-charcoal/04-img-20150727-185138.jpg",
+          "alt": "Pencil and Charcoal 4",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pencil-charcoal/05-img-20190912-182938.jpg",
+          "alt": "Pencil and Charcoal 5",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "slug": "miscellaneous",
+      "number": "06",
+      "title": {
+        "en": "Miscellaneous"
+      },
+      "description": {
+        "en": "Miscellaneous materials, most commonly acrylic on canvas. Some of the acrylic paintings were created together with my wife."
+      },
+      "items": [
+        {
+          "src": "/img/artwork/miscellaneous/00-chihuly-painting.jpg",
+          "alt": "Miscellaneous 1",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/01-2019-12-28-23-26-office-lens.jpg",
+          "alt": "Miscellaneous 2",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/01-pxl-20230619-021413636-2.jpg",
+          "alt": "Miscellaneous 3",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/03-img-20161023-115125.jpg",
+          "alt": "Miscellaneous 4",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/04-mr-twenty-comic.png",
+          "alt": "Miscellaneous 5",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/04-pxl-20260506-014245735.jpg",
+          "alt": "Miscellaneous 6",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/05-p-20180922-154242.jpg",
+          "alt": "Miscellaneous 7",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/06-painting-starry-night-marche.jpg",
+          "alt": "Miscellaneous 8",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/07-pxl-20201226-215902881-2.jpg",
+          "alt": "Miscellaneous 9",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/08-pxl-20220124-002505890.jpg",
+          "alt": "Miscellaneous 10",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/11-pxl-20260607-005929216.jpg",
+          "alt": "Miscellaneous 11",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/miscellaneous/12-pxl-20260607-005948642.jpg",
+          "alt": "Miscellaneous 12",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

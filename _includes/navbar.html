@@ -1,9 +1,15 @@
 {% capture nav_prefix %}/{{ page.lang }}/{% endcapture %}
+{% capture home_href %}{{ site.baseurl }}/{{ page.lang }}/{% endcapture %}
+{% capture artwork_href %}{{ site.baseurl }}{{ site.data.interests.artwork.page_href }}{% endcapture %}
+{% assign on_artwork_page = false %}
+{% if page.url contains '/artwork/' %}
+  {% assign on_artwork_page = true %}
+{% endif %}
 <nav class="navbar navbar-light bg-faded navbar-fixed-top">
   <div class="container">
     <ul class="nav navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#page-top">
+        <a class="nav-link" href="{% if on_artwork_page %}{{ home_href }}{% else %}#page-top{% endif %}">
           <span class="hidden-sm-down">{{ site.author }}</span>
           <span class="hidden-md-up"><img src="{{site.baseurl}}/img/navicon.png" class="rounded" width="32" height="32" alt="top-page"></span>
         </a>
@@ -24,17 +30,27 @@
     
     <button type="button" class="navbar-toggler hidden-sm-up float-xs-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
     <div class="dropdown-menu dropdown-menu-right">
+      {% if on_artwork_page %}
+      <a class="dropdown-item" href="{{ home_href }}">Home</a>
+      {% else %}
       <a class="dropdown-item" href="#projects">{{ site.data.projects.heading.[page.lang] | escape }}</a>
       <a class="dropdown-item" href="#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a>
       <a class="dropdown-item" href="#interests">{{ site.data.interests.heading.[page.lang] | escape }}</a>
+      {% endif %}
+      <a class="dropdown-item" href="{{ artwork_href }}">{{ site.data.interests.artwork.heading.[page.lang] | escape }}</a>
 	  <a class="dropdown-item" href="{{site.baseurl}}/cv.pdf">CV</a>
     </div>
 
     <div class="collapse navbar-toggleable-xs">
       <ul class="nav navbar-nav float-xs-right">
+        {% if on_artwork_page %}
+        <li class="nav-item"><a class="nav-link" href="{{ home_href }}">Home</a></li>
+        {% else %}
         <li class="nav-item"><a class="nav-link" href="#projects">{{ site.data.projects.heading.[page.lang] | escape }}</a></li>
         <li class="nav-item"><a class="nav-link" href="#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a></li>
         <li class="nav-item"><a class="nav-link" href="#interests">{{ site.data.interests.heading.[page.lang] | escape }}</a></li>
+        {% endif %}
+        <li class="nav-item"><a class="nav-link" href="{{ artwork_href }}">{{ site.data.interests.artwork.heading.[page.lang] | escape }}</a></li>
 		<li class="nav-item"><a class="nav-link" href="{{site.baseurl}}/cv.pdf"><i class='far fa-file-pdf'></i> CV</a></li>
       </ul>
     </div>

@@ -17,42 +17,15 @@
       "en": "Artwork"
     },
     "teaser": {
-      "en": "Figure studies, sketchbook experiments, and personal drawing practice. Some pieces include nudity and may be NSFW depending on your context."
+      "en": "Watercolour, life drawing, digital art, and other personal artwork."
     },
-    "service_note": {
-      "en": "For a dedicated external portfolio, I recommend Cargo as the primary home because it is portfolio-oriented and designer-friendly. Pixieset is the simpler fallback if the goal is a fast image-grid presentation."
+    "page_intro": {
+      "en": "A collection of my paintings, sketches, and digital art."
     },
+    "page_href": "/artwork/",
     "gallery_label": {
-      "en": "Open full gallery"
+      "en": "Open artwork page"
     },
-    "gallery_href": "https://goo.gl/photos/svAQj3TkUw1bETGCA",
-    "service_links": [
-      {
-        "label": "Cargo",
-        "href": "https://cargo.site/"
-      },
-      {
-        "label": "Pixieset",
-        "href": "https://pixieset.com/website/"
-      }
-    ],
-    "previews": [
-      {
-        "thumbnail": "chi18_symbiosis_sketch.jpg",
-        "title": "Expressive line study"
-      },
-      {
-        "thumbnail": "cgf17_sketchsoup.png",
-        "title": "Concept sketch exploration"
-      },
-      {
-        "thumbnail": "uist19_magical_hands.png",
-        "title": "Gesture-driven drawing ideas"
-      },
-      {
-        "thumbnail": "scf19_michell_truss.jpg",
-        "title": "Fabrication-inspired form"
-      }
-    ]
+    "gallery_href": "/artwork/"
   }
 }

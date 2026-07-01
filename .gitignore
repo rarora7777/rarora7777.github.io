@@ -4,3 +4,4 @@ _local
 Gemfile.lock
 .jekyll-metadata
 *.DS_Store
+temp_cargo

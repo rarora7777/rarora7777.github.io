@@ -409,6 +409,263 @@ footer div {
   padding-top: 1.25rem;
 }
 
+.artwork-snippet,
+.artwork-page-shell {
+  background: linear-gradient(180deg, #fff 0%, #f7fbfd 100%);
+  border: 1px solid #d8e6ee;
+  border-radius: 0.9rem;
+  box-shadow: 0 0.9rem 2.2rem rgba(0, 40, 60, 0.07);
+  overflow: hidden;
+}
+
+.artwork-snippet {
+  margin-bottom: 1.5rem;
+}
+
+.artwork-page-shell {
+  padding: 1.1rem;
+}
+
+.artwork-page-shell .art-carousel + .art-carousel {
+  margin-top: 2rem;
+}
+
+.artwork-snippet-copy {
+  padding: 1.1rem 1.1rem 0;
+
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.45rem;
+  }
+}
+
+.artwork-snippet-eyebrow {
+  color: $brand-color-1;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.artwork-snippet-description,
+.artwork-snippet-fallback {
+  color: #5f6b74;
+}
+
+.art-carousel {
+  position: relative;
+}
+
+.art-carousel-header {
+  align-items: end;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.art-carousel-copy h3 {
+  font-size: 1.45rem;
+  margin-bottom: 0.35rem;
+}
+
+.art-carousel-number {
+  color: $brand-color-1;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.art-carousel-description {
+  color: #5f6b74;
+  margin-bottom: 0;
+  max-width: 46rem;
+}
+
+.art-carousel-controls {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 0.6rem;
+}
+
+.art-carousel-viewport {
+  position: relative;
+}
+
+.art-carousel-controls-overlay {
+  inset: 50% 1rem auto 1rem;
+  justify-content: space-between;
+  pointer-events: none;
+  position: absolute;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.art-carousel-controls-overlay .art-carousel-button {
+  pointer-events: auto;
+}
+
+.art-carousel-button {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #d8e6ee;
+  border-radius: 999px;
+  color: $brand-color-1;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.1rem;
+  height: 2.75rem;
+  justify-content: center;
+  transition: transform 120ms ease, border-color 120ms ease, color 120ms ease;
+  width: 2.75rem;
+}
+
+.art-carousel-button:hover,
+.art-carousel-button:focus {
+  border-color: $brand-color-2;
+  color: $brand-color-2;
+  transform: translateY(-1px);
+}
+
+.art-carousel-track {
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: minmax(17rem, 31rem);
+  grid-auto-flow: column;
+  margin: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding-bottom: 0.35rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.art-carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.art-carousel-card {
+  background: #fff;
+  border: 1px solid #d8e6ee;
+  border-radius: 0.9rem;
+  box-shadow: 0 0.75rem 1.8rem rgba(0, 40, 60, 0.08);
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.art-carousel-preview-trigger {
+  background: transparent;
+  border: none;
+  cursor: zoom-in;
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+
+.art-carousel-media {
+  aspect-ratio: 3 / 4;
+  background: #edf3f6;
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.art-preview-overlay[hidden] {
+  display: none;
+}
+
+body.art-preview-open {
+  overflow: hidden;
+}
+
+.art-preview-overlay {
+  align-items: center;
+  inset: 0;
+  justify-content: center;
+  padding: 2rem;
+  position: fixed;
+  z-index: 1050;
+}
+
+.art-preview-backdrop {
+  background: rgba(12, 22, 28, 0.78);
+  inset: 0;
+  position: absolute;
+}
+
+.art-preview-card {
+  background: #f8fbfd;
+  border: 1px solid rgba(216, 230, 238, 0.7);
+  border-radius: 1rem;
+  box-shadow: 0 2rem 5rem rgba(0, 20, 30, 0.3);
+  max-height: calc(100vh - 4rem);
+  max-width: calc(100vw - 4rem);
+  padding: 1rem;
+  position: relative;
+  width: min(92vw, 78rem);
+  z-index: 1;
+}
+
+.art-preview-close {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid #d8e6ee;
+  border-radius: 999px;
+  color: $brand-color-1;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.8rem;
+  height: 3rem;
+  justify-content: center;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 3rem;
+}
+
+.art-preview-image {
+  display: block;
+  margin: 0 auto;
+  max-height: calc(100vh - 6rem);
+  max-width: 100%;
+  object-fit: contain;
+  width: auto;
+}
+
+.art-carousel-compact {
+  padding: 0 1.1rem 1.1rem;
+}
+
+.art-carousel-compact .art-carousel-copy h3 {
+  font-size: 1.25rem;
+}
+
+.art-carousel-compact .art-carousel-description {
+  font-size: 0.96rem;
+}
+
+.artwork-page-shell .art-carousel-track {
+  grid-auto-columns: minmax(40rem, 76rem);
+}
+
+.artwork-page-shell .art-carousel-media {
+  aspect-ratio: 3 / 5;
+}
+
+.artwork-snippet-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-bottom: 0;
+  padding: 0 1.1rem 1.1rem;
+}
+
 .artwork-card {
   background: #fff;
   border: 1px solid #d8e6ee;
@@ -430,6 +687,10 @@ footer div {
 .artwork-note {
   margin-top: 1.5rem;
   max-width: 44rem;
+}
+
+.artwork-page-title {
+  padding-top: 0;
 }
 
 .blueimp-gallery-controls {
@@ -509,6 +770,57 @@ form #formspree-nobot {
 @media (max-width: 47.9375em) {
   section {
     padding-top: 3rem;
+  }
+
+  .art-carousel-header {
+    align-items: start;
+    display: block;
+  }
+
+  .art-carousel-controls {
+    margin-top: 0.85rem;
+  }
+
+  .art-carousel-controls-overlay {
+    inset-inline: 0.5rem;
+    margin-top: 0;
+  }
+
+  .art-carousel-track {
+    grid-auto-columns: 82vw;
+  }
+
+  .artwork-page-shell .art-carousel-track {
+    grid-auto-columns: 96vw;
+  }
+
+  .artwork-snippet-actions {
+    display: block;
+  }
+
+  .art-preview-overlay {
+    padding: 1rem;
+  }
+
+  .art-preview-card {
+    max-height: calc(100vh - 2rem);
+    max-width: calc(100vw - 2rem);
+    padding: 0.75rem;
+    width: calc(100vw - 2rem);
+  }
+
+  .art-preview-close {
+    right: 0.75rem;
+    top: 0.75rem;
+  }
+
+  .art-preview-image {
+    max-height: calc(100vh - 4rem);
+  }
+
+  .artwork-snippet-actions .btn {
+    display: inline-block;
+    margin-bottom: 0.75rem;
   }
 
   .hero-actions {

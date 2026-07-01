@@ -1,0 +1,42 @@
+{% assign section = include.section %}
+{% assign carousel_id = section.slug %}
+{% if include.instance_suffix %}
+  {% capture carousel_id %}{{ section.slug }}-{{ include.instance_suffix }}{% endcapture %}
+{% endif %}
+<section class="art-carousel {% if include.compact %}art-carousel-compact{% endif %}" id="{{ carousel_id }}">
+  <div class="art-carousel-header">
+    <div class="art-carousel-copy">
+      <p class="art-carousel-number">{{ section.number }}</p>
+      <h3>{{ section.title.[page.lang] }}</h3>
+      <p class="art-carousel-description">{{ section.description.[page.lang] }}</p>
+    </div>
+  </div>
+
+  <div class="art-carousel-viewport">
+    <div class="art-carousel-controls art-carousel-controls-overlay" aria-label="{{ section.title.[page.lang] }} carousel controls">
+      <button class="art-carousel-button" type="button" data-carousel-prev aria-label="Previous items">
+        <span aria-hidden="true">←</span>
+      </button>
+      <button class="art-carousel-button" type="button" data-carousel-next aria-label="Next items">
+        <span aria-hidden="true">→</span>
+      </button>
+    </div>
+
+    <div class="art-carousel-track" data-carousel-track>
+    {% for piece in section.items limit: include.limit %}
+    <article class="art-carousel-card">
+      {% assign media_src = piece.src | prepend: site.baseurl %}
+      {% if piece.type == "video" %}
+      <video class="art-carousel-media" muted loop playsinline controls preload="metadata">
+        <source src="{{ media_src }}">
+      </video>
+      {% else %}
+      <button class="art-carousel-preview-trigger" type="button" data-art-preview-trigger data-art-preview-src="{{ media_src }}" data-art-preview-alt="{{ piece.alt }}">
+        <img class="art-carousel-media" src="{{ media_src }}" alt="{{ piece.alt }}" loading="lazy">
+      </button>
+      {% endif %}
+    </article>
+    {% endfor %}
+    </div>
+  </div>
+</section>

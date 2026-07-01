@@ -1,0 +1,13 @@
+<div class="section-heading">
+  <h1 class="artwork-page-title">{{ site.data.artwork.heading.[page.lang] | escape }}</h1>
+  <p class="section-intro">{{ site.data.interests.artwork.page_intro.[page.lang] }}</p>
+</div>
+
+<div class="artwork-page-shell">
+  {% for section in site.data.artwork.sections %}
+  {% include artwork_carousel.html section=section %}
+  {% endfor %}
+  <p class="artwork-links">
+    <a class="btn btn-primary" href="{{ site.baseurl }}/{{ page.lang }}/">Back to home</a>
+  </p>
+</div>

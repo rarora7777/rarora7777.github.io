@@ -95,6 +95,49 @@ $(document).ready(function()
     $(window).scrollTop(scroll);
   }
 
+  $('[data-carousel-prev], [data-carousel-next]').on('click', function()
+  {
+    var track = $(this).closest('.art-carousel').find('[data-carousel-track]').get(0);
+
+    if(!track)
+      return;
+
+    var direction = $(this).is('[data-carousel-next]') ? 1 : -1;
+    var distance = Math.max(track.clientWidth * 0.85, 320) * direction;
+
+    track.scrollBy({ left: distance, behavior: 'smooth' });
+  });
+
+  var artPreviewOverlay = $('[data-art-preview-overlay]');
+  var artPreviewImage = $('[data-art-preview-image]');
+
+  function closeArtPreview()
+  {
+    artPreviewOverlay.attr('hidden', true);
+    $('body').removeClass('art-preview-open');
+    artPreviewImage.attr('src', '');
+    artPreviewImage.attr('alt', '');
+  }
+
+  $('[data-art-preview-trigger]').on('click', function()
+  {
+    artPreviewImage.attr('src', $(this).attr('data-art-preview-src'));
+    artPreviewImage.attr('alt', $(this).attr('data-art-preview-alt'));
+    artPreviewOverlay.removeAttr('hidden');
+    $('body').addClass('art-preview-open');
+  });
+
+  $('[data-art-preview-close]').on('click', function()
+  {
+    closeArtPreview();
+  });
+
+  $(document).on('keydown', function(event)
+  {
+    if(event.key === 'Escape' && !artPreviewOverlay.is('[hidden]'))
+      closeArtPreview();
+  });
+
 });
 
 function scrollAwareHRef(object, href)
