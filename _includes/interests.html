@@ -1,5 +1,4 @@
 <div class="section-heading">
-  <p class="section-eyebrow">Personal</p>
   <h2>{{ site.data.interests.heading.[page.lang] | escape }}</h2>
   <p class="section-intro">{{ site.data.interests.intro.[page.lang] }}</p>
 </div>
@@ -14,11 +13,11 @@
   </div>
 </div>
 
+<h3 class="publication-subheading">Featured Artwork: Watercolours</h3>
 <div class="artwork-block">
   {% assign featured_artwork = site.data.artwork.sections[0] %}
   <div class="artwork-snippet">
     <div class="artwork-snippet-copy">
-      <p class="artwork-snippet-eyebrow">Featured Artwork</p>
     </div>
     {% include artwork_carousel.html section=featured_artwork limit=8 instance_suffix="home" compact=true %}
     <p class="artwork-snippet-actions">

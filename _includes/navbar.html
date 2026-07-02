@@ -30,28 +30,20 @@
     
     <button type="button" class="navbar-toggler hidden-sm-up float-xs-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
     <div class="dropdown-menu dropdown-menu-right">
-      {% if on_artwork_page %}
       <a class="dropdown-item" href="{{ home_href }}">Home</a>
-      {% else %}
-      <a class="dropdown-item" href="#projects">{{ site.data.projects.heading.[page.lang] | escape }}</a>
-      <a class="dropdown-item" href="#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a>
-      <a class="dropdown-item" href="#interests">{{ site.data.interests.heading.[page.lang] | escape }}</a>
-      {% endif %}
-      <a class="dropdown-item" href="{{ artwork_href }}">{{ site.data.interests.artwork.heading.[page.lang] | escape }}</a>
+      <a class="dropdown-item" href="{{ home_href }}#projects">{{ site.data.projects.heading.[page.lang] | escape }}</a>
+      <a class="dropdown-item" href="{{ home_href }}#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a>
+      <a class="dropdown-item" href="{{ home_href }}#interests">{{ site.data.interests.heading.[page.lang] | escape }}</a>
       <a class="dropdown-item" href="{{site.baseurl}}/resume.pdf">Resume</a>
 	    <a class="dropdown-item" href="{{site.baseurl}}/cv.pdf">CV</a>
     </div>
 
     <div class="collapse navbar-toggleable-xs">
       <ul class="nav navbar-nav float-xs-right">
-        {% if on_artwork_page %}
         <li class="nav-item"><a class="nav-link" href="{{ home_href }}">Home</a></li>
-        {% else %}
-        <li class="nav-item"><a class="nav-link" href="#projects">{{ site.data.projects.heading.[page.lang] | escape }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="#interests">{{ site.data.interests.heading.[page.lang] | escape }}</a></li>
-        {% endif %}
-        <li class="nav-item"><a class="nav-link" href="{{ artwork_href }}">{{ site.data.interests.artwork.heading.[page.lang] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ home_href }}#projects">{{ site.data.projects.heading.[page.lang] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ home_href }}#publications">{{ site.data.publications.heading.[page.lang] | escape }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ home_href }}#interests">{{ site.data.interests.heading.[page.lang] | escape }}</a></li>
         <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}/resume.pdf"><i class='far fa-file-pdf'></i> Resume</a></li>
 		    <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}/cv.pdf"><i class='far fa-file-pdf'></i> CV</a></li>
       </ul>
