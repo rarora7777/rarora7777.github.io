@@ -78,16 +78,29 @@ function listSectionItems(section) {
 }
 
 function main() {
+  const generatedSections = sections.map((section) => ({
+    slug: section.slug,
+    number: section.number,
+    title: { en: section.title },
+    description: { en: section.description },
+    items: listSectionItems(section),
+  }));
+
+  const featuredItems = generatedSections.flatMap((section) => section.items.slice(0, 2));
+
   const data = {
     heading: { en: "Artwork" },
     intro: { en: "Six sections of personal artwork." },
-    sections: sections.map((section) => ({
-      slug: section.slug,
-      number: section.number,
-      title: { en: section.title },
-      description: { en: section.description },
-      items: listSectionItems(section),
-    })),
+    featured: {
+      slug: "featured",
+      number: "00",
+      title: { en: "Featured Artwork" },
+      description: {
+        en: "A selection across watercolours, pens and markers, life drawing, digital work, pencil and charcoal, and miscellaneous pieces.",
+      },
+      items: featuredItems,
+    },
+    sections: generatedSections,
   };
 
   fs.writeFileSync(outputPath, JSON.stringify(data, null, 2) + "\n");
