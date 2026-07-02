@@ -5,6 +5,78 @@
   "intro": {
     "en": "Six sections of personal artwork."
   },
+  "featured": {
+    "slug": "featured",
+    "number": "00",
+    "title": {
+      "en": "Featured Artwork"
+    },
+    "description": {
+      "en": "A selection across watercolours, pens and markers, life drawing, digital work, pencil and charcoal, and miscellaneous pieces."
+    },
+    "items": [
+      {
+        "src": "/img/artwork/watercolours/01-watercolour-regina-2026-04-26.png",
+        "alt": "Watercolours 1",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/watercolours/02-pxl-20260307-224610378-mp-2.jpg",
+        "alt": "Watercolours 2",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/pens-markers/00-20260626-164002-collage.jpg",
+        "alt": "Pens and Markers 1",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/pens-markers/01-pxl-20260413-044215391-mp.jpg",
+        "alt": "Pens and Markers 2",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/life-drawing/00-img-0060.png",
+        "alt": "Life Drawing 1",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/life-drawing/01-img-0072.png",
+        "alt": "Life Drawing 2",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/digital/00-img-0062.gif",
+        "alt": "Digital 1",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/digital/00-img-0171.png",
+        "alt": "Digital 2",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/pencil-charcoal/00-pxl-20260507-025640264-ts-000.jpg",
+        "alt": "Pencil and Charcoal 1",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/pencil-charcoal/01-pxl-20260507-040429348-2.jpg",
+        "alt": "Pencil and Charcoal 2",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/miscellaneous/00-chihuly-painting.jpg",
+        "alt": "Miscellaneous 1",
+        "type": "image"
+      },
+      {
+        "src": "/img/artwork/miscellaneous/01-2019-12-28-23-26-office-lens.jpg",
+        "alt": "Miscellaneous 2",
+        "type": "image"
+      }
+    ]
+  },
   "sections": [
     {
       "slug": "watercolours",
@@ -418,77 +490,77 @@
       },
       "items": [
         {
-          "src": "/img/artwork/digital/01-353012484-6886406348055685-8999585083616227917-n.jpg",
+          "src": "/img/artwork/digital/00-img-0062.gif",
           "alt": "Digital 1",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/02-cafe-cool.png",
+          "src": "/img/artwork/digital/00-img-0171.png",
           "alt": "Digital 2",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/03-img-0015.png",
+          "src": "/img/artwork/digital/01-353012484-6886406348055685-8999585083616227917-n.jpg",
           "alt": "Digital 3",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/04-img-0043.png",
+          "src": "/img/artwork/digital/02-cafe-cool.png",
           "alt": "Digital 4",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/05-img-0049.png",
+          "src": "/img/artwork/digital/03-img-0015.png",
           "alt": "Digital 5",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/06-img-0062.gif",
+          "src": "/img/artwork/digital/04-img-0043.png",
           "alt": "Digital 6",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/07-img-0071.png",
+          "src": "/img/artwork/digital/05-img-0049.png",
           "alt": "Digital 7",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/08-img-0082.mov",
+          "src": "/img/artwork/digital/07-img-0071.png",
           "alt": "Digital 8",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/08-img-0082.mov",
+          "alt": "Digital 9",
           "type": "video"
         },
         {
           "src": "/img/artwork/digital/09-img-0093.png",
-          "alt": "Digital 9",
-          "type": "image"
-        },
-        {
-          "src": "/img/artwork/digital/10-img-0094.png",
           "alt": "Digital 10",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/11-img-0102.png",
+          "src": "/img/artwork/digital/10-img-0094.png",
           "alt": "Digital 11",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/12-img-0124.png",
+          "src": "/img/artwork/digital/11-img-0102.png",
           "alt": "Digital 12",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/13-img-0126.png",
+          "src": "/img/artwork/digital/12-img-0124.png",
           "alt": "Digital 13",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/14-img-0129.png",
+          "src": "/img/artwork/digital/13-img-0126.png",
           "alt": "Digital 14",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/15-img-0171.png",
+          "src": "/img/artwork/digital/14-img-0129.png",
           "alt": "Digital 15",
           "type": "image"
         },

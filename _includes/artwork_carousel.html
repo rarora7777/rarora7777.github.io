@@ -3,7 +3,8 @@
 {% if include.instance_suffix %}
   {% capture carousel_id %}{{ section.slug }}-{{ include.instance_suffix }}{% endcapture %}
 {% endif %}
-<section class="art-carousel {% if include.compact %}art-carousel-compact{% endif %}" id="{{ carousel_id }}">
+<section class="art-carousel {% if include.compact %}art-carousel-compact{% endif %}{% if include.bare %} art-carousel-bare{% endif %}" id="{{ carousel_id }}">
+  {% unless include.hide_header %}
   <div class="art-carousel-header">
     <div class="art-carousel-copy">
       <p class="art-carousel-number">{{ section.number }}</p>
@@ -11,6 +12,7 @@
       <p class="art-carousel-description">{{ section.description.[page.lang] }}</p>
     </div>
   </div>
+  {% endunless %}
 
   <div class="art-carousel-viewport">
     <div class="art-carousel-controls art-carousel-controls-overlay" aria-label="{{ section.title.[page.lang] }} carousel controls">

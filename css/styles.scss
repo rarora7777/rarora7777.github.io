@@ -412,7 +412,7 @@ footer div {
 
 .artwork-snippet,
 .artwork-page-shell {
-  background: linear-gradient(180deg, #fff 0%, #f7fbfd 100%);
+  // background: linear-gradient(180deg, #fff 0%, #f7fbfd 100%);
   border: 1px solid #d8e6ee;
   border-radius: 0.9rem;
   box-shadow: 0 0.9rem 2.2rem rgba(0, 40, 60, 0.07);
@@ -466,8 +466,8 @@ footer div {
   margin-bottom: 1rem;
 }
 
-.art-carousel-copy h3 {
-  font-size: 1.45rem;
+.art-carousel-copy h4 {
+  font-size: 1.3rem;
   margin-bottom: 0.35rem;
 }
 
@@ -551,9 +551,9 @@ footer div {
 
 .art-carousel-card {
   background: #fff;
-  border: 1px solid #d8e6ee;
-  border-radius: 0.9rem;
-  box-shadow: 0 0.75rem 1.8rem rgba(0, 40, 60, 0.08);
+  // border: 1px solid #d8e6ee;
+  // border-radius: 0.9rem;
+  // box-shadow: 0 0.75rem 1.8rem rgba(0, 40, 60, 0.08);
   overflow: hidden;
   scroll-snap-align: start;
 }
@@ -569,7 +569,7 @@ footer div {
 
 .art-carousel-media {
   aspect-ratio: 3 / 4;
-  background: #edf3f6;
+  // background: #edf3f6;
   display: block;
   height: 100%;
   object-fit: contain;
@@ -642,6 +642,10 @@ body.art-preview-open {
   padding: 0 1.1rem 1.1rem;
 }
 
+.art-carousel-bare.art-carousel-compact {
+  padding: 0;
+}
+
 .art-carousel-compact .art-carousel-copy h3 {
   font-size: 1.25rem;
 }
@@ -652,6 +656,27 @@ body.art-preview-open {
 
 .artwork-page-shell .art-carousel-track {
   grid-auto-columns: minmax(40rem, 76rem);
+}
+
+.artwork-home-description {
+  color: #5f6b74;
+  margin-bottom: 1.25rem;
+}
+
+.artwork-home-heading {
+  margin-top: 1.0rem;
+}
+
+.artwork-home-actions {
+  margin-bottom: 0;
+  margin-top: 1.25rem;
+}
+
+.art-carousel-bare .art-carousel-card {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .artwork-page-shell .art-carousel-media {

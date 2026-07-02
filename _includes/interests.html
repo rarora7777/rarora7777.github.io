@@ -13,15 +13,12 @@
   </div>
 </div>
 
-<h3 class="publication-subheading">Featured Artwork: Watercolours</h3>
+{% assign featured_artwork = site.data.artwork.featured %}
+<h4 class="artwork-home-heading">{{ featured_artwork.title.[page.lang] }}</h4>
+<p class="artwork-home-description">{{ featured_artwork.description.[page.lang] }}</p>
 <div class="artwork-block">
-  {% assign featured_artwork = site.data.artwork.sections[0] %}
-  <div class="artwork-snippet">
-    <div class="artwork-snippet-copy">
-    </div>
-    {% include artwork_carousel.html section=featured_artwork limit=8 instance_suffix="home" compact=true %}
-    <p class="artwork-snippet-actions">
+    {% include artwork_carousel.html section=featured_artwork limit=12 instance_suffix="home" compact=true hide_header=true bare=true %}
+    <p class="artwork-home-actions">
       <a class="btn btn-primary" href="{{ site.baseurl }}{{ site.data.interests.artwork.gallery_href }}">{{ site.data.interests.artwork.gallery_label.[page.lang] }}</a>
     </p>
-  </div>
 </div>
