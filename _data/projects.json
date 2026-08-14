@@ -19,7 +19,7 @@
             "Sensing",
             "Gestures"
           ],
-          "thumbnail": "wrist_turn.gif",
+          "thumbnail": "wrist_turn.mp4",
           "links": [
             {
               "href": "https://www.meta.com/help/ai-glasses/764536076119235/",
@@ -58,7 +58,7 @@
             "Wearables",
             "Gestures"
           ],
-          "thumbnail": "meta_neural_band.png",
+          "thumbnail": "meta_neural_band.mp4",
           "links": [
             {
               "href": "https://www.meta.com/emerging-tech/emg-wearable-technology/",
@@ -84,7 +84,7 @@
             "AR/VR",
             "Creative Tools"
           ],
-          "thumbnail": "tog21_midair.png",
+          "thumbnail": "montreal_3d_sketch.mp4",
           "links": [
             {
               "href": "/papers/chi17_vr_sketching.pdf",
@@ -109,7 +109,7 @@
             "Creative Tools",
             "AR/VR"
           ],
-          "thumbnail": "chi21_cassie.png",
+          "thumbnail": "cassie_turntables.gif",
           "links": [
             {
               "href": "https://em-yu.github.io/research/cassie/",
@@ -131,7 +131,7 @@
             "Gestures",
             "AR/VR"
           ],
-          "thumbnail": "uist19_magical_hands.png",
+          "thumbnail": "magicalhands_animation.mp4",
           "links": [
             {
               "href": "https://www.dgp.toronto.edu/projects/magical-hands/",
@@ -149,7 +149,7 @@
             "Geometry Processing",
             "Creative Tools"
           ],
-          "thumbnail": "scf19_michell_truss.jpg",
+          "thumbnail": "michell_truss_param.mp4",
           "links": [
             {
               "href": "https://www.dgp.toronto.edu/projects/michell/",

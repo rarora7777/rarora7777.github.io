@@ -13,10 +13,16 @@
     <div class="col-lg-4 col-md-6 project-card-wrap">
       <article class="project-card">
         <div class="project-card-image">
-          {% assign thumbnail_src = p.thumbnail %}
-          {% assign thumbnail_alt = p.title %}
-          {% assign thumbnail_flickr = p.flickr %}
-          {% include thumbnail.html %}
+          {% if p.thumbnail contains '.mp4' %}
+          <video class="rounded img-fluid" autoplay loop muted playsinline preload="metadata" aria-label="Thumbnail video of {{ p.title | escape }}">
+            <source src="{{ site.baseurl }}/img/{{ p.thumbnail }}" type="video/mp4">
+          </video>
+          {% else %}
+            {% assign thumbnail_src = p.thumbnail %}
+            {% assign thumbnail_alt = p.title %}
+            {% assign thumbnail_flickr = p.flickr %}
+            {% include thumbnail.html %}
+          {% endif %}
         </div>
         <div class="project-card-body">
           <p class="project-period">{{ p.period }}</p>

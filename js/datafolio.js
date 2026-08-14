@@ -76,6 +76,16 @@ $(document).ready(function()
 { 
   new Clipboard('.btn-clipboard');
 
+  $('video[autoplay]').each(function()
+  {
+    this.defaultMuted = true;
+    this.muted = true;
+
+    var playPromise = this.play();
+    if(playPromise)
+      playPromise.catch(function() {});
+  });
+
   $('.flickr').on('click', function(event) 
   { 
     event.preventDefault();
