@@ -6,7 +6,20 @@
 {% for group in site.data.projects.groups %}
 <div class="project-group">
   <div class="project-group-header">
-    <h3>{{ group.title.[page.lang] }}</h3>
+    <h3>
+      {% if group.logos %}
+      <span class="institution-logos" aria-hidden="true">
+        {% for logo in group.logos %}
+          {% if logo.icon %}
+          <i class="institution-logo {{ logo.class }} {{ logo.icon }}"></i>
+          {% else %}
+          <img class="institution-logo {{ logo.class }}" src="{{ site.baseurl }}/img/logos/{{ logo.src }}" alt="">
+          {% endif %}
+        {% endfor %}
+      </span>
+      {% endif %}
+      <span>{{ group.title.[page.lang] }}</span>
+    </h3>
   </div>
   <div class="row project-grid">
     {% for p in group.items %}

@@ -8,6 +8,12 @@
       "title": {
         "en": "Meta"
       },
+      "logos": [
+        {
+          "icon": "fab fa-meta",
+          "class": "institution-logo--meta"
+        }
+      ],
       "items": [
         {
           "group": "meta",
@@ -73,6 +79,12 @@
       "title": {
         "en": "University of Toronto"
       },
+      "logos": [
+        {
+          "src": "uoft.svg",
+          "class": "institution-logo--uoft"
+        }
+      ],
       "items": [
         {
           "group": "phd",
@@ -164,6 +176,16 @@
       "title": {
         "en": "IIT-Kanpur and Inria"
       },
+      "logos": [
+        {
+          "src": "iitk.png",
+          "class": "institution-logo--iitk"
+        },
+        {
+          "src": "inria.svg",
+          "class": "institution-logo--inria"
+        }
+      ],
       "items": [
         {
           "group": "earlier-work",

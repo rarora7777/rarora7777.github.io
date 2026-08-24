@@ -9,7 +9,10 @@
       {% if header.highlights.[page.lang] %}
       <ul class="hero-highlights">
         {% for item in header.highlights.[page.lang] %}
-        <li>{{ item }}</li>
+        <li>
+          <i class="hero-highlight-icon {{ item.icon }}" aria-hidden="true"></i>
+          <span>{{ item.text }}</span>
+        </li>
         {% endfor %}
       </ul>
       {% endif %}

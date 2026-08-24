@@ -7,10 +7,22 @@
   },
   "highlights": {
     "en": [
-      "Leading interaction design and evaluation work for EMG Wearables and AI glasses at Meta",
-      "Experienced in real-time motion tracking and gesture recognition for wearables",
-      "PhD in Computer Science from the University of Toronto on 3D interactions for creative tools in AR/VR",
-      "Research portfolio spanning product prototyping, multimodal interfaces, user studies, graphics systems, and computational design"
+      {
+        "icon": "fab fa-meta",
+        "text": "Leading interaction design and evaluation work for EMG Wearables and AI glasses at Meta"
+      },
+      {
+        "icon": "fas fa-person-walking-dashed-line-arrow-right",
+        "text": "Experienced in real-time motion tracking and gesture recognition for wearables"
+      },
+      {
+        "icon": "fas fa-building-columns",
+        "text": "PhD in Computer Science from the University of Toronto on 3D interactions for creative tools in AR/VR"
+      },
+      {
+        "icon": "fas fa-draw-polygon",
+        "text": "Research portfolio spanning product prototyping, multimodal interfaces, user studies, graphics systems, and computational design"
+      }
     ]
   },
   "picture": "rahul_arora_aug_2021.jpg"
