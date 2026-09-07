@@ -76,15 +76,46 @@ $(document).ready(function()
 { 
   new Clipboard('.btn-clipboard');
 
-  $('video[autoplay]').each(function()
+  function loadAndPlayVideo(video)
   {
-    this.defaultMuted = true;
-    this.muted = true;
+    var source = video.querySelector('source[data-src]');
 
-    var playPromise = this.play();
+    if(source)
+    {
+      source.src = source.getAttribute('data-src');
+      source.removeAttribute('data-src');
+      video.load();
+    }
+
+    video.defaultMuted = true;
+    video.muted = true;
+
+    var playPromise = video.play();
     if(playPromise)
       playPromise.catch(function() {});
-  });
+  }
+
+  var lazyVideos = document.querySelectorAll('video[data-lazy-video]');
+  if('IntersectionObserver' in window)
+  {
+    var videoObserver = new IntersectionObserver(function(entries, observer)
+    {
+      entries.forEach(function(entry)
+      {
+        if(!entry.isIntersecting)
+          return;
+
+        loadAndPlayVideo(entry.target);
+        observer.unobserve(entry.target);
+      });
+    }, { rootMargin: '200px 0px' });
+
+    lazyVideos.forEach(function(video) { videoObserver.observe(video); });
+  }
+  else
+  {
+    lazyVideos.forEach(loadAndPlayVideo);
+  }
 
   $('.flickr').on('click', function(event) 
   { 

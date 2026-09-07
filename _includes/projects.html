@@ -26,9 +26,9 @@
     <div class="col-lg-4 col-md-6 project-card-wrap">
       <article class="project-card">
         <div class="project-card-image">
-          {% if p.thumbnail contains '.mp4' %}
-          <video class="rounded img-fluid" autoplay loop muted playsinline preload="metadata" aria-label="Thumbnail video of {{ p.title | escape }}">
-            <source src="{{ site.baseurl }}/img/{{ p.thumbnail }}" type="video/mp4">
+          {% if p.thumbnail contains '.mp4' or p.thumbnail contains '.webm' %}
+          <video class="rounded img-fluid" loop muted playsinline preload="none" data-lazy-video aria-label="Thumbnail video of {{ p.title | escape }}">
+            <source data-src="{{ site.baseurl }}/img/{{ p.thumbnail }}" type="{% if p.thumbnail contains '.webm' %}video/webm{% else %}video/mp4{% endif %}">
           </video>
           {% else %}
             {% assign thumbnail_src = p.thumbnail %}
