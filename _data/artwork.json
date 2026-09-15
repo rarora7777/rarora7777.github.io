@@ -16,12 +16,12 @@
     },
     "items": [
       {
-        "src": "/img/artwork/watercolours/01-watercolour-regina-2026-04-26.png",
+        "src": "/img/artwork/watercolours/00-pxl-20260824-032751397.jpg",
         "alt": "Watercolours 1",
         "type": "image"
       },
       {
-        "src": "/img/artwork/watercolours/02-pxl-20260307-224610378-mp-2.jpg",
+        "src": "/img/artwork/watercolours/01-watercolour-regina-2026-04-26.png",
         "alt": "Watercolours 2",
         "type": "image"
       },
@@ -46,12 +46,12 @@
         "type": "image"
       },
       {
-        "src": "/img/artwork/digital/00-img-0062.gif",
+        "src": "/img/artwork/digital/00-vending-machine-vandalized.gif",
         "alt": "Digital 1",
         "type": "image"
       },
       {
-        "src": "/img/artwork/digital/00-img-0171.png",
+        "src": "/img/artwork/digital/01-img-0171.png",
         "alt": "Digital 2",
         "type": "image"
       },
@@ -89,73 +89,88 @@
       },
       "items": [
         {
-          "src": "/img/artwork/watercolours/01-watercolour-regina-2026-04-26.png",
+          "src": "/img/artwork/watercolours/00-pxl-20260824-032751397.jpg",
           "alt": "Watercolours 1",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/02-pxl-20260307-224610378-mp-2.jpg",
+          "src": "/img/artwork/watercolours/01-watercolour-regina-2026-04-26.png",
           "alt": "Watercolours 2",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/03-pxl-20260619-142144256-mp.jpg",
+          "src": "/img/artwork/watercolours/02-pxl-20260307-224610378-mp-2.jpg",
           "alt": "Watercolours 3",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/04-pxl-20260525-031639269-mp.jpg",
+          "src": "/img/artwork/watercolours/03-pxl-20260619-142144256-mp.jpg",
           "alt": "Watercolours 4",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/05-20260616-212330-collage.jpg",
+          "src": "/img/artwork/watercolours/04-pxl-20260525-031639269-mp.jpg",
           "alt": "Watercolours 5",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/06-pxl-20260506-014500497.jpg",
+          "src": "/img/artwork/watercolours/05-20260616-212330-collage.jpg",
           "alt": "Watercolours 6",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/07-pxl-20260213-030151055-mp-2.jpg",
+          "src": "/img/artwork/watercolours/06-pxl-20260506-014500497.jpg",
           "alt": "Watercolours 7",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/08-pxl-20260314-235239448-2.jpg",
+          "src": "/img/artwork/watercolours/07-pxl-20260213-030151055-mp-2.jpg",
           "alt": "Watercolours 8",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/09-pxl-20260412-034322171.jpg",
+          "src": "/img/artwork/watercolours/08-pxl-20260314-235239448-2.jpg",
           "alt": "Watercolours 9",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/10-pxl-20260307-044506575-mp-2.jpg",
+          "src": "/img/artwork/watercolours/09-pxl-20260412-034322171.jpg",
           "alt": "Watercolours 10",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/12-pxl-20260522-025554013.jpg",
+          "src": "/img/artwork/watercolours/10-pxl-20260307-044506575-mp-2.jpg",
           "alt": "Watercolours 11",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/13-pxl-20260209-025648042-2.jpg",
+          "src": "/img/artwork/watercolours/12-pxl-20260522-025554013.jpg",
           "alt": "Watercolours 12",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/14-pxl-20260131-041723751-2.jpg",
+          "src": "/img/artwork/watercolours/13-pxl-20260209-025648042-2.jpg",
           "alt": "Watercolours 13",
           "type": "image"
         },
         {
-          "src": "/img/artwork/watercolours/15-pxl-20240624-003553033-2.jpg",
+          "src": "/img/artwork/watercolours/14-pxl-20260131-041723751-2.jpg",
           "alt": "Watercolours 14",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/15-pxl-20240624-003553033-2.jpg",
+          "alt": "Watercolours 15",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/16-pxl-20260901-015648855.jpg",
+          "alt": "Watercolours 16",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/watercolours/17-pxl-20260904-174559667.jpg",
+          "alt": "Watercolours 17",
           "type": "image"
         }
       ]
@@ -248,6 +263,46 @@
         {
           "src": "/img/artwork/pens-markers/16-pxl-20260615-015042499-mp.jpg",
           "alt": "Pens and Markers 16",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/17-pxl-20260730-234926266-mp.jpg",
+          "alt": "Pens and Markers 17",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/18-pxl-20260731-022330569-exported-1785464618257.jpg",
+          "alt": "Pens and Markers 18",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/19-pxl-20260814-015332586.jpg",
+          "alt": "Pens and Markers 19",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/20-pxl-20260815-044714336.jpg",
+          "alt": "Pens and Markers 20",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/21-pxl-20260831-201755383.jpg",
+          "alt": "Pens and Markers 21",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/22-pxl-20260906-184113512.jpg",
+          "alt": "Pens and Markers 22",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/23-pxl-20260913-182524473.jpg",
+          "alt": "Pens and Markers 23",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/pens-markers/24-1789349116005.png",
+          "alt": "Pens and Markers 24",
           "type": "image"
         }
       ]
@@ -490,98 +545,103 @@
       },
       "items": [
         {
-          "src": "/img/artwork/digital/00-img-0062.gif",
+          "src": "/img/artwork/digital/00-vending-machine-vandalized.gif",
           "alt": "Digital 1",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/00-img-0171.png",
+          "src": "/img/artwork/digital/01-img-0171.png",
           "alt": "Digital 2",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/01-353012484-6886406348055685-8999585083616227917-n.jpg",
+          "src": "/img/artwork/digital/02-img-0062.gif",
           "alt": "Digital 3",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/02-cafe-cool.png",
+          "src": "/img/artwork/digital/03-353012484-6886406348055685-8999585083616227917-n.jpg",
           "alt": "Digital 4",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/03-img-0015.png",
+          "src": "/img/artwork/digital/04-cafe-cool.png",
           "alt": "Digital 5",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/04-img-0043.png",
+          "src": "/img/artwork/digital/05-img-0015.png",
           "alt": "Digital 6",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/05-img-0049.png",
+          "src": "/img/artwork/digital/06-img-0043.png",
           "alt": "Digital 7",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/07-img-0071.png",
+          "src": "/img/artwork/digital/07-img-0049.png",
           "alt": "Digital 8",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/08-img-0082.mov",
+          "src": "/img/artwork/digital/09-img-0071.png",
           "alt": "Digital 9",
-          "type": "video"
-        },
-        {
-          "src": "/img/artwork/digital/09-img-0093.png",
-          "alt": "Digital 10",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/10-img-0094.png",
+          "src": "/img/artwork/digital/10-img-0082.mov",
+          "alt": "Digital 10",
+          "type": "video"
+        },
+        {
+          "src": "/img/artwork/digital/11-img-0093.png",
           "alt": "Digital 11",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/11-img-0102.png",
+          "src": "/img/artwork/digital/12-img-0094.png",
           "alt": "Digital 12",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/12-img-0124.png",
+          "src": "/img/artwork/digital/13-img-0102.png",
           "alt": "Digital 13",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/13-img-0126.png",
+          "src": "/img/artwork/digital/14-img-0124.png",
           "alt": "Digital 14",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/14-img-0129.png",
+          "src": "/img/artwork/digital/15-img-0126.png",
           "alt": "Digital 15",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/16-received-1394597011106652.gif",
+          "src": "/img/artwork/digital/16-img-0129.png",
           "alt": "Digital 16",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/17-rocket.png",
+          "src": "/img/artwork/digital/18-received-1394597011106652.gif",
           "alt": "Digital 17",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/18-untitled-4-00.gif",
+          "src": "/img/artwork/digital/19-rocket.png",
           "alt": "Digital 18",
           "type": "image"
         },
         {
-          "src": "/img/artwork/digital/19-vase.png",
+          "src": "/img/artwork/digital/20-untitled-4-00.gif",
           "alt": "Digital 19",
+          "type": "image"
+        },
+        {
+          "src": "/img/artwork/digital/21-vase.png",
+          "alt": "Digital 20",
           "type": "image"
         }
       ]
