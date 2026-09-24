@@ -3,13 +3,13 @@
     "en": "Rahul Arora"
   },
   "subheadline": {
-    "en": "Research Scientist working on wearable computing and creative tools"
+    "en": "Research Scientist working on 3D Geometry, Sensor Fusion, and AI Wearables"
   },
   "highlights": {
     "en": [
       {
         "icon": "fab fa-meta",
-        "text": "Leading interaction design and evaluation work for EMG Wearables and AI glasses at Meta"
+        "text": "Led interaction design and evaluation work for EMG Wearables and AI glasses at Meta"
       },
       {
         "icon": "fas fa-person-walking-dashed-line-arrow-right",
@@ -21,7 +21,7 @@
       },
       {
         "icon": "fas fa-draw-polygon",
-        "text": "Research portfolio spanning product prototyping, multimodal interfaces, user studies, graphics systems, and computational design"
+        "text": "Research portfolio spanning product prototyping, multimodal interfaces, user studies, 3D creative tools, and computational design"
       }
     ]
   },

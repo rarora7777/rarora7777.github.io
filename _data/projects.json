@@ -40,8 +40,8 @@
         {
           "group": "meta",
           "title": "Multimodal Interactions for AR and VR",
-          "period": "2022-Present",
-          "summary": "I have worked on multiple projects to improve multimodal interactions across Meta Reality Labs's device portfolio. This research answered several questions about how to effectively combine eye tracking and hand gestures, EMG handwriting with released and in-development microgestures, head tracking with touchpad gestures, and more. The resulting insights and prototypes have both influenced released products and are shaping future product directions.",
+          "period": "2022-2026",
+          "summary": "I worked on multiple projects to improve multimodal interactions across Meta Reality Labs's device portfolio. This research answered several questions about how to effectively combine eye tracking and hand gestures, EMG handwriting with released and in-development microgestures, head tracking with touchpad gestures, and more. The resulting insights and prototypes shaped Orion AR and Meta VR Glasses and are shaping future product directions.",
           "tags": [
             "Wearables",
             "AR/VR",
@@ -52,14 +52,18 @@
             {
               "href": "https://www.meta.com/emerging-tech/orion/",
               "label": "Orion overview"
+            },
+            {
+              "href": "https://www.meta.com/vr-glasses/",
+              "label": "Meta VR Glasses"
             }
           ]
         },
         {
           "group": "meta",
           "title": "Next-generation EMG Continuous Control",
-          "period": "2024-Present",
-          "summary": "I work closely with EMG sensing teams at Meta to explore, influence, and evaluate next-generation continuous control schemes for AI and AR glasses. Stay tuned for future product announcements!",
+          "period": "2024-2026",
+          "summary": "I worked closely with EMG sensing teams at Meta to explore, influence, and evaluate next-generation continuous control schemes for AI and AR glasses. Stay tuned for future product announcements from Meta!",
           "tags": [
             "Wearables",
             "Gestures"
