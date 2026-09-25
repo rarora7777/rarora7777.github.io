@@ -26,11 +26,11 @@
       <p class="hero-contact-links">
         <a href="mailto:{{ site.data.contact.email }}" aria-label="Email {{ site.data.contact.email }}"><i class="fa-solid fa-envelope" aria-hidden="true"></i> {{ site.data.contact.email }} </a>
         <span class="link-sep">·</span>
+        <button type="button" class="meeting-link" data-cal-link="rahul-arora-7/meet" data-cal-namespace="meet" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true","theme":"light"}'><i class="fa-solid fa-calendar" aria-hidden="true"></i> Book a meeting</button>
+        <span class="link-sep">·</span>
         {% for ref in site.data.contact.refs %}
         <a href="{{ ref.href }}" aria-label="{{ ref.name }}">{{ ref.name }}</a>{% if ref != site.data.contact.refs.last %}<span class="link-sep">·</span>{% endif %}
         {% endfor %}
-        <span class="link-sep">·</span>
-        <button type="button" class="meeting-link" data-cal-link="rahul-arora-7/meet" data-cal-namespace="meet" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true","theme":"light"}'><i class="fa-solid fa-calendar" aria-hidden="true"></i> Book a meeting</button>
       </p>
       <script type="text/javascript">
         (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
