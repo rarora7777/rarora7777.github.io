@@ -241,7 +241,31 @@ footer div {
 }
 
 .hero-contact-links {
+  font-size: 0.925rem;
   margin-top: 1rem;
+
+  a,
+  .meeting-link {
+    white-space: nowrap;
+  }
+
+  .meeting-link {
+    background: none;
+    border: 0;
+    color: $link-color;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+
+    &:hover,
+    &:focus {
+      color: $link-hover-color;
+    }
+  }
+
+  .link-sep {
+    margin: 0 0.25rem;
+  }
 }
 
 .hero-portrait {
@@ -913,7 +937,8 @@ form #formspree-nobot {
     display: none;
   }
 
-  .hero-contact-links a {
+  .hero-contact-links a,
+  .hero-contact-links .meeting-link {
     display: block;
     margin-bottom: 0.45rem;
   }
