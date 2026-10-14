@@ -19,7 +19,7 @@
           "group": "meta",
           "title": "Continuous Control for Meta Ray-Ban Displays",
           "period": "2023-2025",
-          "summary": "I led algorithm development, evaluation, and product integration of two continuous control interactions for MRBD. Wrist turn is a core gesture enabling always-available volume control and contextual zoom control. Wrist move  is an advanced gesture for scrolling and cursor control. Both gestures combine EMG and IMU sensing on the Meta Neural Band.",
+          "summary": "I led sensor fusion, gesture algorithm development, evaluation, and iterative improvement of two <strong>continuous control gestures</strong> for MRBD. I also contributed to their integration in the product firmware and OS. Wrist turn is a core gesture enabling always-available volume control and contextual zoom control. Wrist move is an advanced gesture for scrolling and 2D pointing. Both gestures combine EMG and IMU sensing on the Meta Neural Band.",
           "tags": [
             "Wearables",
             "Sensing",
@@ -39,9 +39,9 @@
         },
         {
           "group": "meta",
-          "title": "Multimodal Interactions for AR and VR",
+          "title": "Multimodal Perception for AR and VR",
           "period": "2022-2026",
-          "summary": "I worked on multiple projects to improve multimodal interactions across Meta Reality Labs's device portfolio. This research answered several questions about how to effectively combine eye tracking and hand gestures, EMG handwriting with released and in-development microgestures, head tracking with touchpad gestures, and more. The resulting insights and prototypes shaped Orion AR and Meta VR Glasses and are shaping future product directions.",
+          "summary": "I worked on multiple projects to improve multimodal perception across Meta Reality Labs's device portfolio. This research answered several questions about how to effectively combine <strong>gaze</strong> (eye tracking) and <strong>hand tracking</strong>, EMG handwriting with <strong>microgestures</strong>, head tracking with touchpad gestures, and more. The resulting algorithms and study insights have been integrated into Orion AR and Meta VR Glasses and are shaping future product directions.",
           "tags": [
             "Wearables",
             "AR/VR",
@@ -63,13 +63,17 @@
           "group": "meta",
           "title": "Next-generation EMG Continuous Control",
           "period": "2024-2026",
-          "summary": "I worked closely with EMG sensing teams at Meta to explore, influence, and evaluate next-generation continuous control schemes for AI and AR glasses. Stay tuned for future product announcements from Meta!",
+          "summary": "I worked closely with EMG sensing teams at Meta to explore, influence, and evaluate next-generation continuous control schemes for AI and AR glasses. Some of this work has been <strong>published in Nature</strong> and efforts to improve gesture robustness and expressiveness continue. Stay tuned for future product announcements from Meta!",
           "tags": [
             "Wearables",
             "Gestures"
           ],
           "thumbnail": "meta_neural_band.mp4",
           "links": [
+            {
+              "href": "https://doi.org/10.1038/s41586-025-09255-w",
+              "label": "Nature Paper (2025)"
+            },
             {
               "href": "https://www.meta.com/emerging-tech/emg-wearable-technology/",
               "label": "About EMG Technology"
@@ -94,7 +98,7 @@
           "group": "phd",
           "title": "Understanding and Improving 3D Sketching",
           "period": "2016-2020",
-          "summary": "This multi-year project forms the core of my PhD research. It started with a set of studies characterizing mid-air 3D sketching. We then developed SymbiosisSketch, a hybrid tablet+AR tool for expressive 3D sketching. Finally, we built Mimicry, a novel algorithm for sketching curves on surfaces in VR. The first two papers have inspired many follow-up works in the HCI and graphics communities, and Mimicry or a similar algorithm is used in the surface sketching tool in <a href='https://gravitysketch.com/'>Gravity Sketch</a>.",
+          "summary": "This multi-year project forms the core of my PhD research. It started with a set of studies characterizing mid-air 3D sketching. We then developed SymbiosisSketch, a hybrid tablet+AR tool for expressive 3D sketching. Finally, we built Mimicry, a novel algorithm for sketching curves on surfaces in VR. The first two papers have inspired many follow-up works in the HCI and graphics communities, and a Mimicry-like algorithm was later integrated into the surface sketching tool in <a href='https://gravitysketch.com/'>Gravity Sketch</a>.",
           "tags": [
             "3D Sketching",
             "AR/VR",
@@ -118,11 +122,12 @@
         },
         {
           "group": "phd",
-          "title": "Surfacing 3D Sketches",
+          "title": "3D Sketch Creation and Automatic Surface-Fitting",
           "period": "2020-2021",
-          "summary": "This project, led by <a href='https://em-yu.github.io/'>Emilie Yu</a>, produced two creative tools for creating 3D sketches and surfacing them. The first is an interactive tool called CASSIE for creating and surfacing 3D sketches from scratch in VR. The second is an offline algorithm for fitting high-quality piecewise-smooth surfaces to 3D sketches creating using CASSIE, other VR tools, or desktop tools for 3D sketching.",
+          "summary": "This project, led by <a href='https://em-yu.github.io/'>Emilie Yu</a>, produced two creative tools for creating 3D sketches and surfacing them. The first is an interactive tool called CASSIE for creating 3D sketches from scratch in VR and automatically surfacing them. The second is an offline algorithm for fitting high-quality piecewise-smooth surfaces to 3D sketches created using CASSIE, other VR tools, or desktop tools for 3D sketching.",
           "tags": [
             "Creative Tools",
+            "Geometry Processing",
             "AR/VR"
           ],
           "thumbnail": "cassie_turntables.mp4",
@@ -141,7 +146,7 @@
           "group": "phd",
           "title": "3D Hand Gestures for Animation Authoring",
           "period": "2018-2019",
-          "summary": "In collaboration with Adobe Research, I elicited hand gestures for VR animation authoring and then built a gesture recognition system for gesture-based animation authoring. The system supports performance-based and keyframed animation of rigid objects and demonstration of dynamic phenomena using particle systems.",
+          "summary": "In collaboration with Adobe Research, I elicited hand gestures for VR animation authoring and then built a gesture recognition system for animation authoring. The system supports performance-based and keyframed animation of rigid objects and demonstration of dynamic phenomena using particle systems.",
           "tags": [
             "Creative Tools",
             "Gestures",
@@ -157,13 +162,12 @@
         },
         {
           "group": "phd",
-          "title": "Volumetric Michell Trusses",
+          "title": "Volumetric Truss Topology Optimization",
           "period": "2018-2019",
           "summary": "In this project, I collaborated with researchers at Adobe, MIT, and Reichman University to develop a new algorithm for generating volumetric Michell trusses. These trusses result in a lightweight structure for a given load and boundary conditions, and can be parametrically edited using industry-standard tools such as Autodesk Fusion. In addition to a technical paper and a poster presentation, this work was also exhibited at University of Toronto's Robarts Library.",
           "tags": [
             "Computational Fabrication",
-            "Geometry Processing",
-            "Creative Tools"
+            "Geometry Processing"
           ],
           "thumbnail": "michell_truss_param.mp4",
           "links": [
